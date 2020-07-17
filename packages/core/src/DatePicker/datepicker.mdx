@@ -1,0 +1,49 @@
+---
+name: Datepicker 日期选择框
+menu: 组件
+route: /components/datepicker
+autoDemos: true
+parent: 数据录入
+---
+
+# Datepicker 日期选择框
+
+用于选择和输入日期的控件，可以选择单个日期、日期范围。
+
+## 使用场景
+
+当用户需要输入一个日期，可弹出日期面板进行选择；日期选择 3 类：年-月-日、年-月、年。
+
+## 组件
+
+- `DatePicker`: 单选日期。
+- `RangeDatePicker`: 区间选择。
+
+{Demos}
+
+日历面板的更多案例，请参考：[日历组件](../components/calendar)。
+
+### API
+
+类型 `Dayjs` ， `ConfigType` 均来自 [dayjs](https://github.com/iamkun/dayjs)
+
+- `ConfigType`: `string | number | Date | Dayjs`
+- `ICalendarType`: `'month' | 'year' | 'decade'`
+
+#### IDatePickerProps
+
+<Props propsName="IDatePickerProps" omit={['defaultDate']} />
+
+#### IRangeDatePickerProps
+
+<Props propsName="IRangeDatePickerProps" omit={['defaultRange']} />
+
+### Styles
+
+#### IDatePickerStyleKeys
+
+<Styles typeName="IDatePickerStyleKeys" componentName="date-picker" merge={['IInputOnlyInputStyleKeys']}  />
+
+#### IRangeDatePickerStyleKeys
+
+<Styles typeName="IRangeDatePickerStyleKeys" componentName="range-date-picker" merge={['IRangeInputStyleKeys']}  />

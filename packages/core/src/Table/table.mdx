@@ -1,0 +1,79 @@
+---
+name: Table 表格
+menu: 组件
+route: /components/table
+autoDemos: true
+parent: 数据展示
+disableDoubleRow: true
+---
+
+# Table 表格
+
+用来分隔内容上有关联但属于不同类别的内容集合，并提供快速切换的能力。
+
+## 使用场景
+
+提供平级的区域将复杂的内容进行分组归纳与展示，让用户可以在不同子任务、视图、模式等之间切换。如：
+
+- 你希望用户能在一个主页面内浏览多个相关子视图的内容。
+- 你希望用户能在当前页面查看所有内容类型，并能方便地切换来查看更具体的内容类型。
+
+{Demos}
+
+### API
+
+#### ITableProps
+
+<Props propsName="ITableProps" />
+
+#### ITableColumn
+
+<Props propsName="ITableColumn" />
+
+#### ITableState
+
+<Props propsName="ITableState" />
+
+#### ITableFilterColumn
+
+<Props propsName="ITableFilterColumn" />
+
+#### IRenderFilterContentProps
+
+<Props propsName="IRenderFilterContentProps" />
+
+#### ITableRowSelection
+
+<Props propsName="ITableRowSelection" />
+
+#### ITableComponents
+
+<Props propsName="ITableComponents" />
+
+#### ITableBodyRowProps
+
+<Props propsName="ITableBodyRowProps" />
+
+#### ITableBodyCellProps
+
+<Props propsName="ITableBodyCellProps" />
+
+#### 使用 Typescript
+
+由于 dataSource 的数据结构不确定，因此`Table`组件接收泛型`D`，可以通过下面的方法将泛型传递给`Table`组件
+
+```tsx
+
+ interface YourData {
+    key: React.Key;
+    name: string;
+    age: number;
+    address: string;
+    description: string;
+  }
+
+  const data: YourData[] = [/* 省略内容 */]
+  const columns: ITableColumn<YourData> = [/* 省略内容 */]
+  <Table<YourData> dataSource={data} columns={columns} />
+
+```

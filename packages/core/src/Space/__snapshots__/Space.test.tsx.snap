@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 Space正常渲染 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  margin-bottom: 8px;
+}
+
+.c3 {
+  margin-right: 16px;
+}
+
+.c6 {
+  margin-right: 10px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.c5 + .c4 {
+  margin-top: 0;
+}
+
+.c7 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c9 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c9:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,139,255,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c9:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(12,108,235,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c9 + .c8 {
+  margin-left: 8px;
+}
+
+.c10 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c10:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c10:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c10 + .c8 {
+  margin-left: 8px;
+}
+
+<div
+  className="c0 muya-space-wrapper"
+>
+  <div
+    className="c1 muya-space-item"
+  >
+    <div
+      className="c2 muya-space-wrapper"
+    >
+      <div
+        className="c3 muya-space-item"
+      >
+        <h1
+          className="c4 c5"
+        >
+          我是标题
+        </h1>
+      </div>
+      <div
+        className="muya-space-item"
+      >
+        普通文本
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1 muya-space-item"
+  >
+    <div
+      className="c2 muya-space-wrapper"
+    >
+      <div
+        className="c6 muya-space-item"
+      >
+        <button
+          className="c7 c8 c9"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          主要按钮
+        </button>
+      </div>
+      <div
+        className="muya-space-item"
+      >
+        <button
+          className="c7 c8 c10"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          普通按钮
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="muya-space-item"
+  >
+    <h1
+      className="c4 c5"
+    >
+      另起一行的标题
+    </h1>
+  </div>
+</div>
+`;

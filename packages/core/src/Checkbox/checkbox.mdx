@@ -1,0 +1,163 @@
+---
+name: Checkbox 复选框
+menu: 组件
+route: /components/checkbox
+autoDemos: true
+parent: 数据录入
+---
+
+import { DocCheckboxStyle } from './demos/styled';
+
+<DocCheckboxStyle />
+
+# Checkbox 复选框
+
+在可选项中进行多项选择时使用，拥有两种状态切换的基础组件。
+
+## 使用场景
+
+- 在一组可选项中进行多项选择时。
+- 单独使用可以表示两种状态之间的切换，和 switch 类似。
+
+## 组件
+
+- `Checkbox`: 选择器。
+- `CheckboxGroup`: 选择器组。
+
+{Demos}
+
+### Hooks
+
+#### useCheckbox
+
+Hooks 内部使用以下五个参数：`checked`, `defaultChecked`, `disabled`, `onChange`, `onClick`。
+
+返回参数如下：
+
+- checkedState：状态
+- handleChange、handleClick：DOM 事件
+- setChecked: 手动更改状态函数
+
+使用范例：
+
+```jsx
+const CustomCheckBox = (props: ICheckboxProps) => {
+  const { checkedState, handleClick } = useCheckbox(props, 'checked' in props);
+  return (
+    <span
+      style={{
+        backgroundColor: checkedState ? '#1a7af8' : 'rgb(248, 248, 248)',
+        color: checkedState ? 'white' : 'inherit',
+      }}
+      onClick={handleClick}
+    >
+      {props.children}
+    </span>
+  );
+};
+const Demo = (props: ICheckboxGroupProps) => {
+  return (
+    <CustomCheckBox
+      key={String(value)}
+      disabled={disabled}
+      checked={valueState.indexOf(value) > -1}
+      onClick={handleClick.bind(null, option)}
+    >
+      Demo
+    </CustomCheckBox>
+  );
+};
+```
+
+#### useCheckboxGroup
+
+函数参数类型同 `ICheckboxGroupProps`。
+
+使用范例：
+
+```jsx
+const CustomCheckBox = (props: ICheckboxProps) => {
+  const { checkedState, handleClick } = useCheckbox(props, 'checked' in props);
+  return (
+    <span
+      style={{
+        backgroundColor: checkedState ? '#1a7af8' : 'rgb(248, 248, 248)',
+        color: checkedState ? 'white' : 'inherit',
+      }}
+      onClick={handleClick}
+    >
+      {props.children}
+    </span>
+  );
+};
+
+const CustomCheckBoxGroup = (props: ICheckboxGroupProps) => {
+  const { opts, valueState, handleClick, restProps } = useCheckboxGroup(props);
+  return (
+    <div
+      {...restProps}
+      style={{
+        display: 'flex',
+        marginBottom: '10px',
+      }}
+    >
+      {opts.map(option => {
+        const { label, value, disabled } = option;
+        return (
+          <CustomCheckBox
+            key={String(value)}
+            value={value}
+            disabled={disabled}
+            checked={valueState.indexOf(value) > -1}
+            onClick={handleClick.bind(null, option)}
+          >
+            {label}
+          </CustomCheckBox>
+        );
+      })}
+    </div>
+  );
+};
+
+function GroupDemo() {
+  const plainOptions: string[] = ['全部', '审核中', '已通过'];
+  const [value, setValue] = useState<ICheckboxGroupValue[]>([plainOptions[1]]);
+
+  const onChange = (checkedValue: ICheckboxGroupValue[]) => {
+    console.log('checked: ', checkedValue);
+    setValue(checkedValue);
+  };
+
+  return (
+    <div>
+      <CustomCheckBoxGroup
+        value={value}
+        options={plainOptions}
+        onChange={onChange}
+      />
+    </div>
+  );
+}
+```
+
+### API
+
+#### ICheckboxProps
+
+<Props propsName="ICheckboxProps" />
+
+#### ICheckboxGroupProps
+
+ICheckboxGroupValue：`string | number | boolean`
+
+<Props propsName="ICheckboxGroupProps" />
+
+#### ICheckboxGroupOption
+
+<Props propsName="ICheckboxGroupOption" />
+
+### Styles
+
+#### ICheckboxStyleKeys
+
+<Styles typeName="ICheckboxStyleKeys" componentName="checkbox" />

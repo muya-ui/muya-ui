@@ -1,0 +1,1172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`busy=true 1`] = `
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`disabled=true 1`] = `
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(221,221,221,1);
+  cursor: not-allowed;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`loading=true 1`] = `
+.c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c7 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Test
+  <span
+    className="c3 muya-button-suffix"
+  >
+    <svg
+      aria-hidden="false"
+      className="c4 c5"
+      focusable="false"
+      preserveAspectRatio="xMidYMid"
+      viewBox="0 0 100 100"
+    >
+      <circle
+        cx="50"
+        cy="50"
+        fill="none"
+        r="45"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="10"
+        transform="rotate(144 50 50)"
+      />
+    </svg>
+  </span>
+</button>
+`;
+
+exports[`render as link 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<a
+    aria-disabled={false}
+    className="c0 c1 c2"
+    href="test"
+    onClick={[Function]}
+    role="button"
+  >
+    Test
+  </a>,
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<a
+    aria-disabled={false}
+    className="c0 c1 c2"
+    onClick={[Function]}
+    role="button"
+  >
+    Test
+  </a>,
+]
+`;
+
+exports[`测试 marginLeft 1`] = `
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`测试 prefix suffix 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 6px;
+}
+
+.c3 .c11 {
+  line-height: unset;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="c3 muya-button-prefix"
+    >
+      <span>
+        aa
+      </span>
+    </span>
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c11 {
+  line-height: unset;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <span>
+        aa
+      </span>
+    </span>
+  </button>,
+]
+`;
+
+exports[`测试 prop block 1`] = `
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`测试 prop shape 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  width: 32px;
+  border-radius: 50%;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  width: 32px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`测试设置按钮 width 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  width: 200px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  border: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  width: 20%;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;

@@ -1,0 +1,86 @@
+---
+name: 颜色
+menu: 设计系统
+route: /design-token/colors
+autoDemos: false
+---
+
+import BasicColorSpec from './demos/basicColorSpec';
+import DerivativeColorSpec from './demos/derivativeColorSpec';
+import NeutralColorSpec from './demos/neutralColorSpec';
+import GradientColorSpec from './demos/gradientColorSpec';
+import TextColorPattern from './demos/textColorPattern';
+import IconColorPattern from './demos/iconColorPattern';
+import FeatureColorPattern from './demos/featureColorPattern';
+import BackgroundPattern from './demos/backgroundPattern';
+import BorderPattern from './demos/borderPattern';
+
+# 颜色
+
+## 规格
+
+### 基础色
+
+6 个基础色，采用 HSB 色彩模型进行设计，该模型更便于设计师在调整色彩时对于颜色有明确的心理预期，同时也方便团队间的沟通。
+
+<ThemeProvider>
+  <BasicColorSpec />
+</ThemeProvider>
+
+### 衍生色
+
+使用一套固定且有规律的 HSB 色彩计算方式，从一个主色进行响应色彩的拓展，以减少计算及输入成本。单色、渐变色和中性色的计算方式有所不同，具体示例如下：
+
+<ThemeProvider>
+  <DerivativeColorSpec />
+</ThemeProvider>
+
+### 中性色
+
+中性色包含了黑、白、灰。在中后台的网页设计中被大量使用到，合理地选择中性色能够令页面信息具备良好的主次关系，助力阅读体验。中性色板一共包含了从白到黑 12 个颜色。
+
+<ThemeProvider>
+  <NeutralColorSpec />
+</ThemeProvider>
+
+### 渐变色
+
+在部分体系中，出于质感的诉求，我们会使用到渐变按钮。他的响应色采用叠加的方式。
+
+<ThemeProvider>
+  <GradientColorSpec />
+</ThemeProvider>
+
+## 模式
+
+### 颜色模式
+
+#### 文字色
+
+<ThemeProvider>
+  <TextColorPattern />
+</ThemeProvider>
+
+#### 图标色
+
+<ThemeProvider>
+  <IconColorPattern />
+</ThemeProvider>
+
+#### 功能色
+
+<ThemeProvider>
+  <FeatureColorPattern />
+</ThemeProvider>
+
+### 背景色模式
+
+<ThemeProvider>
+  <BackgroundPattern />
+</ThemeProvider>
+
+### 边框色模式
+
+<ThemeProvider>
+  <BorderPattern />
+</ThemeProvider>

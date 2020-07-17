@@ -1,0 +1,51 @@
+{
+  "name": "@muya-ui/theme-dark",
+  "version": "0.3.18",
+  "author": "Muya UI Team",
+  "title": "Muya UI Dark Theme",
+  "description": "Muya UI - The Dark Theme of Muya UI",
+  "repository": "https://github.com/muya-ui/muya-ui.git",
+  "bugs": {
+    "url": "https://github.com/muya-ui/muya-ui/issues"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "tokens",
+    "es",
+    "types"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "types/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "clean": "cross-env rimraf lib && cross-env rimraf es && cross-env rimraf types && cross-env rimraf tsconfig-build.tsbuildinfo",
+    "build": "npm run clean && npm run build:types && npm run build:cjs && npm run build:es",
+    "build:icons": "muya build-icons && prettier ./src/**/* --write",
+    "build:types": "cross-env tsc -b ./tsconfig-build.json",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel --root-mode upward src -d lib --ignore **/*.test.ts,**/*.test.tsx,**/demos/*.ts,**/demos/*.tsx --extensions \".ts,.tsx\"",
+    "build:es": "cross-env BABEL_ENV=es babel --root-mode upward src -d es --ignore **/*.test.ts,**/*.test.tsx,**/demos/*.ts,**/demos/*.tsx --extensions \".ts,.tsx\""
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@qunhe/muya-tools": "0.1.9",
+    "@types/deepmerge": "^2.2.0",
+    "@types/styled-components": "^4.1.18",
+    "@types/warning": "^3.0.0",
+    "cross-env": "^5.2.0",
+    "rimraf": "^3.0.0",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "@muya-ui/theme-light": "0.3.18"
+  }
+}

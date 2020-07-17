@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`collapse render correctly 1`] = `
+.c6 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  line-height: 0;
+  -webkit-animation: ftyDuT 150ms linear;
+  animation: ftyDuT 150ms linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: rgba(248,248,248,1);
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2:hover {
+  background: rgba(242,242,242,1);
+}
+
+.c2:active {
+  background: rgba(237,237,237,1);
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: rgba(248,248,248,1);
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c10 > * {
+  opacity: 0.3;
+}
+
+.c10 {
+  cursor: not-allowed;
+}
+
+.c0 .c1 {
+  margin-bottom: 4px;
+}
+
+.c0 .c1:last-child {
+  margin-bottom: 0;
+}
+
+.c0 .c9 {
+  padding: 20px 32px;
+}
+
+.c7 {
+  color: rgba(102,102,102,1);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c8 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c8 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 > div > div {
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 "
+  >
+    <div
+      className="c2 muya-collapse-panel-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c3 muya-collapse-panel-prefix-node-wrapper muya-space-wrapper"
+      >
+        <div
+          className="c4 muya-space-item"
+        >
+          <div
+            className="c5 muya-collapse-panel-expand-wrapper"
+          >
+            <svg
+              aria-hidden="false"
+              className="c6"
+              focusable="false"
+              style={
+                Object {
+                  "color": "rgba(204,204,204,1)",
+                  "height": 8,
+                  "width": 8,
+                }
+              }
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="muya-space-item"
+        >
+          <span
+            className="c7"
+          >
+            标题1
+          </span>
+        </div>
+      </div>
+      <span
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="c8 entering"
+      style={
+        Object {
+          "height": "0px",
+          "transitionDuration": "300ms",
+          "transitionProperty": "height",
+          "transitionTimingFunction": "linear",
+        }
+      }
+    >
+      <div>
+        <div>
+          <div
+            className="c9 muya-collapse-panel-content"
+          >
+            <p>
+              a quick brown fox jumps over the lazy dog
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1 "
+  >
+    <div
+      className="c2 muya-collapse-panel-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c3 muya-collapse-panel-prefix-node-wrapper muya-space-wrapper"
+      >
+        <div
+          className="c4 muya-space-item"
+        >
+          <div
+            className="c5 muya-collapse-panel-expand-wrapper"
+          >
+            <svg
+              aria-hidden="false"
+              className="c6"
+              focusable="false"
+              style={
+                Object {
+                  "color": "rgba(204,204,204,1)",
+                  "height": 8,
+                  "width": 8,
+                }
+              }
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="muya-space-item"
+        >
+          <span
+            className="c7"
+          >
+            标题2
+          </span>
+        </div>
+      </div>
+      <span
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="c8 entering"
+      style={
+        Object {
+          "height": "0px",
+          "transitionDuration": "300ms",
+          "transitionProperty": "height",
+          "transitionTimingFunction": "linear",
+        }
+      }
+    >
+      <div>
+        <div>
+          <div
+            className="c9 muya-collapse-panel-content"
+          >
+            <p>
+              a quick brown fox jumps over the lazy dog
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1 "
+  >
+    <div
+      className="c10 muya-collapse-panel-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c3 muya-collapse-panel-prefix-node-wrapper muya-space-wrapper"
+      >
+        <div
+          className="c4 muya-space-item"
+        >
+          <div
+            className="c5 muya-collapse-panel-expand-wrapper"
+          >
+            <svg
+              aria-hidden="false"
+              className="c6"
+              focusable="false"
+              style={
+                Object {
+                  "color": "rgba(204,204,204,1)",
+                  "height": 8,
+                  "width": 8,
+                }
+              }
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="muya-space-item"
+        >
+          <span
+            className="c7"
+          >
+            标题3
+          </span>
+        </div>
+      </div>
+      <span
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="c8 exited"
+      style={
+        Object {
+          "height": "0px",
+          "transitionDuration": "300ms",
+          "transitionProperty": "height",
+          "transitionTimingFunction": "linear",
+        }
+      }
+    >
+      <div>
+        <div>
+          <div
+            className="c9 muya-collapse-panel-content"
+          >
+            <p>
+              a quick brown fox jumps over the lazy dog
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

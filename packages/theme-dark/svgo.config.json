@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    {
+      "removeAttrs": {
+        "attrs": "(class)"
+      }
+    },
+    {
+      "removeDimensions": true
+    },
+    {
+      "cleanupAttrs": true
+    }
+  ]
+}

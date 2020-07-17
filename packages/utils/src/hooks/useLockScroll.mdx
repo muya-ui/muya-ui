@@ -1,0 +1,41 @@
+---
+name: useLockScroll
+menu: Hooks
+route: /hooks/useLockScroll
+---
+
+# useLockScroll
+
+在一些情况下，需要隐藏 body 或指定容器的滚动条，可以使用`useLockScroll`
+
+```js
+/*
+* @param lock — 是否隐藏滚动条
+* @param container — 滚动条的容器元素
+*/
+function useLockScroll(lock: boolean, container?: HTMLElement | undefined): void
+
+```
+
+Example:
+
+```js
+import { useLockScroll } from '@muya-ui/utils';
+
+const Component = React.forwardRef((props, ref) => {
+  const { container } = props;
+  const [entered, setEntered] = React.useState(false);
+
+  // 鼠标进入容器，锁定body滚动条
+  // container如果不存在，默认隐藏body的滚动条
+  useLockScroll(entered, container);
+
+  return (
+    <div onMouseEnter={() => setEntered(true)} onMouseLeave={() => setEntered(false)}>
+      test
+    </div>
+  );
+});
+```
+
+目前 `Dialog` 组件已经使用了该 hooks，弹窗出现时隐藏滚动条，弹窗消失时恢复滚动条，详情可见[Dialog](/components/dialog)

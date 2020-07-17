@@ -1,0 +1,44 @@
+---
+name: Slider 滑块
+menu: 组件
+route: /components/slider
+autoDemos: true
+parent: 数据录入
+---
+
+# Slider 滑块
+
+滑动型输入器，展示当前值和可选范围。
+
+## 使用场景
+
+滑块可以让我们通过在连续或间断的区间内滑动锚点来选择一个合适的数值。区间最小值放在左边，对应的，最大值放在右边。滑块可以在滑动条的左右两端设定图标来反映数值的强度。这种交互特性使得它在设置诸如音量、亮度、色彩饱和度等需要反映强度等级的选项时成为一种极好的选择。
+
+## 组件
+
+- `Slider`: 滑块。
+- `RangeSlider`: 区间滑块。
+
+{Demos}
+
+### API
+
+#### ISliderProps
+
+<Props propsName="ISliderProps" />
+
+#### IRangeSliderProps
+
+<Props propsName="IRangeSliderProps" />
+
+#### ISliderMarks
+
+刻度配置，可以是 `React.ReactNode` ，也可以是：
+
+<Props propsName="ISliderMarkItem" />
+
+### Styles
+
+#### ISliderStyleKeys
+
+<Styles typeName="ISliderStyleKeys" componentName="slider" />

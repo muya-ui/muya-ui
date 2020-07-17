@@ -1,0 +1,854 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeSelect 测试 empty render 1`] = `
+.c0 {
+  box-sizing: border-box;
+  width: 240px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  padding-right: 4px;
+  padding-bottom: 4px;
+  background: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0;
+  min-height: 200px;
+}
+
+.c0 .c2 {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.c0 .c2::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c2::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c2:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c2:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c2::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c2 .c1 {
+  overflow: unset;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`TreeSelect 测试正常 render 1`] = `
+Array [
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c6 {
+  line-height: 0;
+  -webkit-animation: cxSSXZ 150ms linear;
+  animation: cxSSXZ 150ms linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.c2 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+}
+
+.c2:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c4 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c4::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c4::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c5 {
+  margin-left: 12px;
+  line-height: 0;
+  color: rgba(51,51,51,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(204,204,204,1);
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(187,187,187,1);
+}
+
+.c5:active {
+  color: rgba(153,153,153,1);
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.c0 .c3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 .c10,
+.c0 .c1 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c0 .c1,
+.c0 .c10 {
+  cursor: pointer;
+}
+
+.c0 .c1 input,
+.c0 .c10 input,
+.c0 .c1 svg,
+.c0 .c10 svg {
+  cursor: pointer;
+}
+
+.c8 .c3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c8 .c10,
+.c8 .c1 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c9 .c3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c9 .c1,
+.c9 .c10 {
+  cursor: pointer;
+}
+
+.c9 .c1 input,
+.c9 .c10 input,
+.c9 .c1 svg,
+.c9 .c10 svg {
+  cursor: pointer;
+}
+
+<div
+    className="c0 muya-tree-select-input-wrapper"
+    id="1"
+    role="combobox"
+    tabIndex={0}
+  >
+    <div
+      className="c1 c2 muya-input-input-wrapper"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="m"
+    >
+      <input
+        aria-describedby="1"
+        autoFocus={false}
+        className="c3 c4 muya-input-input"
+        disabled={false}
+        id="1"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInput={[Function]}
+        onKeyDown={[Function]}
+        placeholder="请选择"
+        readOnly={true}
+        size="m"
+        type="text"
+        value=""
+      />
+      <div
+        className="c5 muya-input-node-wrapper"
+        size="m"
+      >
+        <div
+          className="c6"
+        >
+          <svg
+            aria-hidden="false"
+            className="c7"
+            focusable="false"
+            style={
+              Object {
+                "color": "rgba(204,204,204,1)",
+                "height": 8,
+                "width": 8,
+              }
+            }
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c14 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c13 {
+  line-height: 0;
+  -webkit-animation: cxSSXZ 150ms linear;
+  animation: cxSSXZ 150ms linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.c4 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c6 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c12 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+.c2 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+}
+
+.c2:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c2 .c3 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c2 .c3::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c2 .c3::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c2 .c3:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c2 .c3:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c2 .c3::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c2 .c11 {
+  right: 12px;
+}
+
+.c2 .c7 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c2 input[readonly] {
+  cursor: pointer;
+}
+
+.c2 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c2 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c2 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c2 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c2 .c9 {
+  font-size: 12px;
+}
+
+.c2 .c5 {
+  height: 30px;
+}
+
+.c2 .c5 .c7 {
+  margin-bottom: 0;
+}
+
+.c2 .c17 {
+  max-width: 208px;
+}
+
+.c15 .c1,
+.c15 .c18 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c15 .c18,
+.c15 .c1 {
+  cursor: pointer;
+}
+
+.c15 .c18 input,
+.c15 .c1 input,
+.c15 .c18 svg,
+.c15 .c1 svg {
+  cursor: pointer;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.c0 .c19 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 .c1,
+.c0 .c18 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c16 .c18,
+.c16 .c1 {
+  cursor: pointer;
+}
+
+.c16 .c18 input,
+.c16 .c1 input,
+.c16 .c18 svg,
+.c16 .c1 svg {
+  cursor: pointer;
+}
+
+<div
+    className="c0 muya-tree-select-input-wrapper"
+    id="2"
+    role="combobox"
+    tabIndex={0}
+  >
+    <div
+      className="c1 c2 muya-tags-input-input-wrapper"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="c3 c4 muya-tags-input-content-wrapper"
+      >
+        <div
+          className="c5 c6 muya-tags-input-tags-wrapper"
+        >
+          <input
+            aria-describedby="2"
+            autoFocus={false}
+            className="c7 c8 muya-tags-input-input"
+            disabled={false}
+            id="2"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            placeholder="请选择"
+            readOnly={false}
+            type="text"
+            value=""
+          />
+          <div
+            className="c9 c10"
+          >
+            请选择
+          </div>
+        </div>
+      </div>
+      <div
+        className="c11 c12"
+      >
+        <div
+          className="c13"
+        >
+          <svg
+            aria-hidden="false"
+            className="c14"
+            focusable="false"
+            style={
+              Object {
+                "color": "rgba(204,204,204,1)",
+                "height": 8,
+                "width": 8,
+              }
+            }
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c6 {
+  line-height: 0;
+  -webkit-animation: bFXLB 150ms linear;
+  animation: bFXLB 150ms linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.c2 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+}
+
+.c2:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c4 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c4::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c4::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c5 {
+  margin-left: 12px;
+  line-height: 0;
+  color: rgba(51,51,51,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(204,204,204,1);
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(187,187,187,1);
+}
+
+.c5:active {
+  color: rgba(153,153,153,1);
+}
+
+.c8 .c3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c8 .c10,
+.c8 .c1 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c8 .c1,
+.c8 .c10 {
+  cursor: pointer;
+}
+
+.c8 .c1 input,
+.c8 .c10 input,
+.c8 .c1 svg,
+.c8 .c10 svg {
+  cursor: pointer;
+}
+
+.c9 .c3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c9 .c10,
+.c9 .c1 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.c0 .c3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 .c1,
+.c0 .c10 {
+  cursor: pointer;
+}
+
+.c0 .c1 input,
+.c0 .c10 input,
+.c0 .c1 svg,
+.c0 .c10 svg {
+  cursor: pointer;
+}
+
+<div
+    className="c0 muya-tree-select-input-wrapper"
+    role="combobox"
+    tabIndex={0}
+  >
+    <div
+      className="c1 c2 muya-input-input-wrapper"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="m"
+    >
+      <input
+        aria-describedby={null}
+        autoFocus={false}
+        className="c3 c4 muya-input-input"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInput={[Function]}
+        onKeyDown={[Function]}
+        placeholder="请选择"
+        readOnly={true}
+        size="m"
+        type="text"
+        value=""
+      />
+      <div
+        className="c5 muya-input-node-wrapper"
+        size="m"
+      >
+        <div
+          className="c6"
+        >
+          <svg
+            aria-hidden="false"
+            className="c7"
+            focusable="false"
+            style={
+              Object {
+                "color": "rgba(204,204,204,1)",
+                "height": 8,
+                "width": 8,
+              }
+            }
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

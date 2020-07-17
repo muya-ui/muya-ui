@@ -1,0 +1,1854 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+Array [
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(255,43,0,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c11,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c9 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c10 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  color: rgba(255,43,0,1);
+  font-size: 0;
+  line-height: 16px;
+}
+
+.c6 {
+  color: rgba(51,51,51,1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="14px"
+                viewBox="0 0 1024 1024"
+              >
+                <rect
+                  fill="rgba(255,255,255,1)"
+                  height={716.8}
+                  width={716.8}
+                  x={153.60000000000002}
+                  y={153.60000000000002}
+                />
+                <path
+                  d="M602.507 512L730.73 383.787a21.333 21.333 0 000-30.187l-60.342-60.33a21.333 21.333 0 00-30.165 0L512 421.482 383.787 293.269a21.333 21.333 0 00-30.187 0l-60.33 60.342a21.333 21.333 0 000 30.165L421.482 512 293.269 640.213a21.333 21.333 0 000 30.187l60.342 60.33a21.333 21.333 0 0030.165 0L512 602.518l128.213 128.214a21.333 21.333 0 0030.187 0l60.33-60.342a21.333 21.333 0 000-30.165L602.518 512zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c6 muya-alert-title"
+            >
+              这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c12 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c9 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c11 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c11:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c11:active {
+  color: rgba(179,179,179,1);
+}
+
+.c11 + .c10 {
+  margin-left: 8px;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c13 .c8,
+.c13 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c13 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c8,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c14 .c8,
+.c14 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c14 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c15 .c8,
+.c15 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c15 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c16 .c8,
+.c16 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c16 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  color: rgba(26,122,248,1);
+  font-size: 0;
+  line-height: 16px;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  line-height: 0;
+}
+
+.c6 {
+  color: rgba(51,51,51,1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="14px"
+                viewBox="0 0 1024 1024"
+              >
+                
+                <path
+                  d="M853.333 704h64a21.333 21.333 0 0121.334 21.333V832a21.333 21.333 0 01-21.334 21.333H106.667A21.333 21.333 0 0185.333 832V725.333A21.333 21.333 0 01106.667 704h64V341.333C170.667 152.821 323.488 0 512 0c188.512 0 341.333 152.821 341.333 341.333V704zm-468.81 213.333h254.944C633.6 977.131 578.773 1024 512 1024s-121.6-46.87-127.477-106.667z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c6 muya-alert-title"
+            >
+              sssss
+            </div>
+            <div
+              className="c7 muya-alert-close"
+            >
+              <button
+                className="c8 c9 c10 c11"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  aria-hidden="false"
+                  className="c12"
+                  focusable="false"
+                  viewBox="0 0 1024 1024"
+                >
+                  <path
+                    d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c4 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c5 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c8,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c6 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div>
+              这是一条 error 提示文案这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c6 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c10,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c9 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  color: rgba(26,122,248,1);
+  font-size: 0;
+  line-height: 16px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="14px"
+                viewBox="0 0 1024 1024"
+              >
+                
+                <path
+                  d="M853.333 704h64a21.333 21.333 0 0121.334 21.333V832a21.333 21.333 0 01-21.334 21.333H106.667A21.333 21.333 0 0185.333 832V725.333A21.333 21.333 0 01106.667 704h64V341.333C170.667 152.821 323.488 0 512 0c188.512 0 341.333 152.821 341.333 341.333V704zm-468.81 213.333h254.944C633.6 977.131 578.773 1024 512 1024s-121.6-46.87-127.477-106.667z"
+                />
+              </svg>
+            </div>
+            <div>
+              这是一条 error 提示文案这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c7 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c9 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c10 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(255,171,0,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c11,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  color: rgba(255,171,0,1);
+  font-size: 0;
+  line-height: 16px;
+}
+
+.c6 {
+  color: rgba(51,51,51,1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="14px"
+                viewBox="0 0 1024 1024"
+              >
+                <rect
+                  fill="rgba(255,255,255,1)"
+                  height={716.8}
+                  width={716.8}
+                  x={153.60000000000002}
+                  y={153.60000000000002}
+                />
+                <path
+                  d="M512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512zm-42.667-426.667h85.334A21.333 21.333 0 00576 576V234.667a21.333 21.333 0 00-21.333-21.334h-85.334A21.333 21.333 0 00448 234.667V576a21.333 21.333 0 0021.333 21.333zm0 213.334h85.334A21.333 21.333 0 00576 789.333V704a21.333 21.333 0 00-21.333-21.333h-85.334A21.333 21.333 0 00448 704v85.333a21.333 21.333 0 0021.333 21.334z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c6 muya-alert-title"
+            >
+              <div>
+                这是一条 error 提示文案这是一条 error 提示文案
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`should render different size 1`] = `
+Array [
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(255,43,0,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c14,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c9 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c10 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c11 .c2 {
+  padding: 6px 52px 6px 34px;
+}
+
+.c12 .c2 {
+  padding: 10px 20px 10px 44px;
+}
+
+.c13 .c2 {
+  padding: 14px 20px 14px 44px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  color: rgba(255,43,0,1);
+  font-size: 0;
+  line-height: 16px;
+}
+
+.c6 {
+  color: rgba(51,51,51,1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="14px"
+                viewBox="0 0 1024 1024"
+              >
+                <rect
+                  fill="rgba(255,255,255,1)"
+                  height={716.8}
+                  width={716.8}
+                  x={153.60000000000002}
+                  y={153.60000000000002}
+                />
+                <path
+                  d="M602.507 512L730.73 383.787a21.333 21.333 0 000-30.187l-60.342-60.33a21.333 21.333 0 00-30.165 0L512 421.482 383.787 293.269a21.333 21.333 0 00-30.187 0l-60.33 60.342a21.333 21.333 0 000 30.165L421.482 512 293.269 640.213a21.333 21.333 0 000 30.187l60.342 60.33a21.333 21.333 0 0030.165 0L512 602.518l128.213 128.214a21.333 21.333 0 0030.187 0l60.33-60.342a21.333 21.333 0 000-30.165L602.518 512zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c6 muya-alert-title"
+            >
+              这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c12 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c9 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c11 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c11:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c11:active {
+  color: rgba(179,179,179,1);
+}
+
+.c11 + .c10 {
+  margin-left: 8px;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c13 .c8,
+.c13 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c13 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c14 .c8,
+.c14 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c14 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c15 .c8,
+.c15 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c15 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c16 .c8,
+.c16 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c16 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c17 .c8,
+.c17 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c17 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c8,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 6px 52px 6px 34px;
+}
+
+.c18 .c8,
+.c18 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c18 .c2 {
+  padding: 10px 20px 10px 44px;
+}
+
+.c19 .c8,
+.c19 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c19 .c2 {
+  padding: 14px 20px 14px 44px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 12px;
+  top: 6px;
+  color: rgba(26,122,248,1);
+  font-size: 0;
+  line-height: 16px;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  line-height: 0;
+}
+
+.c6 {
+  color: rgba(51,51,51,1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="14px"
+                viewBox="0 0 1024 1024"
+              >
+                
+                <path
+                  d="M853.333 704h64a21.333 21.333 0 0121.334 21.333V832a21.333 21.333 0 01-21.334 21.333H106.667A21.333 21.333 0 0185.333 832V725.333A21.333 21.333 0 01106.667 704h64V341.333C170.667 152.821 323.488 0 512 0c188.512 0 341.333 152.821 341.333 341.333V704zm-468.81 213.333h254.944C633.6 977.131 578.773 1024 512 1024s-121.6-46.87-127.477-106.667z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c6 muya-alert-title"
+            >
+              sssss
+            </div>
+            <div
+              className="c7 muya-alert-close"
+            >
+              <button
+                className="c8 c9 c10 c11"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  aria-hidden="false"
+                  className="c12"
+                  focusable="false"
+                  viewBox="0 0 1024 1024"
+                >
+                  <path
+                    d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c4 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c5 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c11,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c6 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 6px 52px 6px 34px;
+}
+
+.c9 .c2 {
+  padding: 10px 20px 10px 44px;
+}
+
+.c10 .c2 {
+  padding: 14px 20px 14px 44px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div>
+              这是一条 error 提示文案这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 16px;
+  fill: currentColor;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c6 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c9 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c10 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c11 .c2 {
+  padding: 6px 52px 6px 34px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c13,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 10px 20px 10px 44px;
+}
+
+.c12 .c2 {
+  padding: 14px 20px 14px 44px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: rgba(26,122,248,1);
+  font-size: 0;
+  line-height: 20px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="16px"
+                viewBox="0 0 1024 1024"
+              >
+                
+                <path
+                  d="M853.333 704h64a21.333 21.333 0 0121.334 21.333V832a21.333 21.333 0 01-21.334 21.333H106.667A21.333 21.333 0 0185.333 832V725.333A21.333 21.333 0 01106.667 704h64V341.333C170.667 152.821 323.488 0 512 0c188.512 0 341.333 152.821 341.333 341.333V704zm-468.81 213.333h254.944C633.6 977.131 578.773 1024 512 1024s-121.6-46.87-127.477-106.667z"
+                />
+              </svg>
+            </div>
+            <div>
+              这是一条 error 提示文案这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 16px;
+  fill: currentColor;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c6 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c7 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c8 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c9 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c10 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c11 .c2 {
+  padding: 6px 52px 6px 34px;
+}
+
+.c12 .c2 {
+  padding: 10px 20px 10px 44px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(26,122,248,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c13,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 14px 20px 14px 44px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  color: rgba(26,122,248,1);
+  font-size: 0;
+  line-height: 20px;
+}
+
+<div
+    className="c0 entering"
+    style={
+      Object {
+        "height": "0px",
+        "transitionDuration": "300ms",
+        "transitionProperty": "height",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <div>
+      <div>
+        <div
+          className="c1 muya-alert-wrapper"
+        >
+          <div
+            className="c2 c3 muya-alert-container"
+          >
+            <div
+              className="c4 muya-alert-icon"
+            >
+              <svg
+                aria-hidden="false"
+                className="c5"
+                focusable="false"
+                fontSize="16px"
+                viewBox="0 0 1024 1024"
+              >
+                
+                <path
+                  d="M853.333 704h64a21.333 21.333 0 0121.334 21.333V832a21.333 21.333 0 01-21.334 21.333H106.667A21.333 21.333 0 0185.333 832V725.333A21.333 21.333 0 01106.667 704h64V341.333C170.667 152.821 323.488 0 512 0c188.512 0 341.333 152.821 341.333 341.333V704zm-468.81 213.333h254.944C633.6 977.131 578.773 1024 512 1024s-121.6-46.87-127.477-106.667z"
+                />
+              </svg>
+            </div>
+            <div>
+              这是一条 error 提示文案这是一条 error 提示文案
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`有 title 和 desc 的情况 1`] = `
+.c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 14px;
+  fill: currentColor;
+}
+
+.c13 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c10 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c12 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c12:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c12:active {
+  color: rgba(179,179,179,1);
+}
+
+.c12 + .c11 {
+  margin-left: 8px;
+}
+
+.c0 {
+  height: 0px;
+  overflow: hidden;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div > div {
+  width: 100%;
+}
+
+.c14 .c9,
+.c14 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c14 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c15 .c9,
+.c15 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c15 .c2 {
+  padding: 8px 52px 8px 38px;
+}
+
+.c16 .c9,
+.c16 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c16 .c2 {
+  padding: 8px 16px 8px 16px;
+}
+
+.c17 .c9,
+.c17 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c17 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c18 .c9,
+.c18 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c18 .c2 {
+  padding: 8px 16px 8px 38px;
+}
+
+.c19 .c9,
+.c19 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c19 .c2 {
+  padding: 6px 52px 6px 34px;
+}
+
+.c20 .c9,
+.c20 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c20 .c2 {
+  padding: 10px 20px 10px 44px;
+}
+
+.c21 .c9,
+.c21 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c21 .c2 {
+  padding: 14px 20px 14px 44px;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(255,43,0,0.08);
+  border: none;
+  border-radius: 0px;
+}
+
+.c1 .c9,
+.c1 .StyledLink-eJtUmc {
+  vertical-align: unset;
+}
+
+.c1 .c2 {
+  padding: 16px 52px 16px 38px;
+}
+
+.c3 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.c4 {
+  position: absolute;
+  left: 16px;
+  top: 19px;
+  color: rgba(255,43,0,1);
+  font-size: 0;
+  line-height: 1;
+}
+
+.c8 {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  line-height: 0;
+}
+
+.c6 {
+  color: rgba(51,51,51,1);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.c7 {
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+<div
+  className="c0 entering"
+  style={
+    Object {
+      "height": "0px",
+      "transitionDuration": "300ms",
+      "transitionProperty": "height",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+>
+  <div>
+    <div>
+      <div
+        className="c1 muya-alert-wrapper"
+      >
+        <div
+          className="c2 c3 muya-alert-container"
+        >
+          <div
+            className="c4 muya-alert-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c5"
+              focusable="false"
+              fontSize="14px"
+              viewBox="0 0 1024 1024"
+            >
+              <rect
+                fill="rgba(255,255,255,1)"
+                height={716.8}
+                width={716.8}
+                x={153.60000000000002}
+                y={153.60000000000002}
+              />
+              <path
+                d="M602.507 512L730.73 383.787a21.333 21.333 0 000-30.187l-60.342-60.33a21.333 21.333 0 00-30.165 0L512 421.482 383.787 293.269a21.333 21.333 0 00-30.187 0l-60.33 60.342a21.333 21.333 0 000 30.165L421.482 512 293.269 640.213a21.333 21.333 0 000 30.187l60.342 60.33a21.333 21.333 0 0030.165 0L512 602.518l128.213 128.214a21.333 21.333 0 0030.187 0l60.33-60.342a21.333 21.333 0 000-30.165L602.518 512zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c6 muya-alert-title"
+          >
+            ssss
+          </div>
+          <span
+            className="c7 muya-alert-desc"
+          >
+            测试赛所所
+          </span>
+          <div
+            className="c8 muya-alert-close"
+          >
+            <button
+              className="c9 c10 c11 c12"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                aria-hidden="false"
+                className="c13"
+                focusable="false"
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

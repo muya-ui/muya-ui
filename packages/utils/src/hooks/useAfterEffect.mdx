@@ -1,0 +1,26 @@
+---
+name: useAfterEffect
+menu: Hooks
+route: /hooks/useAfterEffect
+---
+
+# useAfterEffect
+
+在组件更新以后的一段时间调用某一个方法
+
+> 如果你想在 Function Component 里使用 `debounce` 请考虑使用这个，直接使用 `lodash/debounce` 有函数作用域的问题
+
+Example:
+
+```js
+import { useAfterEffect } from '@muya-ui/utils';
+
+const Component = React.forwardRef((props, ref) => {
+  // 必须大于0
+  const { active, onDisable, onActive } = useAfterEffect(() => {
+    // 在 Effect 后的 100 ms 调用这个函数
+  }, 100);
+
+  return <div ref={ref}>example</div>;
+});
+```

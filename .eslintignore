@@ -1,0 +1,8 @@
+lib
+dist
+es
+node_modules
+packages/theme-light/src/icons/*.tsx
+build
+package.json
+docz-templates

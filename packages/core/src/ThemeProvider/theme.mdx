@@ -1,0 +1,104 @@
+---
+name: 主题
+menu: 最佳实践
+route: /theme
+autoDemos: true
+---
+
+# 主题
+
+Muya UI 支持灵活的样式定制，以满足业务和品牌上多样化的视觉需求，包括但不限于全局样式（主色、圆角、边框）和指定组件的视觉定制。
+
+## 官方主题
+
+Muya 默认提供了四个主题：
+
+- `@muya-ui/theme-light`：默认主题，已内置在 `@muya-ui/core`，不需要单独安装，其余主题需要单独安装依赖；
+- `@muya-ui/theme-dark`：暗主题；
+- `@qunhe/muya-theme-up`：用户平台线主题；
+- `@qunhe/muya-theme-coohom`：国际站主题。
+
+## 自定义主题
+
+Muya UI 所有组件，默认使用 `@muya-ui/theme-light` 主题包。
+
+我们可以使用默认主题包提供的 `createTheme` 方法，构建出自定义的主题数据。
+
+```ts
+import { createTheme } from '@muya-ui/theme-light';
+const myTheme = createTheme({});
+```
+
+`createTheme` 传入的数据会与默认主题数据进行深拷贝，因此无需传入所有 key。
+
+## 扩展已有主题
+
+某些业务场景下，需要对已有的主题字段进行扩展，满足不同业务的需求。此场景下，主题推荐存放于业务仓库内。
+
+首先，对于使用 TypeScript 的项目，新建`src/typings/theme.d.ts`文件，扩展默认主题的类型
+
+```ts
+// src/typings/theme.d.ts
+import { ISvgProps } from '@muya-ui/theme-light';
+
+declare module '@muya-ui/theme-light' {
+  export interface ITheme {
+    myIcons?: Record<string, React.FunctionComponent<ISvgProps>>;
+  }
+}
+```
+
+然后，新建`myTheme.ts`文件，导出自定义的主题
+
+```ts
+// src/common/myTheme.ts
+import { muyaThemeLight, ITheme, AddIcon } from '@muya-ui/theme-light';
+import { muyaThemeUp, PlusIcon } from '@qunhe/muya-theme-up';
+
+export const MyThemeLight: ITheme = {
+  ...muyaThemeLight,
+  myIcons: {
+    Add: AddIcon,
+  },
+};
+
+export const MyThemeUp: ITheme = {
+  ...muyaThemeUp,
+  myIcons: {
+    Add: PlusIcon,
+  },
+};
+```
+
+最后，将自定义主题注入到 `ThemeProvider` 中，然后组件内部使用 `useTheme` 获取主题即可
+
+```tsx
+import { MyThemeLight, MyThemeUp } from '@common/theme';
+import { ThemeProvider, useTheme } from '@muya-ui/core';
+
+function List() {
+  const theme = useTheme();
+  console.log(theme.myIcons);
+}
+
+function App(props) {
+  const theme = props.isUp ? MyThemeUp : MyThemeLight;
+  return (
+    <ThemeProvider theme={theme}>
+      <List />
+    </ThemeProvider>
+  );
+}
+```
+
+## 使用主题
+
+如果当前使用的是默认主题，那么不需要做额外的操作。
+
+如果使用的是官方提供的非默认主题（dark、up、coohom）或者自定义主题，那么需要使用 `ThemeProvider` 包裹组件。
+
+被 `ThemeProvider` 包裹的组件，它内部所有 Muya-UI 组件都会使用 `ThemeProvider` 所设置的主题数据。
+
+当 `ThemeProvider` 发生嵌套时，优先使用离组件层级最近的 `ThemeProvider` 提供的主题数据。
+
+{Demos}

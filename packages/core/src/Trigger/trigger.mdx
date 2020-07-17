@@ -1,0 +1,77 @@
+---
+name: Trigger 弹出触发器
+menu: 组件
+route: /components/trigger
+autoDemos: true
+parent: 其他
+---
+
+# Trigger 弹出触发器
+
+基于`Popper`，封装了常用的三种触发方式 hover、click、focus
+
+{Demos}
+
+### API
+
+#### ITriggerProps
+
+<Props propsName="ITriggerProps" />
+
+#### ITriggerArrowStyle
+
+<Props propsName="ITriggerArrowStyle" pick={['width', 'height', 'color', 'margin']} />
+
+#### ITriggerAction
+
+```ts
+export type ITriggerAction = 'hover' | 'click' | 'focus';
+```
+
+### FAQ
+
+Q: `Trigger` 在边界时弹出位置出现错误，如何解决？
+
+可以通过 `flip` 属性开启 `flip` 来实现位置自适应（`Select`、`AutoComplete`、`Dropdown`、`TreeSelect` 等弹出组件均可以通过该方法来实现自适应）。`0.4.0` 版本起已自动开启。
+
+Q: 用`Trigger`包裹使用[react-svg-loader](https://github.com/boopathi/react-svg-loader)引入的图标组件，功能失效
+
+现在`react-svg-loader`的实现，编译过后导出的是箭头函数。
+
+```tsx
+import React from 'react';
+export default props => <svg {...props}>{svgContent}</svg>;
+```
+
+函数组件如果不适用 forwardRef 包裹，是无法取到 ref 的。`Trigger`需要拿到 svg 的 ref 来做定位，因此无法正常工作，详情可见这个[issue](https://github.com/boopathi/react-svg-loader/issues/262)。
+
+目前该库的作者不打算在内部实现 forwardRef 的逻辑，在 svg 外层包裹一个 span 方可正常使用
+
+```tsx
+import ExpandSVG from './assets/expand.svg';
+
+<Tooltip>
+  <span>
+    <ExpandSVG />
+  </span>
+</Tooltip>;
+```
+
+Q: 用 `Trigger` 包裹文字节点时功能失效？
+
+`Trigger` 包裹的元素必须支持 `ref`，并且能够通过 `ref` 获取对应 dom 节点，从而计算 `Popper` 所要展示的位置。文字节点不支持 `ref`，建议使用 `span` 或者 `div` 来包裹。
+
+```tsx
+<Trigger>text</Trigger> // wrong
+<Trigger><span>text</span></Trigger> // right
+```
+
+Q: 全屏模式下，`Trigger` 未弹出？
+
+首先确认是否为局部全屏，局部全屏的情况下只能全屏你这个 `div` 以及内部的元素，而 `Trigger` 类型的元素（`Tooltip`、`Popconfirm`、`PopoverCard`）等默认都是挂载在 body 上的。
+
+可以通过自定义 `Trigger` 类型元素的 `container` 自定义挂载的容器，将其挂载到全屏节点内。
+
+Q: `Trigger` 嵌套时，内层 `Trigger` 关闭时突然会定位到屏幕左上角？
+
+内部 `Trigger` 的关闭如果同时出发了外层 `Trigger` 的重新渲染，此时会出现这种情况，可以通过设置 `getPopupContainer={target => target}` 把内部 `Trigger` 绑定到外部 `Trigger` 节点内解决。

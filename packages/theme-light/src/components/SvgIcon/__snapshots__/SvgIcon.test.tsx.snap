@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试设置大小 1`] = `
+.c0 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 24px;
+  fill: currentColor;
+}
+
+<svg
+  aria-hidden="false"
+  className="c0"
+  focusable="false"
+  fontSize="24px"
+  viewBox="0 0 1024 1024"
+/>
+`;
+
+exports[`测试设置颜色 1`] = `
+.c0 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: red;
+  fill: currentColor;
+}
+
+<svg
+  aria-hidden="false"
+  className="c0"
+  color="red"
+  focusable="false"
+  viewBox="0 0 1024 1024"
+/>
+`;

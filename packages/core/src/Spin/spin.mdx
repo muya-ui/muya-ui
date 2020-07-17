@@ -1,0 +1,56 @@
+---
+name: Spin 加载
+menu: 组件
+route: /components/spin
+autoDemos: true
+parent: 反馈
+---
+
+# Spin 加载
+
+用于页面或区块的加载中状态。
+
+## 使用场景
+
+页面局部处于等待异步数据或正在渲染过程时，合适的加载动效会有效缓解用户的焦虑。
+
+## 行为与状态
+
+- 区域加载：在表格等容器中加载数据时显示，如局部内容提交，上传、查看等触加载；区域加载时，加载以外的区域可以正常交互。
+- 全局加载：整个页面数据加载时显示，如进入到目标新页面，刷新当前页面时会出现，全局加载时，整个页面不可以交互，为了保证让用户保持可控感，在全局加载时，建议加上关闭操作。
+
+## 用法
+
+```tsx
+// 单独作为图标/图标+内容引入
+<Spin />
+
+// 区域加载，传入children，或者手动设置container属性
+<Spin>
+   <div style={{ position: 'relative' }}>区域加载的节点，必须设置position样式</div>
+</Spin>
+
+<Spin container={document.querySelector('#my-container')} />
+
+// 全屏加载，只需要设置fullscreen属性，优先级比区域加载更高，根节点为body
+<Spin fullscreen />
+
+```
+
+{Demos}
+
+### API
+
+#### ISpinProps
+
+<Props propsName="ISpinProps" />
+
+#### ISvgProps
+
+<Props propsName="ISvgProps" />
+
+### Styles
+
+#### ISpinStyleKeys
+
+<Styles typeName="ISpinStyleKeys" componentName="spin" />

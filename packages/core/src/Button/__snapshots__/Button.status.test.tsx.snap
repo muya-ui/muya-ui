@@ -1,0 +1,2028 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`busy=true 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,51,51,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(77,77,77,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,153,153,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(179,179,179,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(187,187,187,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(173,173,173,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,43,0,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(255,85,51,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,171,0,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(255,188,51,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`disabled=true 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(255,255,255,1);
+  background-color: rgba(221,221,221,1);
+  border-color: rgba(255,255,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(255,255,255,1);
+  background-color: rgba(221,221,221,1);
+  border-color: rgba(255,255,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(221,221,221,1);
+  background-color: transparent;
+  border-color: rgba(221,221,221,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(255,255,255,1);
+  background-color: rgba(221,221,221,1);
+  border-color: rgba(255,255,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(255,255,255,1);
+  background-color: rgba(221,221,221,1);
+  border-color: rgba(255,255,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(255,255,255,1);
+  background-color: rgba(221,221,221,1);
+  border-color: rgba(255,255,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  cursor: not-allowed;
+  color: rgba(255,255,255,1);
+  background-color: rgba(221,221,221,1);
+  border-color: rgba(255,255,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`loading=true 1`] = `
+Array [
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,51,51,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(77,77,77,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,153,153,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(179,179,179,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(187,187,187,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(173,173,173,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,43,0,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(255,85,51,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c5 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c3 .c14 {
+  line-height: unset;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,171,0,1);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: rgba(255,188,51,1);
+  border-width: 0;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+    <span
+      className="c3 muya-button-suffix"
+    >
+      <svg
+        aria-hidden="false"
+        className="c4 c5"
+        focusable="false"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          fill="none"
+          r="45"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="10"
+          transform="rotate(144 50 50)"
+        />
+      </svg>
+    </span>
+  </button>,
+]
+`;

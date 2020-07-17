@@ -1,0 +1,9753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plain=true 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(26,122,248,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(26,122,248,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.04);
+  border-color: rgba(26,122,248,1);
+}
+
+.c2:active {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.08);
+  border-color: rgba(26,122,248,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(51,51,51,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(187,187,187,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(51,51,51,1);
+  background-color: rgba(51,51,51,0.04);
+  border-color: rgba(187,187,187,1);
+}
+
+.c2:active {
+  color: rgba(51,51,51,1);
+  background-color: rgba(51,51,51,0.08);
+  border-color: rgba(187,187,187,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(153,153,153,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(153,153,153,1);
+  background-color: rgba(153,153,153,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2:active {
+  color: rgba(153,153,153,1);
+  background-color: rgba(153,153,153,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(187,187,187,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(187,187,187,1);
+  background-color: rgba(187,187,187,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2:active {
+  color: rgba(187,187,187,1);
+  background-color: rgba(187,187,187,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,43,0,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,43,0,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.04);
+  border-color: rgba(255,43,0,1);
+}
+
+.c2:active {
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.08);
+  border-color: rgba(255,43,0,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,171,0,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,171,0,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.04);
+  border-color: rgba(255,171,0,1);
+}
+
+.c2:active {
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.08);
+  border-color: rgba(255,171,0,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`plain=true 2`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.08);
+  cursor: pointer;
+  border-color: rgba(26,122,248,0.12);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.12);
+  border-color: rgba(26,122,248,0.12);
+}
+
+.c2:active {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.16);
+  border-color: rgba(26,122,248,0.12);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(51,51,51,1);
+  background-color: #ddd;
+  cursor: pointer;
+  border-color: #d1d1d1;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(51,51,51,1);
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
+
+.c2:active {
+  color: rgba(51,51,51,1);
+  background-color: #c4c4c4;
+  border-color: #d1d1d1;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(102,102,102,1);
+  background-color: #eee;
+  cursor: pointer;
+  border-color: #e8e8e8;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(102,102,102,1);
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+}
+
+.c2:active {
+  color: rgba(102,102,102,1);
+  background-color: #e3e3e3;
+  border-color: #e8e8e8;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(153,153,153,1);
+  background-color: #f2f2f2;
+  cursor: pointer;
+  border-color: #ededed;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(153,153,153,1);
+  background-color: #ededed;
+  border-color: #ededed;
+}
+
+.c2:active {
+  color: rgba(153,153,153,1);
+  background-color: #e8e8e8;
+  border-color: #ededed;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(187,187,187,1);
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-color: #f2f2f2;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(187,187,187,1);
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.c2:active {
+  color: rgba(187,187,187,1);
+  background-color: #ededed;
+  border-color: #f2f2f2;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.08);
+  cursor: pointer;
+  border-color: rgba(255,43,0,0.12);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.12);
+  border-color: rgba(255,43,0,0.12);
+}
+
+.c2:active {
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.16);
+  border-color: rgba(255,43,0,0.12);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.08);
+  cursor: pointer;
+  border-color: rgba(255,171,0,0.12);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.12);
+  border-color: rgba(255,171,0,0.12);
+}
+
+.c2:active {
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.16);
+  border-color: rgba(255,171,0,0.12);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`plain=true 3`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(26,122,248,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(26,122,248,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.08);
+  border-color: rgba(26,122,248,1);
+}
+
+.c2:active {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.12);
+  border-color: rgba(26,122,248,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,0.9);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.5);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.07200000000000001);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.c2:active {
+  color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.108);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,0.8);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.3);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.064);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2:active {
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.096);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,0.7);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.3);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.055999999999999994);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2:active {
+  color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.08399999999999999);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,0.5);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.3);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2:active {
+  color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,43,0,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,43,0,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.08);
+  border-color: rgba(255,43,0,1);
+}
+
+.c2:active {
+  color: rgba(255,43,0,1);
+  background-color: rgba(255,43,0,0.12);
+  border-color: rgba(255,43,0,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,171,0,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,171,0,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.08);
+  border-color: rgba(255,171,0,1);
+}
+
+.c2:active {
+  color: rgba(255,171,0,1);
+  background-color: rgba(255,171,0,0.12);
+  border-color: rgba(255,171,0,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`plain=true 4`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #1a7afb;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #1a7afb;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #1a7afb;
+  background-color: rgba(26,122,251,0);
+  border-color: #1a7afb;
+}
+
+.c2:active {
+  color: #1a7afb;
+  background-color: rgba(26,122,251,0);
+  border-color: #1a7afb;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.85);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.45);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #369bff;
+  background-color: rgba(0,0,0,0);
+  border-color: #369bff;
+}
+
+.c2:active {
+  color: #096dd9;
+  background-color: rgba(0,0,0,0);
+  border-color: #096dd9;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.65);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.35);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #369bff;
+  background-color: rgba(0,0,0,0);
+  border-color: #369bff;
+}
+
+.c2:active {
+  color: #096dd9;
+  background-color: rgba(0,0,0,0);
+  border-color: #096dd9;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.55);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.35);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #369bff;
+  background-color: rgba(0,0,0,0);
+  border-color: #369bff;
+}
+
+.c2:active {
+  color: #096dd9;
+  background-color: rgba(0,0,0,0);
+  border-color: #096dd9;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.45);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.35);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(0,0,0,0.45);
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0.35);
+}
+
+.c2:active {
+  color: rgba(0,0,0,0.45);
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0.35);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #f5222d;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #f5222d;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #f5222d;
+  background-color: rgba(245,34,45,0);
+  border-color: #f5222d;
+}
+
+.c2:active {
+  color: #f5222d;
+  background-color: rgba(245,34,45,0);
+  border-color: #f5222d;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c27 + .c1 {
+  margin-left: 8px;
+}
+
+.c28 + .c1 {
+  margin-left: 8px;
+}
+
+.c29 + .c1 {
+  margin-left: 8px;
+}
+
+.c30 + .c1 {
+  margin-left: 8px;
+}
+
+.c31 + .c1 {
+  margin-left: 8px;
+}
+
+.c32 + .c1 {
+  margin-left: 8px;
+}
+
+.c33 + .c1 {
+  margin-left: 8px;
+}
+
+.c34 + .c1 {
+  margin-left: 8px;
+}
+
+.c35 + .c1 {
+  margin-left: 8px;
+}
+
+.c36 + .c1 {
+  margin-left: 8px;
+}
+
+.c37 + .c1 {
+  margin-left: 8px;
+}
+
+.c38 + .c1 {
+  margin-left: 8px;
+}
+
+.c39 + .c1 {
+  margin-left: 8px;
+}
+
+.c40 + .c1 {
+  margin-left: 8px;
+}
+
+.c41 + .c1 {
+  margin-left: 8px;
+}
+
+.c42 + .c1 {
+  margin-left: 8px;
+}
+
+.c43 + .c1 {
+  margin-left: 8px;
+}
+
+.c44 + .c1 {
+  margin-left: 8px;
+}
+
+.c45 + .c1 {
+  margin-left: 8px;
+}
+
+.c46 + .c1 {
+  margin-left: 8px;
+}
+
+.c47 + .c1 {
+  margin-left: 8px;
+}
+
+.c48 + .c1 {
+  margin-left: 8px;
+}
+
+.c49 + .c1 {
+  margin-left: 8px;
+}
+
+.c50 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #faad14;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #faad14;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #faad14;
+  background-color: rgba(250,173,20,0);
+  border-color: #faad14;
+}
+
+.c2:active {
+  color: #faad14;
+  background-color: rgba(250,173,20,0);
+  border-color: #faad14;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`不同类型 1`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,139,255,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(12,108,235,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,51,51,1);
+  cursor: pointer;
+  border-color: rgba(77,77,77,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(77,77,77,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(38,38,38,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,153,153,1);
+  cursor: pointer;
+  border-color: rgba(179,179,179,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(179,179,179,1);
+  border-color: rgba(179,179,179,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(140,140,140,1);
+  border-color: rgba(179,179,179,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(187,187,187,1);
+  cursor: pointer;
+  border-color: rgba(173,173,173,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(173,173,173,1);
+  border-color: rgba(173,173,173,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(161,161,161,1);
+  border-color: rgba(173,173,173,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,43,0,1);
+  cursor: pointer;
+  border-color: rgba(255,85,51,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,85,51,1);
+  border-color: rgba(255,85,51,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(242,40,0,1);
+  border-color: rgba(255,85,51,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,171,0,1);
+  cursor: pointer;
+  border-color: rgba(255,188,51,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,188,51,1);
+  border-color: rgba(255,188,51,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(242,162,0,1);
+  border-color: rgba(255,188,51,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`不同类型 2`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  background-image: linear-gradient(90deg,#33ADFF 0%,#1A7AF8 100%);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-image: linear-gradient(90deg,#60BFFF 0%,#589EFA 100%);
+  border-color: rgba(51,139,255,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-image: linear-gradient(90deg,#31A6F5 0%,#1876EE 100%);
+  border-color: rgba(51,139,255,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,51,51,1);
+  cursor: pointer;
+  border-color: rgba(77,77,77,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(77,77,77,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(38,38,38,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(102,102,102,1);
+  background-color: #eee;
+  cursor: pointer;
+  border-color: #e8e8e8;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(102,102,102,1);
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+}
+
+.c2:active {
+  color: rgba(102,102,102,1);
+  background-color: #e3e3e3;
+  border-color: #e8e8e8;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,153,153,1);
+  cursor: pointer;
+  border-color: rgba(179,179,179,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(179,179,179,1);
+  border-color: rgba(179,179,179,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(140,140,140,1);
+  border-color: rgba(179,179,179,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  background-color: rgba(187,187,187,1);
+  cursor: pointer;
+  border-color: rgba(173,173,173,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(173,173,173,1);
+  border-color: rgba(173,173,173,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(161,161,161,1);
+  border-color: rgba(173,173,173,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,43,0,1);
+  cursor: pointer;
+  border-color: rgba(255,85,51,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,85,51,1);
+  border-color: rgba(255,85,51,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(242,40,0,1);
+  border-color: rgba(255,85,51,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 36px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 999rem;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,171,0,1);
+  cursor: pointer;
+  border-color: rgba(255,188,51,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,188,51,1);
+  border-color: rgba(255,188,51,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(242,162,0,1);
+  border-color: rgba(255,188,51,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`不同类型 3`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,139,255,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(12,108,235,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.9);
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.82);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.82);
+  border-color: rgba(255,255,255,0.82);
+}
+
+.c2:active {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.86);
+  border-color: rgba(255,255,255,0.82);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,0.8);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.3);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.064);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2:active {
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.096);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.62);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.62);
+  border-color: rgba(255,255,255,0.62);
+}
+
+.c2:active {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.66);
+  border-color: rgba(255,255,255,0.62);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.5);
+  cursor: pointer;
+  border-color: rgba(255,255,255,0.42);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.42);
+  border-color: rgba(255,255,255,0.42);
+}
+
+.c2:active {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,0.46);
+  border-color: rgba(255,255,255,0.42);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,43,0,1);
+  cursor: pointer;
+  border-color: rgba(255,85,51,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,85,51,1);
+  border-color: rgba(255,85,51,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(242,40,0,1);
+  border-color: rgba(255,85,51,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,171,0,1);
+  cursor: pointer;
+  border-color: rgba(255,188,51,1);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,188,51,1);
+  border-color: rgba(255,188,51,1);
+}
+
+.c2:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(242,162,0,1);
+  border-color: rgba(255,188,51,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;
+
+exports[`不同类型 4`] = `
+Array [
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #1a7afb;
+  cursor: pointer;
+  border-color: #369bff;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: #ffffff;
+  background-color: #369bff;
+  border-color: #369bff;
+}
+
+.c2:active {
+  color: #ffffff;
+  background-color: #096dd9;
+  border-color: #369bff;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.85);
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.8);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.8);
+  border-color: rgba(0,0,0,0.8);
+}
+
+.c2:active {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.9);
+  border-color: rgba(0,0,0,0.8);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.65);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.35);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c2:hover {
+  color: #369bff;
+  background-color: rgba(0,0,0,0);
+  border-color: #369bff;
+}
+
+.c2:active {
+  color: #096dd9;
+  background-color: rgba(0,0,0,0);
+  border-color: #096dd9;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.55);
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.5);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.5);
+}
+
+.c2:active {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.6);
+  border-color: rgba(0,0,0,0.5);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.45);
+  cursor: pointer;
+  border-color: rgba(0,0,0,0.4);
+  border-width: 0;
+}
+
+.c2:hover {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.4);
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c2:active {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #f5222d;
+  cursor: pointer;
+  border-color: #ff4d4f;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: #ffffff;
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.c2:active {
+  color: #ffffff;
+  background-color: #cf1322;
+  border-color: #ff4d4f;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+  .c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c5 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c7 + .c1 {
+  margin-left: 8px;
+}
+
+.c8 + .c1 {
+  margin-left: 8px;
+}
+
+.c9 + .c1 {
+  margin-left: 8px;
+}
+
+.c10 + .c1 {
+  margin-left: 8px;
+}
+
+.c11 + .c1 {
+  margin-left: 8px;
+}
+
+.c12 + .c1 {
+  margin-left: 8px;
+}
+
+.c13 + .c1 {
+  margin-left: 8px;
+}
+
+.c14 + .c1 {
+  margin-left: 8px;
+}
+
+.c15 + .c1 {
+  margin-left: 8px;
+}
+
+.c16 + .c1 {
+  margin-left: 8px;
+}
+
+.c17 + .c1 {
+  margin-left: 8px;
+}
+
+.c18 + .c1 {
+  margin-left: 8px;
+}
+
+.c19 + .c1 {
+  margin-left: 8px;
+}
+
+.c20 + .c1 {
+  margin-left: 8px;
+}
+
+.c21 + .c1 {
+  margin-left: 8px;
+}
+
+.c22 + .c1 {
+  margin-left: 8px;
+}
+
+.c23 + .c1 {
+  margin-left: 8px;
+}
+
+.c24 + .c1 {
+  margin-left: 8px;
+}
+
+.c25 + .c1 {
+  margin-left: 8px;
+}
+
+.c26 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #faad14;
+  cursor: pointer;
+  border-color: #ffc53d;
+  border-width: 0;
+}
+
+.c2:hover {
+  color: #ffffff;
+  background-color: #ffc53d;
+  border-color: #ffc53d;
+}
+
+.c2:active {
+  color: #ffffff;
+  background-color: #d48806;
+  border-color: #ffc53d;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+    className="c0 c1 c2"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Test
+  </button>,
+]
+`;

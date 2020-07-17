@@ -1,0 +1,63 @@
+---
+name: Calendar 日历组件
+menu: 组件
+route: /components/calendar
+autoDemos: true
+parent: 数据录入
+disableDoubleRow: true
+---
+
+# Calendar 日历组件
+
+按照日历形式展示数据的容器。
+
+## 使用场景
+
+当数据是日期或按照日期划分时，例如日程、课表、价格日历等，农历等。目前支持年/月切换。
+
+## 组件
+
+- `Calendar`: 单选日期。
+- `RangeCalendar`: 区间选择。
+
+{Demos}
+
+### API
+
+类型 `Dayjs` ， `ConfigType` 均来自 [dayjs](https://github.com/iamkun/dayjs)
+
+- `ConfigType`: `string | number | Date | Dayjs`
+
+#### ICalendarProps
+
+<Props propsName="ICalendarProps" />
+
+#### ICalendarOption
+
+<Props propsName="ICalendarOption" />
+
+#### ICalendarChangeEvent
+
+当完全受控时需要将 `ICalendarChangeEvent` 的值传入组件中
+
+<Props propsName="ICalendarChangeEvent" />
+
+#### IRangeCalendarProps
+
+<Props propsName="IRangeCalendarProps" />
+
+#### IRangeCalendarOption
+
+<Props propsName="IRangeCalendarOption" />
+
+#### IRangeCalendarChangeEvent
+
+当完全受控时需要将 `IRangeCalendarChangeEvent` 的值传入组件中
+
+<Props propsName="IRangeCalendarChangeEvent" />
+
+### Styles
+
+#### ICalendarStyleKeys
+
+<Styles typeName="ICalendarStyleKeys" componentName="calendar" />

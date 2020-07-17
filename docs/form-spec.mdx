@@ -1,0 +1,420 @@
+---
+name: Form
+menu: 最佳实践
+route: /bp/form
+---
+
+# 前言
+
+开发者在使用时 Muya From 时遇到了一些阻碍：
+
+1. Muya From 的使用方式和设计理念与 Antd Form 有很大差异
+1. Muya Form 缺少各种业务场景的最佳实践，开发者学习成本较高
+1. Form 初期存在一些不完善的地方，没有经过业务的考验
+
+本文主要讲解一下 Form 的基础概念和一些场景的最佳事件
+
+## 基础概念
+
+### Single Context，Multiple FormBag
+
+Muya Form 借鉴了 Redux 和 Formilk 的理念，每个页面只有一个 `FormContext`。
+
+`Form` 通过 `FormProvider` 来注入 `FormBag`（本质上是 state），`Form`内部的`FormItem`通过`FormConsumer`和`useContext`来消费数据。
+
+```ts
+export type IFormBag<Values> = IFormState<Values> &
+  IFormHelpers<Values> &
+  IFormHandlers &
+  IFormProps<Values>;
+```
+
+`FormBag`是由多个部分组成的对象，常用的`values`、`errors`都可从其中获取到`。
+
+### 订阅 Form 数据
+
+通过`FormItem`组件的`name`字段的可以订阅数据，需要注意：
+
+1. `FormItem`必须是`Form`的子组件，但是层级无关紧要
+2. `name`支持 dot nation，例如 `domain1.user1.name`
+3. `FormItem`的 `children` 必须传入可受控组件，默认会为`children`设置`onChange`、`value`钩子（可以通过`valuePropName`、`trigger`配置钩子的名称）
+
+```tsx
+  <Form>
+    <div>
+      <p>
+        // deep in Form, works fine!
+        //  will pass domain1.user1.name to Input.value
+        <FormItem name="domain1.user1.name"><Input /></FormItem>
+      </p>
+    </div>
+  <Form>
+```
+
+表单类组件例如`Input、Select`如果放在了`Form`中，就不需要再为其设置 `value` 和 `onChange` 了，数据统一由`Form`管理
+
+### 多个 Form 用法
+
+### 并列组合使用
+
+`Form`天然数据隔离，可以直接并列使用，不同 Form 之间可以通过`ref`来进行交互
+
+```tsx
+const formBagRef1 = useRef();
+const formBagRef2 = useRef();
+<Form
+  onChange={() => {
+    // 同步form1的数据到form2中
+    formBagRef2.current.setFieldValue('user.name',
+      getIn(formBagRef1.current.values, 'user.name'))
+  }}
+  formBagRef={formBagRef1}
+>
+  <FormItem name="user.name"><Input /></FormItem>
+</Form>
+<Form
+  formBagRef={formBagRef2}
+>
+  <FormItem name="user.name"><Input /></FormItem>
+  <FormItem name="user.password"><Input type="password" /></FormItem>
+</Form>
+
+
+```
+
+#### 嵌套组合使用（Feature）
+
+多个 `Form` 可以嵌套使用
+
+1. 内层 `Form` 会使用最外层 `Form` 的 `FormBag`
+2. 内层 `Form` 不会渲染 form 标签
+
+相对于`Form`并列来说，`Form`嵌套使得多个`Form`复用同一个`FormBag`。当页面表单数量很多，数据分散在各个表单时，收集全部的表单数据比较复杂。**此时可以通过 Form 嵌套，将数据统一交给最外层`Form`管理**。
+
+拿 okr 系统举例，一个用户会有很多 Objective，每一个 Objective 下都会有多个 KR。使用 Form 嵌套简化数据收集流程：
+
+```tsx
+// 数据都由最外层Form管理
+// 表单数量取决于o和kr的数量
+<Form defaultValues={objectives} onSubmit={(values) => console.log(values)}>
+  {objectives.map(o,oIndex => (
+    <OForm objective={o} index={oIndex} />
+    {o.krList.map((kr, krIndex) => <KRForm kr={kr} index={krIndex} />)}
+  ))}
+</Form>
+```
+
+嵌套多个 Form 使用同一个`FormBag`，此时推荐使用 domain 做数据隔离，避免命名空间冲突的问题。
+
+```tsx
+// Custom Form Component，use it's own domain
+const DialogForm = ({ domain = 'dialog', title, ...other }) => (
+  <Dialog.Base>
+    <Dialog.Title>{title}</Dialog.Title>
+    <Dialog.Content>
+      <Form {...other}>
+        <FormItem name={`${domain}.name`}><Input /></FormItem>
+      </Form>
+    </Dialog.Content>
+  </Dialog.Base>
+);
+
+// in page A there is only one dialogForm, works fine!
+<DialogForm defaultValues={{ dialog: { name: 'dialog name' } }} />
+
+// in page B, there is two dialogForm, use another Form to manage them
+<Form defaultValues={{
+  dialog1: { name: 'dialog name 1' },
+  dialog2: { name : 'dialog name 2' }
+}}>
+  <DialogForm domain='dialog1' />
+  <DialogForm domain='dialog2' />
+</>
+```
+
+### 获取 FormBag 数据
+
+1. 通过`Form` `onChange`、`onSubmit` 事件，可从参数获取到 `values` 以及 `FormHelpers` （适用于回调函数，在回调外拿不到数据）
+2. 通过 `Form` `formBagRef`，以 ref 的形式获取`formBag` (适用于在 `Form` 外获取数据)。**注意：ref 的更新并不会触发组件渲染，通过 ref 拿 values 要慎重**
+3. 给 Form 传入 `function child`，children 函数中可以通过参数拿到`formBag` (适用于在 `Form` 内部获取数据)
+4. 使用 `useFormContext` 拿到`formBag`。使用 useFormContext 的组件，必须被 Form 所包裹。（适用于将 `Form` 单独封装成组件的场景）
+
+```tsx
+function CustomListWithContext {
+  const formBag = useFormContext();
+  console.log(formBag); // log FormBag object
+  return <div>
+    {formBag.values.name}
+    {formBag.values.name}
+    {formBag.values.name}
+  </div>
+}
+
+function MyForm() {
+  const ref = useRef(null);
+  console.log(ref.current); // log FormBag object
+  <Form
+    defaultValues={{
+      name: '111'
+    }}
+    formBagRef={ref}
+    onChange={(values, helpers) => console.log(values, helpers)}
+    onSubmit={(values, helpers) => console.log(values, helpers)}
+  >
+    // function child
+    {(formBag) => {
+      console.log(formBag); // log FormBag object
+    }}
+    // or custom component with context
+    <CustomListWithContext />
+  </>
+}
+```
+
+### 提交表单的方式
+
+#### 一、通过 submit button 来触发`Form`的 `onSubmit`
+
+优点：
+
+1. 只需要在 onSubmit 中放置提交成功的逻辑，表单提交并**校验成功**后会才触发 onSubmit
+1. 无需手动校验表单
+
+缺点：
+
+1. 强依赖了 Dom 结构，submit button 必须放在 form 标签内部
+1. 需要给提交按钮设置 `htmlType='submit'`
+
+这是 html 标准的表单提交流程，顺便解释一个问题：**为什么 demo 上是`Form`包裹`Dialog`组件，而不是 Dialog 包裹 Form?** 因为用此法提交需要依赖 Dom 结构
+
+```tsx
+<Form
+  defaultValues={{ name: '' }}
+  onSubmit={values => {
+    console.log('must be valid values', values);
+    axios.post('/api/post', values);
+  }}
+>
+  // 设置disablePortal来保证dom结构，否则Dialog会将节点插入到body中
+  <Dialog.Base disablePortal>
+    <Dialog.Content>
+      <FormItem name="name" rule={{ type: 'string', required: true }}>
+        <Input />
+      </FormItem>
+    </Dialog.Content>
+    <Dialog.Actions>
+      <Button htmlType="submit">提交</Button>
+    </Dialog.Actions>
+  </Dialog.Base>
+</Form>
+```
+
+#### 二、手动校验表单
+
+通过 FormHelpers 可以获取到`validateForm`、`validateField`方法来校验表单，校验完毕后可以执行提交逻辑
+
+优点：
+
+1. 不依赖 Dom 结构，无需关心组件的层级结构
+2. 无需为 button 设置`type="submit"`
+
+缺点：
+
+1. 需要开发者手动校验表单
+
+因此，Form 放在 Dialog 内部也是没有任何问题的
+
+```tsx
+const formBagRef = React.createRef();
+<Dialog.Base>
+  <Dialog.Content>
+    <Form
+      defaultValues={{ name: '' }}
+      formBagRef={formBagRef}
+      onSubmit={values => {
+        console.log('must be valid values', values);
+        axios.post('/api/post', values);
+      }}
+    >
+      <FormItem name="name" rule={{ type: 'string', required: true }}>
+        <Input />
+      </FormItem>
+    </Form>
+  </Dialog.Content>
+  <Dialog.Actions>
+    <Button
+      onClick={() =>
+        formBagRef.current.validateForm().then(() => {
+          console.log('must be valid values', formBagRef.current.values);
+        })
+      }
+    >
+      提交
+    </Button>
+  </Dialog.Actions>
+</Dialog.Base>;
+```
+
+### 手动设置表单数据
+
+业务中经常会需要开发者手动设置表单数据，这种场景开发者遇到的问题也比较多。常见场景：
+
+表格/列表中每一项都可以编辑，点击编辑后弹出`DialogForm`，此时每次都需要手动设置表单数据为当前列表项数据。
+
+引入一个问题，**开发者该如何优雅设置表单数据？**
+
+#### 一、`defaultValues` + `FormHelpers`
+
+此方法非受控, `values`从表单内部`formBag`取得。
+
+1. `defaultValue`是表单的默认数据，只在初始化的时候读取一次，之后该字段即使变化也不会影响表单
+2. 在表单内部/外部，都可以拿到`FormHelpers`，开发者需要注意不同方式的区别
+
+```tsx
+const DialogForm = ({ onConfirm, onCancel, open, formBagRef, ...other }) => {
+  <Dialog.Base open={open} onClose={onCancel}>
+    <Dialog.Content>
+      <Form {...other}>省略...</Form>
+    </Dialog.Content>
+    <Dialog.Actions>
+      <Button onClick={() => onConfirm()}>提交</Button>
+    </Dialog.Actions>
+  </Dialog.Base>;
+};
+
+function List() {
+  const formBagRef = useRef();
+  const users = [{ name: '111', id: 1 }, { name: '222', id: 2 }];
+  const defaultUser = {
+    name: '',
+    id: null,
+  };
+  const [open, setOpen] = useState(false);
+  const edit = id => {
+    const user = users.find(u => id === user.id);
+    formBagRef.current.setValues(user);
+    // 数据变化了，最好手动校验一下表单
+    formBagRef.current.validateForm(user);
+    setOpen(true);
+  };
+  const handleConfirm = () => {
+    formBagRef.current.validateForm().then(() => {
+      console.log('submit', formBagRef.current.values);
+      setOpen(false);
+    });
+  };
+  const handleCancel = () => {
+    setOpen(false);
+  };
+  return (
+    <DialogForm
+      defaultValue={defaultUser}
+      formBagRef={formBagRef}
+      open={open}
+      onConfirm={handleConfirm}
+      onCancel={handleCancel}
+    />
+  );
+}
+```
+
+#### 二、 `values` + `onChange`
+
+此方法为受控模式，`values`使用外部传入的值
+
+1. 传入 `values` 即为受控模式，必须监听`Form`的`onChange事件`，否则用户的输入无法反馈到表单上
+2. 无需使用`helpers.setValues/setFieldValue`
+
+```tsx
+const DialogForm = ({ onConfirm, onCancel, open, formBagRef, ...other }) => {
+  <Dialog.Base open={open} onClose={onCancel}>
+    <Dialog.Content>
+      <Form {...other}>省略...</Form>
+    </Dialog.Content>
+    <Dialog.Actions>
+      <Button onClick={() => onConfirm()}>提交</Button>
+    </Dialog.Actions>
+  </Dialog.Base>;
+};
+
+function List() {
+  const formBagRef = useRef();
+  const users = [{ name: '111', id: 1 }, { name: '222', id: 2 }];
+  const defaultUser = {
+    name: '',
+    id: null,
+  };
+  const [open, setOpen] = useState(false);
+  const [currentUser, setUser] = useState(defaultUser);
+  const edit = id => {
+    const user = users.find(u => id === user.id);
+    setUser(currentUser); // Changed! 无需formBagRef.current.setValues
+    // 数据变化了，最好手动校验一下表单
+    formBagRef.current.validateForm(user);
+    setOpen(true);
+  };
+  const handleConfirm = () => {
+    formBagRef.current.validateForm().then(() => {
+      console.log('submit', currentUser); // Changed! use currentUser
+      setOpen(false);
+    });
+  };
+  const handleCancel = () => {
+    setOpen(false);
+  };
+  return (
+    <DialogForm
+      values={currentUser} // Changed! use values, not defaultValues
+      onChange={user => setUser(user)} //Changed! 新增onChange,同步state
+      formBagRef={formBagRef}
+      open={open}
+      onConfirm={handleConfirm}
+      onCancel={handleCancel}
+    />
+  );
+}
+```
+
+### 优化表单的性能
+
+`function child` 以及 基于`useFormContext`自定义的组件，可以将其视作为`数据容器`，表单数据变化是容器也会重新执行/渲染。
+
+那么，根据**容器组件 & 展示组件分离的思想**，可以将展示组件抽离，然后使用`React.memo` or `componentShouldUpdate`来做优化，减少表单的渲染次数。
+
+```tsx
+<Form>
+  {({ values, errors, setFieldValue }) => {
+    // 任意表单项数据变化，下面的FormItem都会变化，因为整个表单的数据需要同步到数据容器。
+    return (
+      <>
+        <FormItem>
+          <Input />
+        </FormItem>
+      </>
+    );
+  }}
+</Form>
+```
+
+```tsx
+// memo
+const FormItemList = React.memo(props => {
+  const { nameRequired } = props;
+  return (
+    <>
+      <FormItem rule={{ required: nameRequired }} name="some.object.name">
+        <Input />
+      </FormItem>
+    </>
+  );
+});
+
+<Form>
+  {({ values, errors, setFieldValue }) => {
+    // 数据容器，每次依然都会渲染
+    // FormItemList，只有依赖的字段发生变化才会渲染(nameRequired)
+    const nameRequired = getIn(values, 'some.object.nameRequired');
+    return <FormItemList nameRequired={nameRequired} />;
+  }}
+</Form>;
+```

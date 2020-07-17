@@ -1,0 +1,43 @@
+---
+name: Notification 通知提示
+menu: 组件
+route: /components/notification
+autoDemos: true
+parent: 反馈
+---
+
+import { DocNotificationStyle } from './demos/styled';
+
+<DocNotificationStyle />
+
+# Notification 通知提示
+
+用于全局提示通知消息的组件。
+
+## 使用场景
+
+- 一般用于较复杂的通知消息，可包含交互操作。
+- 可以提示成功、失败、警告与通知。
+- 可以进行非即时型反馈或系统推送。
+
+{Demos}
+
+### API
+
+#### INotification
+
+INotificationFunction: `(item: INotificationItem) => number`
+
+<Props propsName="INotification" />
+
+#### INotificationItem
+
+<Props propsName="INotificationItem" />
+
+#### INotificationSetting
+
+<Props propsName="INotificationSetting" />
+
+#### IExpireQueueSetting
+
+<Props propsName="IExpireQueueSetting" />

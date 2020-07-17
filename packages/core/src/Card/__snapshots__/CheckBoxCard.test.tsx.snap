@@ -1,0 +1,766 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBoxCard should render success 1`] = `
+Array [
+  .c8 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.c5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c4 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c3 .c10 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c3 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c3 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c3:hover .c6 .c7 {
+  color: rgba(51,139,255,1);
+}
+
+.c3:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c9 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c9 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9:hover .c6 .c7 {
+  color: rgba(26,122,248,1);
+}
+
+.c9:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c1 {
+  border: 1px solid rgba(12,108,235,1);
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 muya-card-check-box-wrapper"
+    >
+      <label
+        className="c3 muya-checkbox-wrapper"
+        style={Object {}}
+      >
+        <span
+          className="c4 muya-checkbox-span"
+          onClick={[Function]}
+        >
+          <input
+            autoFocus={false}
+            checked={true}
+            className="c5"
+            disabled={false}
+            onChange={[Function]}
+            readOnly={false}
+            type="checkbox"
+          />
+          <span
+            className="c6 muya-checkbox-icon-wrap"
+          >
+            <svg
+              aria-hidden="false"
+              className="c7 c8 muya-checkbox-icon"
+              focusable="false"
+              viewBox="0 0 1024 1024"
+            >
+              <rect
+                fill="rgba(255,255,255,1)"
+                height={716.8}
+                width={716.8}
+                x={153.60000000000002}
+                y={153.60000000000002}
+              />
+              <path
+                d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm15.53 366.325a21.333 21.333 0 000-30.165l-60.34-60.342a21.333 21.333 0 00-30.166 0L436.565 574.923l-105.589-105.59a21.333 21.333 0 00-28.8-1.248l-1.376 1.248-60.341 60.342a21.333 21.333 0 000 30.165l181.013 181.013a21.27 21.27 0 0014.23 6.24h1.727l1.707-.138a21.237 21.237 0 0012.512-6.091z"
+              />
+            </svg>
+          </span>
+        </span>
+      </label>
+    </div>
+    测试
+  </div>,
+  .c8 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.c5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c4 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c9 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c9 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9:hover .c6 .c7 {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c3 .c10 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c3 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c3 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c3:hover .c6 .c7 {
+  color: rgba(26,122,248,1);
+}
+
+.c3:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c1 {
+  border: 1px solid transparent;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 muya-card-check-box-wrapper"
+    >
+      <label
+        className="c3 muya-checkbox-wrapper"
+        style={Object {}}
+      >
+        <span
+          className="c4 muya-checkbox-span"
+          onClick={[Function]}
+        >
+          <input
+            autoFocus={false}
+            checked={false}
+            className="c5"
+            disabled={false}
+            onChange={[Function]}
+            readOnly={false}
+            type="checkbox"
+          />
+          <span
+            className="c6 muya-checkbox-icon-wrap"
+          >
+            <svg
+              aria-hidden="false"
+              className="c7 c8 muya-checkbox-icon"
+              color="rgba(204,204,204,1)"
+              focusable="false"
+              viewBox="0 0 1024 1024"
+            >
+              <rect
+                fill="rgba(255,255,255,1)"
+                height={716.8}
+                width={716.8}
+                x={153.60000000000002}
+                y={153.60000000000002}
+              />
+              <path
+                d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+              />
+            </svg>
+          </span>
+        </span>
+      </label>
+    </div>
+    测试
+  </div>,
+  .c8 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.c5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c4 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c9 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c9 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9:hover .c6 .c7 {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c3 .c10 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c3 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c3 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c3:hover .c6 .c7 {
+  color: rgba(26,122,248,1);
+}
+
+.c3:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c1 {
+  border: 1px solid transparent;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 muya-card-check-box-wrapper"
+    >
+      <label
+        className="c3 muya-checkbox-wrapper"
+        style={Object {}}
+      >
+        <span
+          className="c4 muya-checkbox-span"
+          onClick={[Function]}
+        >
+          <input
+            autoFocus={false}
+            checked={false}
+            className="c5"
+            disabled={false}
+            onChange={[Function]}
+            readOnly={false}
+            type="checkbox"
+          />
+          <span
+            className="c6 muya-checkbox-icon-wrap"
+          >
+            <svg
+              aria-hidden="false"
+              className="c7 c8 muya-checkbox-icon"
+              color="rgba(204,204,204,1)"
+              focusable="false"
+              viewBox="0 0 1024 1024"
+            >
+              <rect
+                fill="rgba(255,255,255,1)"
+                height={716.8}
+                width={716.8}
+                x={153.60000000000002}
+                y={153.60000000000002}
+              />
+              <path
+                d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+              />
+            </svg>
+          </span>
+        </span>
+      </label>
+    </div>
+    测试
+  </div>,
+  .c8 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.c5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c4 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c3 .c10 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c3 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c3 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c3:hover .c6 .c7 {
+  color: rgba(51,139,255,1);
+}
+
+.c3:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c9 .c6 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c9 .c6 .c7 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9:hover .c6 .c7 {
+  color: rgba(26,122,248,1);
+}
+
+.c9:active .c6 .c7 {
+  color: rgba(12,108,235,1);
+}
+
+.c1 {
+  border: 1px solid rgba(12,108,235,1);
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 muya-card-check-box-wrapper"
+    >
+      <label
+        className="c3 muya-checkbox-wrapper"
+        style={Object {}}
+      >
+        <span
+          className="c4 muya-checkbox-span"
+          onClick={[Function]}
+        >
+          <input
+            autoFocus={false}
+            checked={true}
+            className="c5"
+            disabled={false}
+            onChange={[Function]}
+            readOnly={false}
+            type="checkbox"
+          />
+          <span
+            className="c6 muya-checkbox-icon-wrap"
+          >
+            <svg
+              aria-hidden="false"
+              className="c7 c8 muya-checkbox-icon"
+              focusable="false"
+              viewBox="0 0 1024 1024"
+            >
+              <rect
+                fill="rgba(255,255,255,1)"
+                height={716.8}
+                width={716.8}
+                x={153.60000000000002}
+                y={153.60000000000002}
+              />
+              <path
+                d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm15.53 366.325a21.333 21.333 0 000-30.165l-60.34-60.342a21.333 21.333 0 00-30.166 0L436.565 574.923l-105.589-105.59a21.333 21.333 0 00-28.8-1.248l-1.376 1.248-60.341 60.342a21.333 21.333 0 000 30.165l181.013 181.013a21.27 21.27 0 0014.23 6.24h1.727l1.707-.138a21.237 21.237 0 0012.512-6.091z"
+              />
+            </svg>
+          </span>
+        </span>
+      </label>
+    </div>
+    测试
+  </div>,
+]
+`;

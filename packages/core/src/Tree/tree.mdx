@@ -1,0 +1,79 @@
+---
+name: Tree 树
+menu: 组件
+route: /components/tree
+autoDemos: true
+parent: 数据展示
+---
+
+import { DocTreeStyle } from './demos/styled';
+
+<DocTreeStyle />
+
+# Tree 树
+
+用于展现多层级结构关系的控件。
+
+## 用法
+
+文件夹、组织架构、生物分类、国家地区等等，世间万物的大多数结构都是树形结构。
+
+使用树形目录可以完整展现其中的层级关系，并具有展开、收起、选择等交互功能。
+
+- demo 1~6：展示了树的几种展现形式以及自定义节点的方式；
+- demo 7~13：展示了树的几种交互行为；
+- demo 14~16：展示了树的一些便捷用法。
+
+{Demos}
+
+### API
+
+#### ITreeProps
+
+<Props propsName="ITreeProps" />
+
+#### ITreeNodeData
+
+<Props propsName="ITreeNodeData" />
+
+#### ITreeNodeState
+
+<Props propsName="ITreeNodeState" />
+
+### Styles
+
+#### ITreeStyleKeys
+
+<Styles typeName="ITreeStyleKeys" componentName="tree" />
+
+#### ITreeNodeStyleKeys
+
+<Styles typeName="ITreeNodeStyleKeys" componentName="tree-node" />
+
+### FAQ
+
+Q: 传入 Mobx 的数据报错？
+
+`Tree` 内部会对传入的 `data` 做二次处理，但不会改变元数据。
+
+目前版本在处理时使用的是 `deepmerge`，如果传入的是 Mobx 等处理过的非原生的数组，那么 `deepmerge` 处理此类数据时会出现错误。
+
+Q: selectable 和 checkable 有什么区别，以及相关的应用场景？
+
+Tree 的选中行为可以通过两种方式来启用，第一种是条目的选中，第二种是 checkbox 的选中。
+
+Tree 默认是通过 `selectable` 选中的。我们可以开启 `checkable` 关闭 `selectable` 来实现 checkbox 的选中。
+
+checkbox 选中默认的操作热区为 checkbox，如果想要点击整个条目选中 checkbox，那么可以设置 checkOnClick。
+
+另外还有一个常见的需求场景是，非叶子节点负责展开，叶子节点负责选中。
+
+实现这个需求快捷的方式是可以设置 `notLeafCheckable` 为 false 关闭非叶子节点的选中，当然也可以单独为每个节点设置 `checkable`。
+
+Q: 展开行为的受控不符合预期？
+
+`expandedKeys` 受控的情况下，如果 `autoExpandParent` 或 `defaultExpandAll` 为 `true`，那么会对传入的 `expandedKeys` 进行二次处理。
+
+此时的表现可能是传入 `expandedKeys` 和实际内部应用的 `expandedKeys` 不一致。
+
+如果想要完全使用 `expandedKeys` 进行展开行为的受控，可以将 `autoExpandParent` 和 `defaultExpandAll` 都设为 `false`。

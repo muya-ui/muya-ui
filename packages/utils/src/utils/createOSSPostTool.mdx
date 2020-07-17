@@ -1,0 +1,95 @@
+---
+name: createOSSPostTool
+menu: 工具方法
+route: /utils/createossposttool
+---
+
+# 浏览器直传 OSS
+
+通过 Post 上传图片到 OSS，大小限制为`12M`，阿里云文档：[PostObject](https://help.aliyun.com/document_detail/31988.html)
+
+后端接入说明：[oss 前端直传配置化签名接口接入文档](http://confluence.qunhequnhe.com/pages/viewpage.action?pageId=123525041)
+
+> 注意：这里使用的后端接口，必须在 `yun.kujiale.com` 或者 `www.kujiale.com`下，测试环境`alpha.kujiale.com`也可以，`beta.kujiale.com`和`yun-beta.kujiale.com`也可以，如果有问题，请咨询 @天仇
+
+### API 说明
+
+- `getSTS`：获取临时授权的配置
+- `getUniqueKey`：获取唯一名称
+- `upload({ file, key })：{ status, key，url }`：上传
+  - `file`：具体的文件，可以是 input 的 files 中的对象，也可以是一个 Blob
+  - `key`：可以不填，默认会调用 getUniqueKey
+
+### 使用说明
+
+```js
+import { createOSSPostTool } from '@muya-ui/utils';
+
+const oss = createOSSPostTool({
+  cdnHost: '//qhstaticssl.kujiale.com', // 默认值，可以不填，跟 oss bucket 有关
+  apiSTS: '/api/college/aliyun/sts', // 获取 STS 的后端接口
+  apiOSSPost: '//qhstatic.oss-cn-hangzhou.aliyuncs.com', // 上传地址，跟 oss bucket 有关，比如当前是 qhstatic 这个 bucket
+  ossPre: 'siteassets', // 路径前缀
+});
+
+// 一般情况，你只需要用这个就可以了，file可以是一个 input 的 file，注意参数是一个对象
+const { status, key, url } = await oss.upload({ file });
+// status === 'ok' 上传成功
+// status === 'fail' 上传失败
+// key: siteassets/d0dcd543f0478096-1529586457526
+// url: //qhstaticssl.kujiale.com/siteassets/d0dcd543f0478096-1529586457526
+
+// 可以设置加上后缀 ext: true，会根据 file.name 自动获取后缀
+const { status, key, url } = await oss.upload({ file, ext });
+
+// 如果有需要预先定义文件名的，请使用这里的，注意一定要保证自己的 key 是唯一的
+const key = await oss.getUniqueKey();
+// siteassets/d0dcd543f0478096-1529586457526
+const sts = await oss.getSTS();
+// {"accessKeyId":"ncqFBacTVLdgXKC5","expiration":"2018-06-21T14:07:37.701Z","signature":"LkhGJRM6T9Ort+buJX2qp7m1V8E=","key":"d0dcd543f0478096","policy":"eyJleHBpcmF0aW9uIjogIjIwMTgtMDYtMjFUMTQ6MDc6MzcuNzAxWiIsImNvbmRpdGlvbnMiOiBbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsIDAsIDEwNDg1NzYwMF1dfQ=="}
+
+// 如果你需要定制后缀
+const key = await oss.getUniqueKey();
+const { status, key, url } = await oss.upload({ file, key: `${key}${your_suffix}` });
+```
+
+### 新版接口使用说明
+
+```js
+// 接口文档 https://yapi.qunhequnhe.com/project/393/interface/api/46873
+
+const bucketName = 'user-platform';
+const oss = createOSSPostTool({
+  cdnHost: '//user-platform-oss.kujiale.com/', // 可以不填，跟 oss bucket 有关
+  apiSTS: `/api/college/aliyun/sts/v2?bucket=${bucketName}`, // 获取 STS 的后端接口
+  apiOSSPost: `//${bucketName}.oss-cn-hangzhou.aliyuncs.com`, // 上传地址，跟 oss bucket 有关，比如当前是 user-platform 这个 bucket
+  ossPre: 'example', // 目录设置
+});
+
+// 可以设置加上后缀 ext: true，会根据 file.name 自动获取后缀
+const { status, key, url } = await oss.upload({ file, ext });
+```
+
+## API
+
+### IOSSPostToolOption
+
+createOSSPostTool 的入参说明
+
+<Props propsName="IOSSPostToolOption" />
+
+### IOSSPostTool
+
+返回的上传实例
+
+<Props propsName="IOSSPostTool" />
+
+### IOSSPostToolUploadParams
+
+上传的参数
+
+<Props propsName="IOSSPostToolUploadParams" />
+
+### IOSSPostToolResult
+
+<Props propsName="IOSSPostToolResult" />

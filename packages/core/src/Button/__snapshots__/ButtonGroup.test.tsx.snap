@@ -1,0 +1,578 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 ButtonGroup selected 快捷方式 1`] = `
+.c2 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c7 + .c3 {
+  margin-left: 12px;
+}
+
+.c4 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,153,153,1);
+  cursor: pointer;
+  border-color: rgba(179,179,179,1);
+  z-index: 2;
+  border-width: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.c4:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(179,179,179,1);
+  border-color: rgba(179,179,179,1);
+  z-index: 9;
+}
+
+.c4:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(140,140,140,1);
+  border-color: rgba(179,179,179,1);
+  z-index: 9;
+}
+
+.c5 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 0px;
+  margin-left: -1px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  z-index: 10;
+  border-width: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.c5:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,139,255,1);
+  border-color: rgba(51,139,255,1);
+  z-index: 10;
+}
+
+.c5:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(12,108,235,1);
+  border-color: rgba(51,139,255,1);
+  z-index: 10;
+}
+
+.c6 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,153,153,1);
+  cursor: pointer;
+  border-color: rgba(179,179,179,1);
+  z-index: 2;
+  border-width: 0;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.c6:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(179,179,179,1);
+  border-color: rgba(179,179,179,1);
+  z-index: 9;
+}
+
+.c6:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(140,140,140,1);
+  border-color: rgba(179,179,179,1);
+  z-index: 9;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 + .c0 {
+  margin-left: 8px;
+}
+
+.c8 + .c0 {
+  margin-left: 12px;
+}
+
+<div
+  className="c0 c1"
+>
+  <button
+    className="c2 c3 c4"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+  <button
+    className="c2 c3 c5"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+  <button
+    className="c2 c3 c6"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+</div>
+`;
+
+exports[`测试 ButtonGroup 单节点 1`] = `
+.c2 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 48px;
+  padding: 0 23px 0 23px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c4:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c4:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c4 + .c3 {
+  margin-left: 12px;
+}
+
+.c5 + .c0 {
+  margin-left: 8px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.c1 + .c0 {
+  margin-left: 12px;
+}
+
+<div
+  className="c0 c1"
+>
+  <button
+    className="c2 c3 c4"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+</div>
+`;
+
+exports[`测试 ButtonGroup 子元素属性传递 1`] = `
+.c2 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 48px;
+  padding: 0 23px 0 23px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  border-radius: 0px;
+  margin-left: -1px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  z-index: 3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c3:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c3:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c4 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 48px;
+  padding: 0 23px 0 23px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  border-radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  z-index: 3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c4:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c4:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c5 + .c0 {
+  margin-left: 8px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.c1 + .c0 {
+  margin-left: 12px;
+}
+
+<div
+  className="c0 c1"
+>
+  <button
+    className="c2 c3"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+  <button
+    className="c2 c3"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+  <button
+    className="c2 c4"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+</div>
+`;
+
+exports[`测试 ButtonGroup 正常情况 1`] = `
+.c2 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  z-index: 3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c3:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c3:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c4 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  z-index: 3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c4:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c4:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+  z-index: 9;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 + .c0 {
+  margin-left: 8px;
+}
+
+<div
+  className="c0 c1"
+>
+  <button
+    className="c2 c3"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+  <button
+    className="c2 c4"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    AAA
+  </button>
+</div>
+`;
+
+exports[`测试 ButtonGroup 空情况 1`] = `
+.c2 + .c0 {
+  margin-left: 8px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.c1 + .c0 {
+  margin-left: 12px;
+}
+
+<div
+  className="c0 c1"
+/>
+`;

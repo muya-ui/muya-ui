@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.c2 + .c1 {
+  margin-top: 0;
+}
+
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c5:active {
+  color: rgba(179,179,179,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-bottom: none;
+  padding: 18px 24px;
+}
+
+.c0 .c1 {
+  margin-bottom: 0;
+}
+
+.c6.c6 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 24px;
+  padding: 0;
+}
+
+<div
+  className="c0"
+>
+  <h4
+    className="c1 c2"
+  >
+    Test
+  </h4>
+  <button
+    className="c3 c4 c5 c6"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-hidden="false"
+      className="c7"
+      focusable="false"
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+      />
+    </svg>
+  </button>
+</div>
+`;

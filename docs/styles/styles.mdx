@@ -1,0 +1,68 @@
+---
+menu: 最佳实践
+name: 样式覆盖
+route: /bp/styles
+
+autoDemos: true
+---
+
+# 组件样式覆盖
+
+1. 组件默认均可传入最外层节点所支持的 `html` 属性，**因此传入`style`和`className`即可覆盖最外层 dom 节点的样式**
+2. 如果组件渲染的 dom 层级大于 1，我们提供 **Styles 方案** 覆盖深层节点的样式，具体使用请查看下面的 Demo
+
+{Demos}
+
+## API
+
+每个有深层子节点的组件，我们都会提供 `styles` 属性，这些 styles 都符合以下类型：
+
+```ts
+type ICustomStylePropMap<T extends string> = Record<T, string | React.CSSProperties>;
+```
+
+每个组件都有对应的 Styles 表格，说明这个组件都可以设置哪些子节点，就像上面的 Demo，你可以选择使用 class 或者传 style ，或者使用组件库提供的默认的 class 。
+
+另外注意你传的 styles ，尽量保证引用是不变的
+
+```tsx
+// good
+const styles = {
+  suffix: 'my-suffix',
+};
+function A(props: ISomeProps) {
+  return (
+    <>
+      <Button styles={styles}>亮主题</Button>
+    </>
+  );
+}
+
+// good
+function A(props: ISomeProps) {
+  // 如果会有一些逻辑
+  const styles = React.useMemo(
+    () => ({
+      suffix: 'my-suffix',
+    }),
+    [],
+  );
+  return (
+    <>
+      <Button styles={styles}>亮主题</Button>
+    </>
+  );
+}
+
+// bad
+function A(props: ISomeProps) {
+  const styles = {
+    suffix: 'my-suffix',
+  };
+  return (
+    <>
+      <Button styles={styles}>亮主题</Button>
+    </>
+  );
+}
+```

@@ -1,0 +1,25 @@
+---
+name: useForkRef
+menu: Hooks
+route: /hooks/useForkRef
+---
+
+# useForkRef
+
+组件内部要使用节点的 ref 的时候，需要 fork
+
+Example:
+
+```js
+import { useForkRef } from '@muya-ui/utils';
+
+const Component = React.forwardRef((props, ref) => {
+  const [hasRef, setHasRef] = React.useState(false);
+  const handleOwnRef = React.useCallback(() => {
+    setHasRef(true);
+  }, []);
+  const handleRef = useForkRef(handleOwnRef, ref);
+
+  return <div ref={handleRef}>{String(hasRef)}</div>;
+});
+```

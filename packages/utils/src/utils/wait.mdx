@@ -1,0 +1,23 @@
+---
+name: wait
+menu: 工具方法
+route: /utils/wait
+---
+
+# wait
+
+等待函数，有两个方法
+
+- wait.time(num): 等待时间
+  - num: 毫秒数
+- wait.imgLoaded(imgSrx): Promise.resolve(img) 等待图片加载完
+
+Example:
+
+```js
+import { wait } from '@muya-ui/utils';
+async function someAction() {
+  await wait.time(100);
+  const img = await wait.imgLoaded('ssss');
+}
+```

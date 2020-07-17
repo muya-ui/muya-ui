@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 Breadcrumbs 正常情况 1`] = `
+Array [
+  .c6 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c7 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(153,153,153,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c3:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c3:active {
+  color: rgba(12,108,235,1);
+}
+
+.c3 + .c2 {
+  margin-left: 8px;
+}
+
+.c8 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(102,102,102,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: default;
+}
+
+.c8 + .c2 {
+  margin-left: 8px;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(221,221,221,1);
+}
+
+.c0 .c9 {
+  width: 25px;
+}
+
+.c0 .c4 {
+  width: 20px;
+}
+
+.c0 .c10 {
+  border-left: 1px solid rgba(221,221,221,1);
+  height: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <a
+      aria-disabled={false}
+      className="c1 c2 c3 muya-breadcrumbs-item"
+      href="ss"
+      onClick={[Function]}
+      role="button"
+    >
+      ss
+    </a>
+    <span
+      className="c4 c5 muya-breadcrumbs-separator"
+    >
+      <svg
+        aria-hidden="false"
+        className="c6"
+        focusable="false"
+        style={
+          Object {
+            "height": 8,
+            "width": 8,
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </span>
+    <a
+      aria-disabled={false}
+      className="c1 c2 c3 muya-breadcrumbs-item"
+      href="ss"
+      onClick={[Function]}
+      role="button"
+    >
+      ss
+    </a>
+    <span
+      className="c4 c5 muya-breadcrumbs-separator"
+    >
+      <svg
+        aria-hidden="false"
+        className="c6"
+        focusable="false"
+        style={
+          Object {
+            "height": 8,
+            "width": 8,
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </span>
+    <button
+      className="c7 c2 c8 muya-breadcrumbs-item"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      ss
+    </button>
+  </div>,
+  .c11 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c1 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c8 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(153,153,153,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c3:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c3:active {
+  color: rgba(12,108,235,1);
+}
+
+.c3 + .c2 {
+  margin-left: 8px;
+}
+
+.c12 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(102,102,102,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: default;
+}
+
+.c12 + .c2 {
+  margin-left: 8px;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(221,221,221,1);
+}
+
+.c0 .c4 {
+  width: 25px;
+}
+
+.c0 .c9 {
+  width: 20px;
+}
+
+.c0 .c6 {
+  border-left: 1px solid rgba(221,221,221,1);
+  height: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <button
+      className="c1 c2 c3 muya-breadcrumbs-item"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      sdf
+    </button>
+    <span
+      className="c4 c5 muya-breadcrumbs-head-separator"
+    >
+      <span
+        className="c6 c7"
+      />
+    </span>
+    <a
+      aria-disabled={false}
+      className="c8 c2 c3 muya-breadcrumbs-item"
+      href="ss"
+      onClick={[Function]}
+      role="button"
+    >
+      ss
+    </a>
+    <span
+      className="c9 c10 muya-breadcrumbs-separator"
+    >
+      <svg
+        aria-hidden="false"
+        className="c11"
+        focusable="false"
+        style={
+          Object {
+            "height": 8,
+            "width": 8,
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </span>
+    <a
+      aria-disabled={false}
+      className="c8 c2 c3 muya-breadcrumbs-item"
+      href="ss"
+      onClick={[Function]}
+      role="button"
+    >
+      ss
+    </a>
+    <span
+      className="c9 c10 muya-breadcrumbs-separator"
+    >
+      <svg
+        aria-hidden="false"
+        className="c11"
+        focusable="false"
+        style={
+          Object {
+            "height": 8,
+            "width": 8,
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </span>
+    <button
+      className="c1 c2 c12 muya-breadcrumbs-item"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      ss
+    </button>
+  </div>,
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(221,221,221,1);
+}
+
+.c0 .c1 {
+  width: 25px;
+}
+
+.c0 .c5 {
+  width: 20px;
+}
+
+.c0 .c3 {
+  border-left: 1px solid rgba(221,221,221,1);
+  height: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      size="m"
+    >
+      sss
+    </span>
+    <span
+      className="c1 c2 muya-breadcrumbs-head-separator"
+    >
+      <span
+        className="c3 c4"
+      />
+    </span>
+    <span
+      size="m"
+    >
+      sss
+    </span>
+    <span
+      className="c5 c6 muya-breadcrumbs-separator"
+    >
+      <svg
+        aria-hidden="false"
+        className="c7"
+        focusable="false"
+        style={
+          Object {
+            "height": 8,
+            "width": 8,
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </span>
+    <span
+      size="m"
+    >
+      sss
+    </span>
+  </div>,
+]
+`;

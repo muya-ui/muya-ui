@@ -1,0 +1,101 @@
+import {
+  IMenuBaseProps,
+  IMenuItemBaseProps,
+  IMenuItemGroupBaseProps,
+  ISubMenuBaseProps,
+} from './types';
+
+export const rootMenuKey = 'muya-menu';
+
+export const allMenuGroupProp: Array<keyof IMenuItemGroupBaseProps> = [
+  'title',
+  'children',
+  'onClick',
+  'eventKey',
+  'level',
+  'menuHasIcon',
+  'parentEventKey',
+  'parentIsRootMenu',
+  'parentMenuOpen',
+  'parentMenuScrollable',
+  'originOnClick',
+  'onItemSelect',
+  'onItemDeselect',
+];
+
+export const allMenuProp: Array<keyof IMenuBaseProps> = [
+  'width',
+  'autoItemCountPerPage',
+  'maxItemCountPerPage',
+  'defaultSelectedKeys',
+  'selectedKeys',
+  'defaultOpenKeys',
+  'openKeys',
+  'mode',
+  'triggerSubMenuAction',
+  'selectable',
+  'multiple',
+  'accordion',
+  'children',
+  'itemIcon',
+  'expandIcon',
+  'subMenuIcon',
+  'TransitionComponent',
+  'forceSubMenuRender',
+  'hideRootMenuSpacing',
+  'noSpacing',
+  'inlineCollapsed',
+  'getPopupContainer',
+  'onItemSelect',
+  'onItemDeselect',
+  'onSelectChange',
+  'onOpenChange',
+  'onScroll',
+  'onClick',
+];
+
+export const allSubMenuProp: Array<keyof ISubMenuBaseProps> = [
+  'title',
+  'children',
+  'eventKey',
+  'parentEventKey',
+  'parentIsRootMenu',
+  'parentMenuOpen',
+  'parentMenuScrollable',
+  'disabled',
+  'level',
+  'menuHasIcon',
+  'icon',
+  'onTitleMouseEnter',
+  'onTitleMouseLeave',
+  'onTitleClick',
+  'onClick',
+  'originOnClick',
+  'onItemSelect',
+  'onItemDeselect',
+];
+
+export const allMenuItemProp: Array<keyof IMenuItemBaseProps> = [
+  'parentIsRootMenu',
+  'eventKey',
+  'parentEventKey',
+  'parentMenuOpen',
+  'parentMenuScrollable',
+  'children',
+  'disabled',
+  'level',
+  'menuHasIcon',
+  'icon',
+  'onClick',
+  'originOnClick',
+  'onItemSelect',
+  'onItemDeselect',
+];
+
+export const placementMap = {
+  inline: 'right-start',
+  vertical: 'right-start',
+  horizontal: 'bottom-start',
+  'vertical-left': 'right-start',
+  'vertical-right': 'left-start',
+};

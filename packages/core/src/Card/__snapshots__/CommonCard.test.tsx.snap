@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommonCard should render success 1`] = `
+Array [
+  .c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+    className="c0 c1"
+  />,
+  .c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 muya-card-header-wrapper muya-img-loading"
+    />
+  </div>,
+  .c5 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.c5 + .c4 {
+  margin-top: 0;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  padding: 0;
+}
+
+.c6 {
+  margin-bottom: 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 c3 muya-card-content-wrapper"
+    >
+      <div
+        className="muya-card-meta-wrapper"
+      >
+        <h4
+          className="c4 c5 c6"
+        >
+          测试
+        </h4>
+      </div>
+    </div>
+  </div>,
+  .c4 {
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  padding: 16px 20px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 c3 muya-card-content-wrapper"
+    >
+      <div
+        className="muya-card-meta-wrapper"
+      >
+        <span
+          className="c4"
+        >
+          测试
+        </span>
+      </div>
+    </div>
+  </div>,
+  .c7 {
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.c5 + .c4 {
+  margin-top: 0;
+}
+
+.c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  padding: 16px 20px;
+}
+
+.c6 {
+  margin-bottom: 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 c3 muya-card-content-wrapper"
+    >
+      <div
+        className="muya-card-meta-wrapper"
+      >
+        <h4
+          className="c4 c5 c6"
+        >
+          测试
+        </h4>
+        <span
+          className="c7"
+        >
+          测试
+        </span>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.12);
+  overflow: hidden;
+}
+
+.c0:hover {
+  box-shadow: 0 0 12px 0 rgba(102,102,102,0.20);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+    className="c0 c1"
+  >
+    <div
+      className="c2 muya-card-action-wrapper"
+    >
+      测试
+    </div>
+  </div>,
+]
+`;

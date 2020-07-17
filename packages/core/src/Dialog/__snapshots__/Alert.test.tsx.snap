@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 14px 24px 14px 24px;
+}
+
+.c11.c11 > * + * {
+  margin-left: 8px;
+}
+
+.c12 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c14 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c14:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,139,255,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c14:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(12,108,235,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c14 + .c13 {
+  margin-left: 8px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: absolute;
+  left: 50%;
+  box-sizing: border-box;
+  pointer-events: auto;
+  top: 40%;
+  -webkit-transform: translate(-50%,-40%);
+  -ms-transform: translate(-50%,-40%);
+  transform: translate(-50%,-40%);
+  background: rgba(255,255,255,1);
+  border-radius: 4px;
+  box-shadow: 0 0 24px 0 rgba(102,102,102,0.08);
+  width: 404px;
+  min-height: 192px;
+}
+
+.c0 {
+  overflow: hidden auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+}
+
+.c8 {
+  padding: 0;
+  color: rgba(153,153,153,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.c4 + .c3 {
+  margin-top: 0;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 24px 24px 20px 50px;
+}
+
+.c5 {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.c6 {
+  position: absolute;
+  top: -1px;
+  left: -9px;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  color: rgba(0,217,72,1);
+}
+
+.c10 {
+  padding: 20px 24px 24px 24px;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2 muya-dialog-alert-content"
+    >
+      <h3
+        className="c3 c4 c5"
+      >
+        <span
+          className="c6"
+        >
+          <svg
+            aria-hidden="false"
+            className="c7"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <rect
+              fill="rgba(255,255,255,1)"
+              height={716.8}
+              width={716.8}
+              x={153.60000000000002}
+              y={153.60000000000002}
+            />
+            <path
+              d="M436.576 574.933l-105.6-105.6a21.333 21.333 0 00-30.165 0l-60.342 60.342a21.333 21.333 0 000 30.165l181.014 181.013c4.17 4.171 9.632 6.262 15.093 6.262s10.923-2.091 15.083-6.251L783.53 408.992a21.333 21.333 0 000-30.165l-60.342-60.342a21.333 21.333 0 00-30.165 0L436.576 574.923zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+            />
+          </svg>
+        </span>
+        决策型对话框
+      </h3>
+      <div
+        className="c8"
+        color="assistant"
+        fontSize="s2"
+      >
+        正文提示，正文部分正文提示，正文部分正文提示，正文部分正文提示，正文部分正文提示，正文部分正文提示，正文部分
+      </div>
+    </div>
+    <div
+      className="c9 c10 muya-dialog-alert-actions"
+    >
+      <span
+        className="c11"
+      >
+        <button
+          className="c12 c13 c14"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          主按钮
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;

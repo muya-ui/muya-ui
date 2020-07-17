@@ -1,0 +1,705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试Size 1`] = `
+.c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c2 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c0 .c13 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c0 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c0:hover .c5 .c6 {
+  color: rgba(26,122,248,1);
+}
+
+.c0:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+.c10 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c10 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c10:hover .c5 .c6 {
+  color: rgba(51,139,255,1);
+}
+
+.c10:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+.c11 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c11 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c11 .c3,
+.c11 .c1 {
+  cursor: not-allowed;
+}
+
+.c12 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c12 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c12 .c5 .c6 {
+  color: rgba(26,122,248,1);
+}
+
+.c12:hover .c5 .c6 {
+  color: rgba(51,139,255,1);
+}
+
+.c12:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c8 .c13 {
+  padding: 0 4px;
+  line-height: 20px;
+}
+
+.c8 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 18px;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c8 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c8:hover .c5 .c6 {
+  color: rgba(26,122,248,1);
+}
+
+.c8:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c9 .c13 {
+  padding: 0 6px;
+  line-height: 22px;
+}
+
+.c9 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c9 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9:hover .c5 .c6 {
+  color: rgba(26,122,248,1);
+}
+
+.c9:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+<div>
+  <label
+    className="c0 muya-checkbox-wrapper"
+    style={Object {}}
+  >
+    <span
+      className="c1 c2 muya-checkbox-span"
+      onClick={[Function]}
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c3 c4"
+        disabled={false}
+        onChange={[Function]}
+        readOnly={false}
+        type="checkbox"
+      />
+      <span
+        className="c5 muya-checkbox-icon-wrap"
+      >
+        <svg
+          aria-hidden="false"
+          className="c6 c7 muya-checkbox-icon"
+          color="rgba(204,204,204,1)"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+          />
+        </svg>
+      </span>
+    </span>
+  </label>
+  <label
+    className="c0 muya-checkbox-wrapper"
+    style={Object {}}
+  >
+    <span
+      className="c1 c2 muya-checkbox-span"
+      onClick={[Function]}
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c3 c4"
+        disabled={false}
+        onChange={[Function]}
+        readOnly={false}
+        type="checkbox"
+      />
+      <span
+        className="c5 muya-checkbox-icon-wrap"
+      >
+        <svg
+          aria-hidden="false"
+          className="c6 c7 muya-checkbox-icon"
+          color="rgba(204,204,204,1)"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+          />
+        </svg>
+      </span>
+    </span>
+  </label>
+  <label
+    className="c8 muya-checkbox-wrapper"
+    style={Object {}}
+  >
+    <span
+      className="c1 c2 muya-checkbox-span"
+      onClick={[Function]}
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c3 c4"
+        disabled={false}
+        onChange={[Function]}
+        readOnly={false}
+        type="checkbox"
+      />
+      <span
+        className="c5 muya-checkbox-icon-wrap"
+      >
+        <svg
+          aria-hidden="false"
+          className="c6 c7 muya-checkbox-icon"
+          color="rgba(204,204,204,1)"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+          />
+        </svg>
+      </span>
+    </span>
+  </label>
+  <label
+    className="c9 muya-checkbox-wrapper"
+    style={Object {}}
+  >
+    <span
+      className="c1 c2 muya-checkbox-span"
+      onClick={[Function]}
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c3 c4"
+        disabled={false}
+        onChange={[Function]}
+        readOnly={false}
+        type="checkbox"
+      />
+      <span
+        className="c5 muya-checkbox-icon-wrap"
+      >
+        <svg
+          aria-hidden="false"
+          className="c6 c7 muya-checkbox-icon"
+          color="rgba(204,204,204,1)"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+          />
+        </svg>
+      </span>
+    </span>
+  </label>
+  <label
+    className="c0 muya-checkbox-wrapper"
+    style={Object {}}
+  >
+    <span
+      className="c1 c2 muya-checkbox-span"
+      onClick={[Function]}
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c3 c4"
+        disabled={false}
+        onChange={[Function]}
+        readOnly={false}
+        type="checkbox"
+      />
+      <span
+        className="c5 muya-checkbox-icon-wrap"
+      >
+        <svg
+          aria-hidden="false"
+          className="c6 c7 muya-checkbox-icon"
+          color="rgba(204,204,204,1)"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+          />
+        </svg>
+      </span>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`测试半选 1`] = `
+.c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c2 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c8 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c8 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c8:hover .c5 .c6 {
+  color: rgba(26,122,248,1);
+}
+
+.c8:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+.c9 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c9 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9:hover .c5 .c6 {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+.c10 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c10 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c10 .c3,
+.c10 .c1 {
+  cursor: not-allowed;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c0 .c11 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c0 .c5 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c5 .c6 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c0 .c5 .c6 {
+  color: rgba(26,122,248,1);
+}
+
+.c0:hover .c5 .c6 {
+  color: rgba(51,139,255,1);
+}
+
+.c0:active .c5 .c6 {
+  color: rgba(12,108,235,1);
+}
+
+<label
+  className="c0 muya-checkbox-wrapper"
+  style={Object {}}
+>
+  <span
+    className="c1 c2 muya-checkbox-span"
+    onClick={[Function]}
+  >
+    <input
+      autoFocus={false}
+      checked={false}
+      className="c3 c4"
+      disabled={false}
+      onChange={[Function]}
+      readOnly={false}
+      type="checkbox"
+    />
+    <span
+      className="c5 muya-checkbox-icon-wrap"
+    >
+      <svg
+        aria-hidden="false"
+        className="c6 c7 muya-checkbox-icon"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <rect
+          fill="rgba(255,255,255,1)"
+          height={716.8}
+          width={716.8}
+          x={153.60000000000002}
+          y={153.60000000000002}
+        />
+        <path
+          d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zM789.333 448H234.667a21.333 21.333 0 00-21.334 21.333v85.334A21.333 21.333 0 00234.667 576h554.666a21.333 21.333 0 0021.334-21.333v-85.334A21.333 21.333 0 00789.333 448z"
+        />
+      </svg>
+    </span>
+  </span>
+</label>
+`;

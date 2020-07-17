@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styled 1`] = `
+.c0 {
+  height: 10px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Styled 2`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`测试 Sticky 正常渲染 1`] = `
+<div
+  className=""
+>
+  <div
+    className="muya-sticky-sticky"
+    style={Object {}}
+  >
+    测试
+  </div>
+</div>
+`;

@@ -1,0 +1,53 @@
+---
+name: Radio 单选
+menu: 组件
+route: /components/radio
+autoDemos: true
+parent: 数据录入
+---
+
+import { DocRadioStyle } from './demos/styled';
+
+<DocRadioStyle />
+
+# Radio 单选
+
+用于多个选项中选择一个选项。
+
+## 使用场景
+
+- 适用于默认可见，选项不宜过多。
+- 若所有选项之间有线性关系，推荐使用滑动条、评分组件；若选项是两种互斥状态的切换，如开关功能，推荐使用开关。
+
+## 组件
+
+- `Radio`：单选。
+- `RadioGroup`：单选组。
+
+{Demos}
+
+### API
+
+#### IRadioProps
+
+<Props propsName="IRadioProps" />
+
+#### IRadioGroupProps
+
+<Props propsName="IRadioGroupProps" />
+
+#### IRadioGroupOption
+
+<Props propsName="IRadioGroupOption" omit={['onChange']} />
+
+#### IRadioGroupValue
+
+```ts
+type IRadioGroupValue = string | number | null;
+```
+
+### Styles
+
+#### IRadioStyleKeys
+
+<Styles typeName="IRadioStyleKeys" componentName="radio" />

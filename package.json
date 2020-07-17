@@ -1,0 +1,54 @@
+{
+  "name": "muya-ui",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Muya UI Team",
+  "title": "Muya UI",
+  "description": "Kujiale UI design language and React components implementation",
+  "repository": "https://github.com/muya-ui/muya-ui.git",
+  "bugs": {
+    "url": "https://github.com/muya-ui/muya-ui/issues"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "pre-commit": [
+    "lint-staged"
+  ],
+  "lint-staged": {
+    "linters": {
+      "packages/**/*.{tsx,ts}": [
+        "stylelint"
+      ],
+      "**/*.{js,jsx,tsx,ts}": [
+        "eslint --ext .js,.jsx,.ts,.tsx"
+      ],
+      "**/*.{md,mdx}": [
+        "remark"
+      ],
+      "**/*.{js,jsx,tsx,ts,less,md,json}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  },
+  "sideEffects": [
+    "api/api.ts"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

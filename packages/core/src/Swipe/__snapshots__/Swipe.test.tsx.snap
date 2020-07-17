@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 Swipe 垂直方向 1`] = `
+.c0 {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 10ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-transition: transform 10ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 10ms cubic-bezier(0.4,0,0.2,1);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-swipe-panel"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "transform": "translate(0, 0px)",
+      }
+    }
+  >
+    1111
+  </div>
+</div>
+`;
+
+exports[`测试 Swipe 正常情况 1`] = `
+.c0 {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 10ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-transition: transform 10ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 10ms cubic-bezier(0.4,0,0.2,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100000px;
+  height: 100%;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-swipe-panel"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "transform": "translate(0px, 0)",
+      }
+    }
+  >
+    1111
+  </div>
+</div>
+`;

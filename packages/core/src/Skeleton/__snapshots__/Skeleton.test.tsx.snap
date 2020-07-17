@@ -1,0 +1,517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c0 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  width: 100%;
+  height: 100%;
+}
+
+.c16 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c18 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  width: 60%;
+  height: 12px;
+  margin-top: 12px;
+}
+
+.c19 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  width: 40%;
+  height: 12px;
+  margin-top: 12px;
+}
+
+.c17 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c14 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  height: 12px;
+  margin-bottom: 4px;
+  width: 120px;
+}
+
+.c15 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  height: 12px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.c4 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+.c6 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 12px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.c7:nth-child(2n) .c5 {
+  -webkit-transform: scaleX(0.5);
+  -ms-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.c2 + .c1 {
+  margin-top: 24px;
+}
+
+.c10 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+.c12 {
+  background-image: linear-gradient( 90deg,rgba(248,248,248,1) 25%,rgba(238,238,238,1) 37%,rgba(248,248,248,1) 63% );
+  background-size: 400% 100%;
+  -webkit-animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  animation: eSOlSr 1.4s cubic-bezier(0.4,0,0.6,1) infinite;
+  height: 12px;
+  margin-top: 24px;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.c8 > .c11:nth-of-type(4n+2) {
+  -webkit-transform: scaleX(0.6);
+  -ms-transform: scaleX(0.6);
+  transform: scaleX(0.6);
+}
+
+.c8 > .c11:nth-of-type(4n+3) {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c8 > .c11:nth-of-type(4n+4) {
+  -webkit-transform: scaleX(0.7);
+  -ms-transform: scaleX(0.7);
+  transform: scaleX(0.7);
+}
+
+.c8 > .c11:nth-of-type(4n+5) {
+  -webkit-transform: scaleX(0.9);
+  -ms-transform: scaleX(0.9);
+  transform: scaleX(0.9);
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.c9 .c11 {
+  margin: 0;
+  -webkit-transform: scaleX(0.7);
+  -ms-transform: scaleX(0.7);
+  transform: scaleX(0.7);
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div>
+  <h3>
+    block 块级骨架屏
+  </h3>
+  <div
+    className="c0"
+    style={
+      Object {
+        "height": "200px",
+        "width": "500px",
+      }
+    }
+  />
+  <h3>
+    tree 树形骨架屏
+  </h3>
+  <div
+    className="c1 c2"
+    style={
+      Object {
+        "width": "150px",
+      }
+    }
+  >
+    <div
+      className="c3 muya-skeleton-tree-head"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+    <div
+      className="c7 muya-skeleton-tree-child"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+    <div
+      className="c7 muya-skeleton-tree-child"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+    <div
+      className="c7 muya-skeleton-tree-child"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+  </div>
+  <div
+    className="c1 c2"
+    style={
+      Object {
+        "width": "150px",
+      }
+    }
+  >
+    <div
+      className="c3 muya-skeleton-tree-head"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+    <div
+      className="c7 muya-skeleton-tree-child"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+    <div
+      className="c7 muya-skeleton-tree-child"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+    <div
+      className="c7 muya-skeleton-tree-child"
+    >
+      <div
+        className="c4 muya-skeleton-tree-square"
+      />
+      <div
+        className="c5 c6 muya-skeleton-tree-content"
+      />
+    </div>
+  </div>
+  <h3>
+    navigation 导航式骨架屏
+  </h3>
+  <div
+    className="c8"
+    style={
+      Object {
+        "width": "150px",
+      }
+    }
+  >
+    <div
+      className="c9 muya-skeleton-navigation-head"
+    >
+      <div
+        className="c10 muya-skeleton-navigation-square"
+      />
+      <div
+        className="c11 c12 muya-skeleton-navigation-node"
+      />
+    </div>
+    <div
+      className="c11 c12 muya-skeleton-navigation-node"
+    />
+    <div
+      className="c11 c12 muya-skeleton-navigation-node"
+    />
+    <div
+      className="c11 c12 muya-skeleton-navigation-node"
+    />
+    <div
+      className="c11 c12 muya-skeleton-navigation-node"
+    />
+    <div
+      className="c11 c12 muya-skeleton-navigation-node"
+    />
+    <div
+      className="c11 c12 muya-skeleton-navigation-node"
+    />
+  </div>
+  <h3>
+    paragraph 段落式骨架屏
+  </h3>
+  <div
+    className="c13"
+    style={
+      Object {
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="c14 muya-skeleton-paragraph-title"
+    />
+    <div
+      className="c15 muya-skeleton-paragraph"
+    />
+    <div
+      className="c15 muya-skeleton-paragraph"
+    />
+    <div
+      className="c15 muya-skeleton-paragraph"
+    />
+    <div
+      className="c15 muya-skeleton-paragraph"
+    />
+    <div
+      className="c15 muya-skeleton-paragraph"
+    />
+    <div
+      className="c15 muya-skeleton-paragraph"
+    />
+  </div>
+  <h3>
+    card 卡片式骨架屏
+  </h3>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <div
+      className="c16"
+      style={
+        Object {
+          "height": "180px",
+          "width": "220px",
+        }
+      }
+    >
+      <div
+        className="c17 muya-skeleton-card-content"
+      />
+      <div
+        className="c18 muya-skeleton-card-title"
+      />
+      <div
+        className="c19 muya-skeleton-card-desc"
+      />
+    </div>
+    <div
+      className="c16"
+      style={
+        Object {
+          "height": "180px",
+          "width": "220px",
+        }
+      }
+    >
+      <div
+        className="c17 muya-skeleton-card-content"
+      />
+      <div
+        className="c18 muya-skeleton-card-title"
+      />
+      <div
+        className="c19 muya-skeleton-card-desc"
+      />
+    </div>
+    <div
+      className="c16"
+      style={
+        Object {
+          "height": "180px",
+          "width": "220px",
+        }
+      }
+    >
+      <div
+        className="c17 muya-skeleton-card-content"
+      />
+      <div
+        className="c18 muya-skeleton-card-title"
+      />
+      <div
+        className="c19 muya-skeleton-card-desc"
+      />
+    </div>
+    <div
+      className="c16"
+      style={
+        Object {
+          "height": "180px",
+          "width": "220px",
+        }
+      }
+    >
+      <div
+        className="c17 muya-skeleton-card-content"
+      />
+      <div
+        className="c18 muya-skeleton-card-title"
+      />
+      <div
+        className="c19 muya-skeleton-card-desc"
+      />
+    </div>
+  </div>
+</div>
+`;

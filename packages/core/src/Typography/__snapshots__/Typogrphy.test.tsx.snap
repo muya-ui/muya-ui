@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept color and fontSize 1`] = `
+.c0 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+<span
+  className="c0"
+  color="assistant"
+  fontSize="s6"
+>
+  TestTestTestTestTest
+</span>
+`;
+
+exports[`should accept color and fontSize 2`] = `
+.c0 {
+  padding: 0;
+  color: rgba(187,187,187,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+<p
+  className="c0"
+  color="secondary"
+  fontSize="s3"
+>
+  TestTestTestTestTest
+</p>
+`;
+
+exports[`should render correctly 1`] = `
+.c0 {
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+<span
+  className="c0"
+>
+  Test
+</span>
+`;

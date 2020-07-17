@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试渲染 1`] = `
+.c0 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c2:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c2:active {
+  color: rgba(179,179,179,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  我是一个图标按钮
+</button>
+`;

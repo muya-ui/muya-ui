@@ -1,0 +1,45 @@
+---
+name: AutoComplete 自动完成
+menu: 组件
+route: /components/auto-complete
+autoDemos: true
+parent: 数据录入
+---
+
+import { DocAutoCompleteStyle } from './demos/styled';
+
+<DocAutoCompleteStyle />
+
+# AutoComplete 自动完成
+
+对输入信息进行联想补足的控件
+
+## 使用场景
+
+- 输入信息较为不精准，保证输入精准度，建议使用；
+- 输入信息较为复杂，提升输入的效率，建议使用；
+- 提供联想，引导更多内容的曝光，建议使用；
+- 对输入的结果需要提前预知，建议使用。
+
+## 组件
+
+- `AutoComplete`: 自动完成组件
+- `AutoCompleteItem`: `AutoComplete` 支持第二字段，因此内置了支持第二字段的 item。当然也可以通过 `children` 完全自定义每个子节点。
+
+{Demos}
+
+### API
+
+### IAutoCompleteProps
+
+<Props propsName="IAutoCompleteProps" />
+
+### IAutoCompleteItemProps
+
+<Props propsName="IAutoCompleteItemProps" />
+
+### Styles
+
+#### IAutoCompleteStyleKeys
+
+<Styles typeName="IAutoCompleteStyleKeys" componentName="auto-complete" />

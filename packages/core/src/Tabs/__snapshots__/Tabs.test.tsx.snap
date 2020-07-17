@@ -1,0 +1,952 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 Tabs card 1`] = `
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(26,122,248,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c5:active {
+  color: rgba(12,108,235,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c10 + .c4 {
+  margin-left: 8px;
+}
+
+.c7 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(102,102,102,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c7:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c7:active {
+  color: rgba(12,108,235,1);
+}
+
+.c7 + .c4 {
+  margin-left: 8px;
+}
+
+.c11 .c4 {
+  min-height: 32px;
+  padding: 0 0 8px 0;
+}
+
+.c2 {
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid transparent;
+  margin-right: 0px;
+  border-color: rgba(238,238,238,1);
+  border-bottom: none;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: rgba(255,255,255,1);
+  z-index: 1;
+}
+
+.c2 .c4 {
+  height: 30px;
+  padding: 0 14px;
+  line-height: 1;
+}
+
+.c2:last-child {
+  border-top-right-radius: 2px;
+  margin-right: 0;
+}
+
+.c6 {
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid transparent;
+  margin-right: 0px;
+  background-color: rgba(248,248,248,1);
+  border-bottom-color: rgba(238,238,238,1);
+}
+
+.c6 .c4 {
+  height: 30px;
+  padding: 0 14px;
+  line-height: 1;
+}
+
+.c6:hover {
+  background-color: rgba(242,242,242,1);
+}
+
+.c6::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: -1px;
+  height: 14px;
+  width: 1px;
+  background: rgba(238,238,238,1);
+}
+
+.c6:last-child {
+  border-top-right-radius: 2px;
+  margin-right: 0;
+}
+
+.c8 {
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid transparent;
+  margin-right: 0px;
+  background-color: rgba(248,248,248,1);
+  border-bottom-color: rgba(238,238,238,1);
+}
+
+.c8 .c4 {
+  height: 30px;
+  padding: 0 14px;
+  line-height: 1;
+}
+
+.c8:hover {
+  background-color: rgba(242,242,242,1);
+}
+
+.c8:last-child {
+  border-top-right-radius: 2px;
+  margin-right: 0;
+}
+
+.c9 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: rgba(238,238,238,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c12 {
+  padding-bottom: 1px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  >
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c5 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </div>
+    <div
+      className="c6"
+    >
+      <button
+        className="c3 c4 c7 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </div>
+    <div
+      className="c8"
+    >
+      <button
+        className="c3 c4 c7 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </div>
+  </div>
+  <div
+    className="c9 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs card no tab 1`] = `
+.c2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: rgba(238,238,238,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c3 {
+  padding-bottom: 1px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  />
+  <div
+    className="c2 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs card no valid tab 1`] = `
+.c2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: rgba(238,238,238,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c3 {
+  padding-bottom: 1px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  />
+  <div
+    className="c2 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs empty 1`] = `
+.c2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: rgba(238,238,238,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c3 {
+  padding-bottom: 1px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  />
+  <div
+    className="c2 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs line 1`] = `
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(26,122,248,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c5:active {
+  color: rgba(12,108,235,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c6 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c6:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c6:active {
+  color: rgba(12,108,235,1);
+}
+
+.c6 + .c4 {
+  margin-left: 8px;
+}
+
+.c2 {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 32px;
+}
+
+.c2 .c4 {
+  min-height: 32px;
+  padding: 0 0 8px 0;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(238,238,238,1);
+  z-index: 2;
+}
+
+.c7::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: rgba(26,122,248,1);
+  width: 0px;
+  left: 0px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c8 {
+  padding: 0 0 8px 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  >
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c5 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </div>
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c6 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </div>
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c6 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </div>
+  </div>
+  <div
+    className="c7 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs line no tab 1`] = `
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(238,238,238,1);
+  z-index: 2;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: rgba(26,122,248,1);
+  width: 0px;
+  left: 0px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c3 {
+  padding: 0 0 8px 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  />
+  <div
+    className="c2 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs line no valid tab 1`] = `
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(238,238,238,1);
+  z-index: 2;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: rgba(26,122,248,1);
+  width: 0px;
+  left: 0px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c3 {
+  padding: 0 0 8px 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  />
+  <div
+    className="c2 muya-tabs-indicator"
+  />
+</div>
+`;
+
+exports[`测试 Tabs 自定义高度，文字水平居中 1`] = `
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(26,122,248,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c5:active {
+  color: rgba(12,108,235,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c6 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c6:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c6:active {
+  color: rgba(12,108,235,1);
+}
+
+.c6 + .c4 {
+  margin-left: 8px;
+}
+
+.c2 {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 32px;
+}
+
+.c2 .c4 {
+  min-height: 32px;
+  padding: 0 0 8px 0;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(238,238,238,1);
+  z-index: 2;
+}
+
+.c7::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: rgba(26,122,248,1);
+  width: 0px;
+  left: 0px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c8 {
+  padding: 0 0 8px 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-tabs-container"
+  >
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c5 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </div>
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c6 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </div>
+    <div
+      className="c2"
+    >
+      <button
+        className="c3 c4 c6 muya-tab-item"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </div>
+  </div>
+  <div
+    className="c7 muya-tabs-indicator"
+  />
+</div>
+`;

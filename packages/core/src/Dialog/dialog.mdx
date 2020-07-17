@@ -1,0 +1,121 @@
+---
+name: Dialog 对话框
+menu: 组件
+route: /components/dialog
+autoDemos: true
+parent: 反馈
+---
+
+# Dialog 对话框
+
+需要用户处理事务，又不希望跳转页面以致打断工作流程时，可以使用 Dialog 在当前页面正中打开一个浮层，承载相应的操作。
+
+## 使用场景
+
+1. 提醒型对话框: **仅包含一个行动点**
+2. 决策型对话框：**包含两个以上行动点；建议用户操作的行动点，如「确定」、「删除」。以及用户取消、忽略的行动点，如「取消」「跳过」**
+3. 功能型对话框: **承载复杂的业务操作，包含步骤条、表单、树、输入选择器等复杂组件**
+
+## Dialog.Alert 自动关闭逻辑
+
+自动关闭逻辑适用于`Dialog.Alert`、`Dialog.alert/success/error/warning/info`（基于 Dialog.Alert 实现）
+
+`Dialog.Alert`来有三个行动点: `onConfirm(确定按钮)`、`onCancel(取消按钮)`、`onClose(右上角叉)`，都可以触发自动关闭。
+
+`Dialog.Alert` 接受一个`closeFn`，在触发自动关闭时会调用`closeFn`来关闭弹窗。使用`Dialog.success`这类语法糖会默认传入`closeFn`。
+
+当触发了对应行动点事件时，自动关闭逻辑如下：
+
+1. 没有监听该事件，**调用 closeFn**
+2. 监听了该事件并返回`truthy`，**调用 closeFn**
+3. 监听了对应事件并返回`Promise`，先将对应行动点按钮设置为 loading 状态。`Promise` resolve 后 **调用 closeFn**
+
+看一下例子
+
+```tsx
+// 例子功能：
+// 点击确认，按钮变为加载态，请求成功后关闭弹窗
+// 点击取消，直接关闭弹窗
+
+// 使用Dialog.Alert，需要手动传入closeFn
+const closeFn = () => {
+  setOpen(false);
+};
+<Dialog.Alert closeFn={closeFn} onConfirm={() => axios.post('api')} />;
+
+// 使用Dialog.alert系列语法糖
+Dialog.info({
+  text: '111',
+  title: '标题',
+  onConfirm: () => axios.post('api'),
+});
+```
+
+## 组件
+
+- `Dialog.Base`：基础的对话框组件，使用`children`作为对话框内容，扩展性非常强。
+- `Dialog.Content`、`Dialog.Title`、`Dialog.actions`：对话框**展示型容器组件**，可以直接作为`Dialog.Base`的`children`传入。
+- `Dialog.Alert`: 提醒/决策型对话框组件，`type`有用四种类型，分别为`success`、`error`、`info`、`warning`。
+
+{Demos}
+
+### API
+
+#### IDialogBaseProps
+
+<Props propsName="IDialogBaseProps" />
+
+#### IDialogTitleProps
+
+<Props propsName="IDialogTitleProps" />
+
+#### IDialogContentProps
+
+<Props propsName="IDialogContentProps" />
+
+#### IDialogActionsProps
+
+<Props propsName="IDialogActionsProps" />
+
+#### IDialogAlertProps
+
+<Props propsName="IDialogAlertProps" />
+
+#### IDialogItem
+
+<Props propsName="IDialogItem" />
+
+### 语法糖类型
+
+`Dialog.alert/info/success/warning/error`: `(props?: IDialogAlertProps) => IDialogItem`;
+
+### Styles
+
+#### IDialogAlertStyleKeys
+
+<Styles typeName="IDialogAlertStyleKeys" componentName="dialog-alert" />
+
+### FAQ
+
+Q: Dialog 容器样式如何自定义？
+
+1. dialogContainerProps：设置 DialogContainer 的属性，传入 style、className 即可
+2. customDialogContainer：自定义容器的节点。
+
+虽然提供了 Dialog 容器样式的覆盖方式，但我们还是建议先与视觉沟通，使用组件库预置的尺寸。或者考虑通过主题来定制默认尺寸
+
+## 最佳实践
+
+1. **新建一个`boolean`类型的`state`传给`Dialog`的`open`属性，便于控制展示/隐藏状态**
+2. **设置内容区域的大小，合理使用`size`、`fullWidth`、`fullScreen`**
+
+- 对话框内容的自带样式，体现在`size`属性上。该属性可以传入`s`、`m`和`l`，默认为`l`。将`disableSize`置位`true`可以禁用自带的样式，此时对话框完全由内部元素撑开
+- 高度占满屏幕的对话框，将`fullWidth`设置为`true`
+- 全屏的对话框，将`fullScreen`设置为`true`(一个对话框就是一个页面!)
+
+3. **为对话框填充内容**。使用标准内容组件，或者传入自定义组件，一切由你决定
+
+4. **点击蒙层、用户按下 ESC 键时，是否要关闭弹窗或做一些特殊处理呢？传入`onClose`回调函数，它将在上述两个行为发生时被调用**
+
+- `disableMaskClick`、`disableEscapeKeyDown`是两个配置项，如果`disableMaskClick`为`true`，那么点击蒙层时不会触发`onClose`事件。另外一个配置项同理
+- `onMaskClick`、`onEscapeKeyDown`是两个可选的回调，它们**必定**会在点击蒙层/用户按下 ESC 键时被调用

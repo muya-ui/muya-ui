@@ -1,0 +1,1694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImgPreview 渲染 单图渲染 1`] = `
+.c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c18 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c14 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c14 + .c13 {
+  margin-left: 8px;
+}
+
+.c15 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c17 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,51,51,1);
+  cursor: pointer;
+  border-color: rgba(77,77,77,1);
+  border-width: 0;
+}
+
+.c17:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(77,77,77,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c17:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(38,38,38,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c17 + .c16 {
+  margin-left: 8px;
+}
+
+.c0 {
+  overflow: hidden auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+}
+
+.c9 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+.c8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  position: relative;
+  margin: auto;
+  width: 1180px;
+  height: 700px;
+  margin-top: 28px;
+  -webkit-transition: height 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: height 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c6 .c7::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c6 .c7::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c6 .c7:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c6 .c7:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c10 {
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 14px);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-size: contain;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  height: 100%;
+}
+
+.c11 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c5 {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.c5::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c5::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c5:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c5:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c12 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 28px;
+  margin: auto;
+  z-index: 1;
+}
+
+.c2 {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="c1 muya-img-preview-wrapper"
+  >
+    <div
+      className="c2 muya-img-preview-close-icon-wrapper"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        color="rgba(204,204,204,1)"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c4 muya-img-preview-img-layer"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 muya-img-preview-img-container"
+        >
+          <div
+            className="c7 c8 muya-img-preview-img-wrapper"
+          >
+            <div
+              className="c9 c10 muya-img-preview-img muya-img-loading"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c11"
+    />
+    <div
+      className="c12"
+    >
+      <div
+        className="c13 c14"
+      >
+        <button
+          className="c15 c16 c17"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="false"
+            className="c18"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zm247.872 23.872a21.333 21.333 0 0121.334 21.334V384H608a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512h-85.333v85.333a21.333 21.333 0 01-21.334 21.334H416a21.333 21.333 0 01-21.333-21.334V512h-85.334A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384h85.334v-85.333A21.333 21.333 0 01416 277.333h85.333z"
+            />
+          </svg>
+        </button>
+        <button
+          className="c15 c16 c17"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="false"
+            className="c18"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zM608 384a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512H309.333A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384H608z"
+            />
+          </svg>
+        </button>
+        <button
+          className="c15 c16 c17"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="false"
+            className="c18"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M192 42.667h192V192h-86.4l162.048 162.048-105.6 105.6L192 297.589V384H42.667V64A21.333 21.333 0 0164 42.667h128zM981.333 832v128A21.333 21.333 0 01960 981.333H640V832h86.4L564.363 669.952l105.6-105.6L832 726.411V640h149.333v192zm0-640v192H832v-86.4L669.952 459.637l-105.6-105.6L726.411 192H640V42.667h320A21.333 21.333 0 01981.333 64v128zM42.667 832V640H192v86.4l162.048-162.048 105.6 105.6L297.589 832H384v149.333H64A21.333 21.333 0 0142.667 960V832z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ImgPreview 渲染 多图渲染 1`] = `
+.c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c13 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c0 {
+  overflow: hidden auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+}
+
+.c9 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+.c17 {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.c18 {
+  position: relative;
+  -webkit-transition: -webkit-transform 450ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-transition: transform 450ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 450ms cubic-bezier(0.4,0,0.2,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100000px;
+  height: 100%;
+}
+
+.c8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c21 .c7::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c21 .c7::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c21 .c7:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c21 .c7:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c6 {
+  position: relative;
+  margin: auto;
+  width: 1184px;
+  height: 704px;
+  margin-top: 28px;
+  -webkit-transition: height 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: height 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c6 .c7 {
+  overflow: auto;
+}
+
+.c6 .c7::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c6 .c7::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c6 .c7:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c6 .c7:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c10 {
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 14px);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-size: contain;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  height: 100%;
+}
+
+.c11 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c5 {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.c5::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c5::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c5:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c5:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c2 {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.c12 {
+  position: absolute;
+  top: calc(28px + 350px);
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  font-size: 40px;
+  color: rgba(255,255,255,1);
+  cursor: pointer;
+  opacity: 0.3;
+  cursor: not-allowed;
+  left: 20px;
+}
+
+.c12:hover {
+  opacity: 0.5;
+}
+
+.c12:hover {
+  opacity: 0.3;
+}
+
+.c14 {
+  position: absolute;
+  top: calc(28px + 350px);
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  font-size: 40px;
+  color: rgba(255,255,255,1);
+  cursor: pointer;
+  opacity: 0.3;
+  cursor: not-allowed;
+  right: 20px;
+}
+
+.c14:hover {
+  opacity: 0.5;
+}
+
+.c14:hover {
+  opacity: 0.3;
+}
+
+.c15 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-sizing: border-box;
+  width: 1180px;
+  height: 120px;
+  padding: 28px 0;
+}
+
+.c19 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-right: 12px;
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c19::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+}
+
+.c16 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+  margin: 0;
+  border: none;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  font-size: 14px;
+  width: 20px;
+  height: 32px;
+  border-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.3);
+  cursor: not-allowed;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  width: 30px;
+  height: 48px;
+  font-size: 18px;
+  left: -42px;
+}
+
+.c20 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+  margin: 0;
+  border: none;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  font-size: 14px;
+  width: 20px;
+  height: 32px;
+  border-radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.3);
+  cursor: not-allowed;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  width: 30px;
+  height: 48px;
+  font-size: 18px;
+  right: -42px;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="c1 muya-img-preview-wrapper"
+  >
+    <div
+      className="c2 muya-img-preview-close-icon-wrapper"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        color="rgba(204,204,204,1)"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c4 muya-img-preview-img-layer"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 muya-img-preview-img-container"
+        >
+          <div
+            className="c7 c8 muya-img-preview-img-wrapper"
+          >
+            <div
+              className="c9 c10 muya-img-preview-img muya-img-loading"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c11"
+    />
+    <div
+      className="c12"
+    >
+      <svg
+        aria-hidden="false"
+        className="c13"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c14"
+    >
+      <svg
+        aria-hidden="false"
+        className="c13"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c15 muya-img-preview-pagination-wrapper"
+    >
+      <button
+        className="c16 muya-img-preview-pagination-button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="false"
+          className="c13"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+          />
+        </svg>
+      </button>
+      <div
+        className="c17"
+      >
+        <div
+          className="c18 muya-swipe-panel"
+          onTransitionEnd={[Function]}
+          style={
+            Object {
+              "transform": "translate(0px, 0)",
+            }
+          }
+        >
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={0}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={1}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={2}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={3}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={4}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={5}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={6}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={7}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={8}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={9}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={10}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={11}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={12}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={13}
+            onClick={[Function]}
+          />
+          <div
+            className="c9 c19 muya-img-preview-pagination-img muya-img-loading"
+            data-i={14}
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+      <button
+        className="c20 muya-img-preview-pagination-button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="false"
+          className="c13"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ImgPreview 渲染 异步渲染 1`] = `
+.c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c6 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c7 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  overflow: hidden auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c2 {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="c1 muya-img-preview-wrapper"
+  >
+    <div
+      className="c2 muya-img-preview-close-icon-wrapper"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        color="rgba(204,204,204,1)"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c4"
+    >
+      <span
+        className="c5"
+        direction="column"
+      >
+        <span
+          className=""
+        >
+          <svg
+            aria-hidden="false"
+            className="c6 c7"
+            focusable="false"
+            preserveAspectRatio="xMidYMid"
+            viewBox="0 0 100 100"
+          >
+            <circle
+              cx="50"
+              cy="50"
+              fill="none"
+              r="45"
+              stroke="rgba(255,255,255,1)"
+              strokeLinecap="round"
+              strokeWidth="10"
+              transform="rotate(144 50 50)"
+            />
+          </svg>
+        </span>
+        <span />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ImgPreview 渲染 渲染出错 1`] = `
+.c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c0 {
+  overflow: hidden auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+}
+
+.c8 {
+  padding: 0;
+  color: rgba(153,153,153,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c5 {
+  text-align: center;
+}
+
+.c6 {
+  margin-right: 0px;
+  height: 180px;
+}
+
+.c7 {
+  margin-top: 8px;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c2 {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="c1 muya-img-preview-wrapper"
+  >
+    <div
+      className="c2 muya-img-preview-close-icon-wrapper"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        color="rgba(204,204,204,1)"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 muya-result-icon"
+        >
+          <img
+            alt=""
+            src="//qhstaticssl.kujiale.com/newt/100759/image/svgxml/1573020737659/28AD5A0CE2237E2987B3D751C4C5BA83.svg"
+            width={180}
+          />
+        </div>
+        <div
+          className="muya-result-content"
+        >
+          <div
+            className="c7 muya-result-sub-title"
+          >
+            <p
+              className="c8"
+              color="assistant"
+              fontSize="s1"
+            >
+              暂无数据
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ImgPreview 渲染 自定义节点渲染 1`] = `
+.c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c18 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c14 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c14 + .c13 {
+  margin-left: 8px;
+}
+
+.c15 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c17 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,51,51,1);
+  cursor: pointer;
+  border-color: rgba(77,77,77,1);
+  border-width: 0;
+}
+
+.c17:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(77,77,77,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c17:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(38,38,38,1);
+  border-color: rgba(77,77,77,1);
+}
+
+.c17 + .c16 {
+  margin-left: 8px;
+}
+
+.c0 {
+  overflow: hidden auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+}
+
+.c9 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+.c8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  position: relative;
+  margin: auto;
+  width: 1180px;
+  height: 700px;
+  margin-top: 28px;
+  -webkit-transition: height 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: height 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c6 .c7::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c6 .c7::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c6 .c7:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c6 .c7:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c19 .c7 {
+  overflow: auto;
+}
+
+.c19 .c7::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c19 .c7::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c19 .c7:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c19 .c7:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c10 {
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 14px);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-size: contain;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  height: 100%;
+}
+
+.c11 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c5 {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.c5::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c5::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c5:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c5:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c12 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 28px;
+  margin: auto;
+  z-index: 1;
+}
+
+.c2 {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+    }
+  }
+  tabIndex={-1}
+>
+  <div
+    className="c1 muya-img-preview-wrapper"
+  >
+    <div
+      className="c2 muya-img-preview-close-icon-wrapper"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        color="rgba(204,204,204,1)"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c4 muya-img-preview-img-layer"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 muya-img-preview-img-container"
+        >
+          <div
+            className="c7 c8 muya-img-preview-img-wrapper"
+          >
+            <div
+              className="c9 c10 muya-img-preview-img muya-img-loading"
+            >
+              <div>
+                renderInImgNode
+              </div>
+            </div>
+          </div>
+          <div>
+            renderInImgContainer
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c11"
+    />
+    <div
+      className="c12"
+    >
+      <div
+        className="c13 c14"
+      >
+        <button
+          className="c15 c16 c17"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="false"
+            className="c18"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zm247.872 23.872a21.333 21.333 0 0121.334 21.334V384H608a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512h-85.333v85.333a21.333 21.333 0 01-21.334 21.334H416a21.333 21.333 0 01-21.333-21.334V512h-85.334A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384h85.334v-85.333A21.333 21.333 0 01416 277.333h85.333z"
+            />
+          </svg>
+        </button>
+        <button
+          className="c15 c16 c17"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="false"
+            className="c18"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zM608 384a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512H309.333A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384H608z"
+            />
+          </svg>
+        </button>
+        <button
+          className="c15 c16 c17"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="false"
+            className="c18"
+            focusable="false"
+            viewBox="0 0 1024 1024"
+          >
+            <path
+              d="M192 42.667h192V192h-86.4l162.048 162.048-105.6 105.6L192 297.589V384H42.667V64A21.333 21.333 0 0164 42.667h128zM981.333 832v128A21.333 21.333 0 01960 981.333H640V832h86.4L564.363 669.952l105.6-105.6L832 726.411V640h149.333v192zm0-640v192H832v-86.4L669.952 459.637l-105.6-105.6L726.411 192H640V42.667h320A21.333 21.333 0 01981.333 64v128zM42.667 832V640H192v86.4l162.048-162.048 105.6 105.6L297.589 832H384v149.333H64A21.333 21.333 0 0142.667 960V832z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <button>
+      renderCustomPageButton
+    </button>
+  </div>
+</div>
+`;

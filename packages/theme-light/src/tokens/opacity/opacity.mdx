@@ -1,0 +1,28 @@
+---
+name: 不透明度
+menu: 设计系统
+route: /design-token/opacity
+---
+
+import OpacitySpec from './demos/opacitySpec';
+import OpacityPattern from './demos/opacityPattern';
+
+# 不透明度
+
+## 规格
+
+默认定义了九种规格的不透明度，0 和 1 的情况不作为 token，可直接写死。
+
+<ThemeProvider>
+  <OpacitySpec />
+</ThemeProvider>
+
+## 模式
+
+- 蒙层色：`colors.spec.dark` 色 + `s2` 规格不透明度
+- 蒙层按钮：`colors.spec.dark` 色 + `s3` 规格不透明度
+- 禁用状态：统一使用 `s4` 规格不透明度
+
+<ThemeProvider>
+  <OpacityPattern />
+</ThemeProvider>

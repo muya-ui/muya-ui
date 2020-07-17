@@ -1,0 +1,2106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsInput should render correctly 1`] = `
+Array [
+  .c2 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c0 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c12 {
+  right: 12px;
+}
+
+.c0 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 input[readonly] {
+  cursor: pointer;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c7 {
+  font-size: 12px;
+}
+
+.c0 .c3 {
+  height: 30px;
+}
+
+.c0 .c3 .c5 {
+  margin-bottom: 0;
+}
+
+.c0 .c11 {
+  max-width: 208px;
+}
+
+.c9 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c9 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c9 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c9 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c9 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c9 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c9 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c9 .c7 {
+  font-size: 12px;
+}
+
+.c9 .c3 {
+  height: 30px;
+}
+
+.c9 .c3 .c5 {
+  margin-bottom: 0;
+}
+
+.c10 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c10 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c10 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c10 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c10 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c10 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c10 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c10 .c7 {
+  font-size: 12px;
+}
+
+<div
+    className="c0 muya-tags-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1 c2 muya-tags-input-content-wrapper"
+    >
+      <div
+        className="c3 c4 muya-tags-input-tags-wrapper"
+      >
+        <input
+          autoFocus={false}
+          className="c5 c6 muya-tags-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="c7 c8"
+        />
+      </div>
+    </div>
+  </div>,
+  .c2 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c9 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c9 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c9 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c9 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c9 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c9 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c9 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c9 .c7 {
+  font-size: 12px;
+}
+
+.c9 .c3 {
+  height: 30px;
+}
+
+.c9 .c3 .c5 {
+  margin-bottom: 0;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+  background: rgba(250,250,250,1);
+  border: 1px solid rgba(221,221,221,1);
+  cursor: not-allowed;
+}
+
+.c0 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c12 {
+  right: 12px;
+}
+
+.c0 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 input[readonly] {
+  cursor: not-allowed;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c7 {
+  font-size: 12px;
+}
+
+.c0 .c3 {
+  height: 30px;
+}
+
+.c0 .c3 .c5 {
+  margin-bottom: 0;
+}
+
+.c0 .c11 {
+  max-width: 208px;
+}
+
+.c10 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c10 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c10 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c10 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c10 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c10 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c10 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c10 .c7 {
+  font-size: 12px;
+}
+
+<div
+    className="c0 muya-tags-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1 c2 muya-tags-input-content-wrapper"
+    >
+      <div
+        className="c3 c4 muya-tags-input-tags-wrapper"
+      >
+        <input
+          autoFocus={false}
+          className="c5 c6 muya-tags-input-input"
+          disabled={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="c7 c8"
+        />
+      </div>
+    </div>
+  </div>,
+  .c9 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c8 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(204,204,204,1);
+}
+
+.c8:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c8:active {
+  color: rgba(179,179,179,1);
+}
+
+.c8 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 8px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 2px;
+  cursor: default;
+  vertical-align: middle;
+  margin: 0 4px 4px 0;
+  height: 22px;
+  line-height: 22px;
+}
+
+.c6 .c7 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c14 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c14 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c14 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c14 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c14 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c14 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c14 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c14 .c12 {
+  font-size: 12px;
+}
+
+.c14 .c3 {
+  height: 30px;
+}
+
+.c14 .c3 .c10 {
+  margin-bottom: 0;
+}
+
+.c14 .c5 {
+  max-width: 208px;
+}
+
+.c15 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c15 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c15 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c15 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c15 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c15 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c15 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c15 .c12 {
+  font-size: 12px;
+}
+
+.c15 .c3 {
+  height: 30px;
+}
+
+.c15 .c3 .c10 {
+  margin-bottom: 0;
+}
+
+.c15 .c5 {
+  max-width: 208px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+  padding: 4px 4px 0 4px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c0 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c16 {
+  right: 12px;
+}
+
+.c0 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 input[readonly] {
+  cursor: pointer;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c12 {
+  font-size: 12px;
+}
+
+.c0 .c5 {
+  max-width: 208px;
+}
+
+<div
+    className="c0 muya-tags-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1 c2 muya-tags-input-content-wrapper"
+    >
+      <div
+        className="c3 c4 muya-tags-input-tags-wrapper"
+      >
+        <span
+          className="c5 c6 muya-tags-input-tag"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transitionDuration": "300ms",
+              "transitionProperty": "opacity",
+              "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+            }
+          }
+        >
+          <span
+            className="c7 muya-tag-children-wrapper"
+          >
+            ss
+          </span>
+          <span
+            className="c8 muya-tag-close-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c9"
+              focusable="false"
+              onClick={[Function]}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="c5 c6 muya-tags-input-tag"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transitionDuration": "300ms",
+              "transitionProperty": "opacity",
+              "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+            }
+          }
+        >
+          <span
+            className="c7 muya-tag-children-wrapper"
+          >
+            sss
+          </span>
+          <span
+            className="c8 muya-tag-close-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c9"
+              focusable="false"
+              onClick={[Function]}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+              />
+            </svg>
+          </span>
+        </span>
+        <input
+          autoFocus={false}
+          className="c10 c11 muya-tags-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="c12 c13"
+        />
+      </div>
+    </div>
+  </div>,
+  .c9 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c8 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(204,204,204,1);
+}
+
+.c8:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c8:active {
+  color: rgba(179,179,179,1);
+}
+
+.c8 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 8px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 2px;
+  cursor: default;
+  vertical-align: middle;
+  margin: 0 4px 4px 0;
+  height: 22px;
+  line-height: 22px;
+}
+
+.c6 .c7 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c14 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c14 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c14 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c14 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c14 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c14 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c14 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c14 .c12 {
+  font-size: 12px;
+}
+
+.c14 .c3 {
+  height: 30px;
+}
+
+.c14 .c3 .c10 {
+  margin-bottom: 0;
+}
+
+.c14 .c5 {
+  max-width: 208px;
+}
+
+.c15 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c15 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c15 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c15 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c15 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c15 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c15 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c15 .c12 {
+  font-size: 12px;
+}
+
+.c15 .c3 {
+  height: 30px;
+}
+
+.c15 .c3 .c10 {
+  margin-bottom: 0;
+}
+
+.c15 .c5 {
+  max-width: 208px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+  padding: 4px 4px 0 4px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c0 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c16 {
+  right: 12px;
+}
+
+.c0 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 input[readonly] {
+  cursor: pointer;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c12 {
+  font-size: 12px;
+}
+
+.c0 .c5 {
+  max-width: 208px;
+}
+
+<div
+    className="c0 muya-tags-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1 c2 muya-tags-input-content-wrapper"
+    >
+      <div
+        className="c3 c4 muya-tags-input-tags-wrapper"
+      >
+        <span
+          className="c5 c6 muya-tags-input-tag"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transitionDuration": "300ms",
+              "transitionProperty": "opacity",
+              "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+            }
+          }
+        >
+          <span
+            className="c7 muya-tag-children-wrapper"
+          >
+            ss
+          </span>
+          <span
+            className="c8 muya-tag-close-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c9"
+              focusable="false"
+              onClick={[Function]}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="c5 c6 muya-tags-input-tag"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transitionDuration": "300ms",
+              "transitionProperty": "opacity",
+              "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+            }
+          }
+        >
+          <span
+            className="c7 muya-tag-children-wrapper"
+          >
+            sss
+          </span>
+          <span
+            className="c8 muya-tag-close-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c9"
+              focusable="false"
+              onClick={[Function]}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+              />
+            </svg>
+          </span>
+        </span>
+        <input
+          autoFocus={false}
+          className="c10 c11 muya-tags-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="c12 c13"
+        />
+      </div>
+    </div>
+  </div>,
+  .c9 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c8 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(204,204,204,1);
+}
+
+.c8:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c8:active {
+  color: rgba(179,179,179,1);
+}
+
+.c8 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 8px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 2px;
+  cursor: default;
+  vertical-align: middle;
+  margin: 0 4px 4px 0;
+  height: 22px;
+  line-height: 22px;
+}
+
+.c6 .c7 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c14 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c14 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c14 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c14 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c14 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c14 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c14 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c14 .c12 {
+  font-size: 12px;
+}
+
+.c14 .c3 {
+  height: 30px;
+}
+
+.c14 .c3 .c10 {
+  margin-bottom: 0;
+}
+
+.c14 .c5 {
+  max-width: 208px;
+}
+
+.c15 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c15 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c15 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c15 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c15 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c15 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c15 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c15 .c12 {
+  font-size: 12px;
+}
+
+.c15 .c3 {
+  height: 30px;
+}
+
+.c15 .c3 .c10 {
+  margin-bottom: 0;
+}
+
+.c15 .c5 {
+  max-width: 208px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+  padding: 4px 4px 0 4px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c0 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c16 {
+  right: 12px;
+}
+
+.c0 .c10 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 input[readonly] {
+  cursor: pointer;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c12 {
+  font-size: 12px;
+}
+
+.c0 .c5 {
+  max-width: 208px;
+}
+
+<div
+    className="c0 muya-tags-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1 c2 muya-tags-input-content-wrapper"
+    >
+      <div
+        className="c3 c4 muya-tags-input-tags-wrapper"
+      >
+        <span
+          className="c5 c6 muya-tags-input-tag"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transitionDuration": "300ms",
+              "transitionProperty": "opacity",
+              "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+            }
+          }
+        >
+          <span
+            className="c7 muya-tag-children-wrapper"
+          >
+            label: ss
+          </span>
+          <span
+            className="c8 muya-tag-close-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c9"
+              focusable="false"
+              onClick={[Function]}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="c5 c6 muya-tags-input-tag"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transitionDuration": "300ms",
+              "transitionProperty": "opacity",
+              "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+            }
+          }
+        >
+          <span
+            className="c7 muya-tag-children-wrapper"
+          >
+            label: sss
+          </span>
+          <span
+            className="c8 muya-tag-close-icon"
+          >
+            <svg
+              aria-hidden="false"
+              className="c9"
+              focusable="false"
+              onClick={[Function]}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+              />
+            </svg>
+          </span>
+        </span>
+        <input
+          autoFocus={false}
+          className="c10 c11 muya-tags-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="c12 c13"
+        />
+      </div>
+    </div>
+  </div>,
+  .c2 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c10 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c0 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c0 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c0 .c9 {
+  right: 12px;
+}
+
+.c0 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 input[readonly] {
+  cursor: pointer;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 .c7 {
+  font-size: 12px;
+}
+
+.c0 .c3 {
+  height: 30px;
+}
+
+.c0 .c3 .c5 {
+  margin-bottom: 0;
+}
+
+.c0 .c13 {
+  max-width: 208px;
+}
+
+.c11 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+}
+
+.c11 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c11 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c11 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c11 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c11 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c11 .c9 {
+  right: 12px;
+}
+
+.c11 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c11 .c7 {
+  font-size: 12px;
+}
+
+.c11 .c3 {
+  height: 30px;
+}
+
+.c11 .c3 .c5 {
+  margin-bottom: 0;
+}
+
+.c12 .c1 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c12 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c12 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c12 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c12 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c12 .c1::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c12 .c9 {
+  right: 12px;
+}
+
+.c12 .c5 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c12 .c7 {
+  font-size: 12px;
+}
+
+<div
+    className="c0 muya-tags-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1 c2 muya-tags-input-content-wrapper"
+    >
+      <div
+        className="c3 c4 muya-tags-input-tags-wrapper"
+      >
+        <input
+          autoFocus={false}
+          className="c5 c6 muya-tags-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="c7 c8"
+        />
+      </div>
+    </div>
+    <div
+      className="c9 c10"
+    >
+      ss
+    </div>
+  </div>,
+]
+`;

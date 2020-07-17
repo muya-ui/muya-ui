@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c2 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c4:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c4:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c4 + .c3 {
+  margin-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 14px 24px 14px 24px;
+}
+
+.c1.c1 > * + * {
+  margin-left: 8px;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    <button
+      className="c2 c3 c4"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Test
+    </button>
+  </span>
+</div>
+`;

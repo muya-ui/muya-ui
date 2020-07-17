@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<img
+  src="https://qhstaticssl.kujiale.com/newt/29/image/png/1564467685432/EB6BD3A294454A98A65AF964C7666D94.png"
+  style={
+    Object {
+      "height": "80%",
+      "opacity": 1,
+      "transitionDuration": "300ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      "width": "80%",
+    }
+  }
+/>
+`;

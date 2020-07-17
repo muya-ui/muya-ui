@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`options 不合法渲染 1`] = `
+Array [
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 36px;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c1 {
+  margin: 0 4px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 36px;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c1 {
+  margin: 0 4px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`styles 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 36px;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c1 {
+  margin: 0 4px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`一般情况 1`] = `
+.c1 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c3 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(26,122,248,1);
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c3:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c3:active {
+  color: rgba(12,108,235,1);
+}
+
+.c3 + .c2 {
+  margin-left: 8px;
+}
+
+.c4 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(221,221,221,1);
+  font-weight: 400;
+  font-size: 12px;
+  cursor: not-allowed;
+}
+
+.c4 + .c2 {
+  margin-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 36px;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c2 {
+  margin: 0 4px;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1 c2 c3 muya-calendar-footer-option"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    test
+  </button>
+  <button
+    className="c1 c2 c4 muya-calendar-footer-option"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    test
+  </button>
+</div>
+`;

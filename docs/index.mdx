@@ -1,0 +1,150 @@
+---
+name: Muya UI
+route: /
+---
+
+import VersionTable from './version.tsx';
+
+# Muya UI
+
+[![private npm version](http://npm-registry.qunhequnhe.com:7002/badge/v/@muya-ui/core.svg?style=flat)](http://npm-registry.qunhequnhe.com:7002/package/@muya-ui/core) [![coverage report](https://gitlab.qunhequnhe.com/muya-ui/muya-ui/badges/master/coverage.svg)](./public/coverage/index.html)
+
+Kujiale UI design language and React components implementation
+
+## 安装
+
+我们推荐使用 npm 或 yarn 的方式进行开发，不仅可在开发环境轻松调试，也可放心地在生产环境打包部署使用，享受整个生态圈和工具链带来的诸多好处。
+
+```shell
+yarn add @muya-ui/core
+```
+
+```shell
+npm install @muya-ui/core --save
+```
+
+> 注意：如果使用的是 0.4.0 及以上的版本，还需要通过 `yarn add styled-components @types/styled-components` 安装 `styled-components` 的依赖。
+
+## 示例
+
+```tsx
+import { Button } from '@muya-ui/core';
+ReactDOM.render(<Button>Click Me</Button>, mountNode);
+```
+
+## 全局样式
+
+主题包默认提供了 `GlobalStyles` 和 `FontPenrose` 组件，功能包含：
+
+- `normalize.css`；
+- `Penrose` 字体；
+- 滚动条样式重置；
+
+```
+import { GlobalStyles, FontPenrose } from '@muya-ui/theme-light';
+
+// 加在最前面
+// Penrose 字体
+<FontPenrose />
+// 全局样式重置，默认只设置字体。normalize 默认为 true，会引入 normalize.css。
+<GlobalStyles />
+// 可以设置 normalize 为 false，禁用引入 normalize.css。
+<GlobalStyles normalize={false} />
+// 可以设置 resetScrollBar 为 true，开启滚动条样式重置，默认为 false。
+<GlobalStyles resetScrollBar={true} />
+```
+
+设置了 `normalize={true}` 将使用 [styled-normalize](https://github.com/sergeysova/styled-normalize)
+
+## 按需加载
+
+对于已经启用 Tree Shaking 的工程，无需任何配置，即可实现按需加载。
+
+> 如何判断工程是否启用 Tree Shaking：对于 webpack 来说，在设置了 mode 为 `production` 后，会自动对 Es6 模块启用 Tree Shaking。
+
+以下内容仅针对未启用 Tree Shaking 的工程。
+
+第一步：安装相关依赖。
+
+```shell
+yarn add @qunhe/muya-import babel-plugin-import -D
+```
+
+```shell
+npm install @qunhe/muya-import babel-plugin-import --save-dev
+```
+
+第二步在 `babel.config.js` 中添加配置：
+
+```js
+const muyaImport = require('@qunhe/muya-import');
+
+module.exports = api => {
+  return {
+    plugins: [
+      // ...
+    ].concat(muyaImport('es')),
+  };
+};
+```
+
+PS: 如果 `.babelrc.js` 未生效，请在 Webpack 中进行如下配置，另外 `.babelrc` 不能使用按需加载
+
+```js
+use: [
+  {
+    loader: 'babel-loader',
+    options: require('babelrc 路径'),
+  },
+];
+```
+
+> 注意点：在 `styled-components` 中使用 muya-ui 的组件作为选择器时，该组件的 `import` 会被 Tree Shaking 掉，导致构建报错。建议使用 `className` 或者 `styled(Img)` 这样的形式来代替。
+
+## 如何贡献
+
+### 分支管理
+
+仓库长期维护一个稳定分支 `master`，该分支发布的是当前最新 `minor` 版本的正式版。
+
+另外我们还维护 `stable/0.1.x`、`stable/0.2.x` 等分支，用于维护对应 `minor` 版本，直至没有组使用后，该分支会被废弃。`master` 相当于一个特殊的 `stable` 分支。
+
+除了 `master` 和 `stable/x.x.x` 分支外，还提供一类 `release/x.x.x` 临时分支，用于发布 `alpha` 版本验证，验证通过后合并到对应的 `stable/x.x.x` 分支或 `master` 分支。
+
+如果你要在某个 `minor` 版本开发功能请基于对应的 `stable/x.x.x` 分支新建一个分支，然后发起 `merge request` 将分支合并到对应的 `release/x.x.x` 分支。
+
+如果你要在某个 `minor` 版本修复 bug，请基于对应的 `stable/x.x.x` 分支新建一个分支，然后发起 `merge request` 将分支合并到对应的 `release/x.x.x` 分支。
+
+### 开发流程
+
+在你 clone 了代码仓库之后，首先需要安装依赖：
+
+```bash
+~ yarn all
+// or
+~ npm run all
+```
+
+接下来，你可以运行下面几个常用的命令：
+
+1. `yarn dev` 在本地运行 Muya UI 的网站
+2. `yarn test`，`yarn test:watch` 运行单元测试
+3. `yarn lint` 运行代码检查
+4. `yarn build` 编译源代码，产出 `commonjs` 和 `esm` 两个版本的代码
+
+### 主题图标升级
+
+总共分两个步骤：
+
+1. 拉取 iconfont 对应项目的 svg 图标，执行`yarn fetch:icons -p ${iconfont-pid}`，项目 pid 可以在根目录的`package.json`下的`kjlIcon`中找到。若不指定 pid，则会拉取所有项目的图标
+2. 构建 svg 图标至 ts 文件，根目录执行`yarn build:icons`即可
+
+示例: 更新 coohom 主题的图标
+
+```bash
+yarn fetch:icons -p 909371 && yarn build:icons
+```
+
+### 包版本（版本升级助手）
+
+<VersionTable />

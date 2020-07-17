@@ -1,0 +1,2883 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Snapshots should be matched in the base case 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 8px;
+  fill: currentColor;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.c3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c3 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c3:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c3:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c3:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c6 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c6:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c7 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c7:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c1:hover {
+  background-color: rgba(248,248,248,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c1:active {
+  background-color: rgba(248,248,248,1);
+  border: none;
+}
+
+.c5 {
+  display: block;
+}
+
+<ul
+  className="c0 muya-pagination-wrapper"
+>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+      />
+    </svg>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      1
+    </a>
+  </li>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+      />
+    </svg>
+  </li>
+</ul>
+`;
+
+exports[`Snapshots normal different size 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 8px;
+  fill: currentColor;
+}
+
+.c14 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 32px;
+}
+
+.c14:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c8 {
+  width: 160px;
+  height: 28px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 28px;
+}
+
+.c8:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c20 {
+  width: 320px;
+  height: 40px;
+  padding: 0 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 40px;
+}
+
+.c20:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c26 {
+  width: 480px;
+  height: 48px;
+  padding: 0 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 48px;
+}
+
+.c26:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c10 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c10::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c10::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c10::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c10:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c10::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c22 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 14px;
+  line-height: 20px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c22::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c22::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c22::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c22:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c22::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.c12 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c12 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c12:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c12:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c12:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c27 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c27:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c28 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c28:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 28px;
+  min-width: 28px;
+  line-height: 28px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c3 .c4 {
+  padding: 0 6px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c3:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c3:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c3:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c17 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 40px;
+  min-width: 40px;
+  line-height: 40px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c17 .c4 {
+  padding: 0 10px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c17:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c17:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c17:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c24 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 48px;
+  min-width: 48px;
+  line-height: 48px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c24 .c4 {
+  padding: 0 12px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c24:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c24:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c24:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c11 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c11:hover {
+  background-color: rgba(248,248,248,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c11:active {
+  background-color: rgba(248,248,248,1);
+  border: none;
+}
+
+.c1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 28px;
+  min-width: 28px;
+  line-height: 28px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c1:hover {
+  background-color: rgba(248,248,248,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c1:active {
+  background-color: rgba(248,248,248,1);
+  border: none;
+}
+
+.c16 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 40px;
+  min-width: 40px;
+  line-height: 40px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c16:hover {
+  background-color: rgba(248,248,248,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c16:active {
+  background-color: rgba(248,248,248,1);
+  border: none;
+}
+
+.c23 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 48px;
+  min-width: 48px;
+  line-height: 48px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c23:hover {
+  background-color: rgba(248,248,248,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c23:active {
+  background-color: rgba(248,248,248,1);
+  border: none;
+}
+
+.c5 {
+  display: block;
+}
+
+.c13 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.c6 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.c18 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.c25 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 48px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.c7 {
+  padding: 0 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+  color: rgba(51,51,51,1);
+}
+
+.c19 {
+  padding: 0 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  color: rgba(51,51,51,1);
+}
+
+.c15.c15 {
+  padding: 0;
+}
+
+.c15 input {
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+
+.c9.c9 {
+  padding: 0;
+}
+
+.c9 input {
+  font-weight: 600;
+  text-align: center;
+  font-size: 12px;
+}
+
+.c21.c21 {
+  padding: 0;
+}
+
+.c21 input {
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+}
+
+<div>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c1 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="s"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c3 muya-pagination-number-item"
+      onClick={[Function]}
+      size="s"
+    >
+      <a
+        className="c4 c5"
+      >
+        1
+      </a>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c1 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="s"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c6"
+      size="s"
+    >
+      <span
+        className="c7 muya-pagination-jump-text"
+        size="s"
+      >
+        跳至
+      </span>
+      <div
+        className="c8 c9 muya-pagination-input muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="s"
+      >
+        <input
+          className="c10 muya-input-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="s"
+          value=""
+        />
+      </div>
+      <span
+        className="c7 muya-pagination-jump-text"
+        size="s"
+      >
+        页
+      </span>
+    </li>
+  </ul>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c11 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="m"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c12 muya-pagination-number-item"
+      onClick={[Function]}
+      size="m"
+    >
+      <a
+        className="c4 c5"
+      >
+        1
+      </a>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c11 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="m"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c13"
+      size="m"
+    >
+      <span
+        className="c7 muya-pagination-jump-text"
+        size="m"
+      >
+        跳至
+      </span>
+      <div
+        className="c14 c15 muya-pagination-input muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          className="c10 muya-input-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="m"
+          value=""
+        />
+      </div>
+      <span
+        className="c7 muya-pagination-jump-text"
+        size="m"
+      >
+        页
+      </span>
+    </li>
+  </ul>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c16 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="l"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c17 muya-pagination-number-item"
+      onClick={[Function]}
+      size="l"
+    >
+      <a
+        className="c4 c5"
+      >
+        1
+      </a>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c16 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="l"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c18"
+      size="l"
+    >
+      <span
+        className="c19 muya-pagination-jump-text"
+        size="l"
+      >
+        跳至
+      </span>
+      <div
+        className="c20 c21 muya-pagination-input muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="l"
+      >
+        <input
+          className="c22 muya-input-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="l"
+          value=""
+        />
+      </div>
+      <span
+        className="c19 muya-pagination-jump-text"
+        size="l"
+      >
+        页
+      </span>
+    </li>
+  </ul>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c23 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="xl"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c24 muya-pagination-number-item"
+      onClick={[Function]}
+      size="xl"
+    >
+      <a
+        className="c4 c5"
+      >
+        1
+      </a>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c23 muya-pagination-number-item"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="xl"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c25"
+      size="xl"
+    >
+      <span
+        className="c19 muya-pagination-jump-text"
+        size="xl"
+      >
+        跳至
+      </span>
+      <div
+        className="c26 c21 muya-pagination-input muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="xl"
+      >
+        <input
+          className="c22 muya-input-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="xl"
+          value=""
+        />
+      </div>
+      <span
+        className="c19 muya-pagination-jump-text"
+        size="xl"
+      >
+        页
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Snapshots show page size changer 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 8px;
+  fill: currentColor;
+}
+
+.c14 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c9 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 96px;
+}
+
+.c9:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c11 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c11::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c11::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c11::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c11:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c11::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c12 {
+  margin-left: 12px;
+  line-height: 0;
+  color: rgba(51,51,51,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(204,204,204,1);
+  cursor: pointer;
+}
+
+.c12:hover {
+  color: rgba(187,187,187,1);
+}
+
+.c12:active {
+  color: rgba(153,153,153,1);
+}
+
+.c7 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  width: 96px;
+}
+
+.c7 .c10 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c8,
+.c7 .StyledTagsInputWrapper-kkbZlb {
+  cursor: pointer;
+}
+
+.c7 .c8 input,
+.c7 .StyledTagsInputWrapper-kkbZlb input,
+.c7 .c8 svg,
+.c7 .StyledTagsInputWrapper-kkbZlb svg {
+  cursor: pointer;
+}
+
+.c13 {
+  line-height: 0;
+  -webkit-animation: bFXLB 150ms linear;
+  animation: bFXLB 150ms linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.c3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c3 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c3:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c3:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c3:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c15 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c15:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c16 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c16:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c17 .c4 {
+  padding: 0 6px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c17:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c18 .c4 {
+  padding: 0 10px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c18:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c19 .c4 {
+  padding: 0 12px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c19:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c1:hover {
+  background-color: rgba(248,248,248,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c1:active {
+  background-color: rgba(248,248,248,1);
+  border: none;
+}
+
+.c5 {
+  display: block;
+}
+
+.c6 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+<ul
+  className="c0 muya-pagination-wrapper"
+>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+      />
+    </svg>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      1
+    </a>
+  </li>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+      />
+    </svg>
+  </li>
+  <li
+    className="c6"
+    size="m"
+  >
+    <div
+      className="c7 muya-select-input-wrapper"
+      role="combobox"
+      style={Object {}}
+      tabIndex={0}
+    >
+      <div
+        className="c8 c9 muya-select-input muya-input-input-wrapper"
+        disabled={false}
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          aria-describedby={null}
+          className="c10 c11 muya-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          placeholder="请选择"
+          readOnly={true}
+          size="m"
+          type="text"
+          value="10 条/页"
+        />
+        <div
+          className="c12 muya-input-node-wrapper"
+          size="m"
+        >
+          <div
+            className="c13"
+          >
+            <svg
+              aria-hidden="false"
+              className="c14"
+              focusable="false"
+              style={
+                Object {
+                  "color": "rgba(204,204,204,1)",
+                  "height": 8,
+                  "width": 8,
+                }
+              }
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Snapshots simple different size 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 8px;
+  fill: currentColor;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.c7 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c7:hover {
+  color: rgba(221,221,221,1);
+}
+
+.c1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 28px;
+  min-width: 28px;
+  line-height: 28px;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c1:hover {
+  color: rgba(221,221,221,1);
+}
+
+.c9 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 40px;
+  min-width: 40px;
+  line-height: 40px;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c9:hover {
+  color: rgba(221,221,221,1);
+}
+
+.c11 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 48px;
+  min-width: 48px;
+  line-height: 48px;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c11:hover {
+  color: rgba(221,221,221,1);
+}
+
+.c5 {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.c6 {
+  vertical-align: middle;
+}
+
+.c8 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  color: rgba(51,51,51,1);
+}
+
+.c3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+  color: rgba(51,51,51,1);
+}
+
+.c10 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+  color: rgba(51,51,51,1);
+}
+
+.c4 {
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+<div>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c1 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="s"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c3 muya-pagination-simple-number-item"
+      size="s"
+    >
+      <span
+        className="c4"
+      >
+        1
+      </span>
+      <span
+        className="c5"
+      >
+        /
+      </span>
+      <span
+        className="c6"
+      >
+        1
+      </span>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c1 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="s"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+  </ul>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c7 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="m"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c8 muya-pagination-simple-number-item"
+      size="m"
+    >
+      <span
+        className="c4"
+      >
+        1
+      </span>
+      <span
+        className="c5"
+      >
+        /
+      </span>
+      <span
+        className="c6"
+      >
+        1
+      </span>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c7 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="m"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+  </ul>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c9 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="l"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c10 muya-pagination-simple-number-item"
+      size="l"
+    >
+      <span
+        className="c4"
+      >
+        1
+      </span>
+      <span
+        className="c5"
+      >
+        /
+      </span>
+      <span
+        className="c6"
+      >
+        1
+      </span>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c9 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="l"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+  </ul>
+  <ul
+    className="c0 muya-pagination-wrapper"
+  >
+    <li
+      aria-describedby={null}
+      className="c11 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="xl"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+        />
+      </svg>
+    </li>
+    <li
+      className="c10 muya-pagination-simple-number-item"
+      size="xl"
+    >
+      <span
+        className="c4"
+      >
+        1
+      </span>
+      <span
+        className="c5"
+      >
+        /
+      </span>
+      <span
+        className="c6"
+      >
+        1
+      </span>
+    </li>
+    <li
+      aria-describedby={null}
+      className="c11 muya-pagination-simple-arrow"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="xl"
+    >
+      <svg
+        aria-hidden="false"
+        className="c2"
+        focusable="false"
+        fontSize="8px"
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+        />
+      </svg>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Snapshots 受控 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 8px;
+  fill: currentColor;
+}
+
+.c10 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.c9 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  opacity: 1;
+  color: rgba(51,51,51,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c12 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c6 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c6 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c6:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c6:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c6:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  font-weight: 400;
+}
+
+.c3 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c3:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c3:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c3:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c13 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c13:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c14 .c4 {
+  padding: 0 6px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c14:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c15 .c4 {
+  padding: 0 10px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c15:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c16 .c4 {
+  padding: 0 12px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c16:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(248,248,248,1);
+  border: none;
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.c1:hover {
+  background-color: rgba(51,139,255,1);
+  color: rgba(255,255,255,1);
+  border: none;
+}
+
+.c1:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c7 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.c7:hover .c8 {
+  opacity: 0;
+}
+
+.c7:hover .c11 {
+  color: rgba(51,139,255,1);
+  opacity: 1;
+}
+
+.c7:active .c11 {
+  color: rgba(12,108,235,1);
+}
+
+.c5 {
+  display: block;
+}
+
+<ul
+  className="c0 muya-pagination-wrapper"
+>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={false}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+      />
+    </svg>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      1
+    </a>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      2
+    </a>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      3
+    </a>
+  </li>
+  <li
+    className="c6 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      4
+    </a>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      5
+    </a>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      6
+    </a>
+  </li>
+  <li
+    aria-describedby={null}
+    className="c7 muya-pagination-number-item"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <span
+      className="c8 c9"
+    >
+      <svg
+        aria-hidden="false"
+        className="c10"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M448 426.667h128q21.333 0 21.333 21.333v128q0 21.333-21.333 21.333H448q-21.333 0-21.333-21.333V448q0-21.333 21.333-21.333zm-384 0h128q21.333 0 21.333 21.333v128q0 21.333-21.333 21.333H64q-21.333 0-21.333-21.333V448q0-21.333 21.333-21.333zm768 0h128q21.333 0 21.333 21.333v128q0 21.333-21.333 21.333H832q-21.333 0-21.333-21.333V448q0-21.333 21.333-21.333z"
+        />
+      </svg>
+    </span>
+    <span
+      className="c11 c12"
+    >
+      <svg
+        aria-hidden="false"
+        className="c10"
+        focusable="false"
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M354.795 512L170.667 241.675l108.832-71.008L512 512 279.499 853.333l-108.832-71.008L354.795 512zm341.333 0L512 241.675l108.832-71.008L853.333 512 620.832 853.333 512 782.325 696.128 512z"
+        />
+      </svg>
+    </span>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      15
+    </a>
+  </li>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={false}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+      />
+    </svg>
+  </li>
+</ul>
+`;
+
+exports[`Snapshots 深色背景 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 8px;
+  fill: currentColor;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.c3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(26,122,248,1);
+  border: none;
+  font-weight: 600;
+}
+
+.c3 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c3:hover {
+  background-color: rgba(51,139,255,1);
+  border: none;
+}
+
+.c3:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c3:active {
+  background-color: rgba(12,108,235,1);
+  border: none;
+}
+
+.c6 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c6:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c7 .c4 {
+  padding: 0 8px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(51,51,51,1);
+}
+
+.c7:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c8 .c4 {
+  padding: 0 6px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c8:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c9 .c4 {
+  padding: 0 10px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c9:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c10 .c4 {
+  padding: 0 12px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(255,255,255,1);
+}
+
+.c10:hover .c4 {
+  color: rgba(255,255,255,1);
+}
+
+.c1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0px;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1),border 150ms cubic-bezier(0.4,0,0.2,1);
+  height: 32px;
+  min-width: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(255,255,255,1);
+  border: none;
+  color: rgba(221,221,221,1);
+  cursor: not-allowed;
+  font-weight: 600;
+}
+
+.c1:hover {
+  background-color: rgba(255,255,255,1);
+  color: rgba(221,221,221,1);
+  border: none;
+}
+
+.c1:active {
+  background-color: rgba(255,255,255,1);
+  border: none;
+}
+
+.c5 {
+  display: block;
+}
+
+<ul
+  className="c0 muya-pagination-wrapper"
+>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+      />
+    </svg>
+  </li>
+  <li
+    className="c3 muya-pagination-number-item"
+    onClick={[Function]}
+    size="m"
+  >
+    <a
+      className="c4 c5"
+    >
+      1
+    </a>
+  </li>
+  <li
+    aria-describedby={null}
+    className="c1 muya-pagination-number-item"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      fontSize="8px"
+      style={
+        Object {
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+      />
+    </svg>
+  </li>
+</ul>
+`;

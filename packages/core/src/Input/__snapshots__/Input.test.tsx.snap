@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c0 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+<div
+  className="c0 muya-input-input-wrapper"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="m"
+>
+  <input
+    className="c1 muya-input-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    size="m"
+    value=""
+  />
+</div>
+`;
+
+exports[`test textarea style 1`] = `
+.c0 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+  resize: vertical;
+  width: 320px;
+  height: 92px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 12px 10px 12px;
+  border-bottom: 34px solid transparent;
+  padding-bottom: 0;
+  -ms-overflow-style: none;
+  resize: none;
+}
+
+.c0::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c0::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0::-webkit-scrollbar {
+  width: 0;
+}
+
+<textarea
+  className="c0"
+  size="m"
+/>
+`;
+
+exports[`textarea should render correctly 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+  resize: vertical;
+  width: 320px;
+  height: 92px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 12px 10px 12px;
+  border-bottom: 34px solid transparent;
+  padding-bottom: 0;
+  -ms-overflow-style: none;
+  resize: none;
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-webkit-scrollbar {
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+}
+
+.c3 {
+  font-weight: 600;
+  color: rgba(204,204,204,1);
+  cursor: default;
+}
+
+<div
+  className="c0 muya-input-textarea-wrapper"
+  onClick={[Function]}
+  size="m"
+>
+  <textarea
+    className="c1 muya-input-textarea"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    size="m"
+    style={Object {}}
+    value=""
+  />
+  <div
+    className="c2 muya-input-text-limit-wrapper"
+    size="m"
+  >
+    <span
+      className="c3"
+    >
+      0
+      /
+      3
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试普通渲染 1`] = `
+Array [
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c5:active {
+  color: rgba(179,179,179,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c2 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+}
+
+.c11 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+}
+
+.c9 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c9:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active {
+  color: rgba(12,108,235,1);
+}
+
+.c9 + .c8 {
+  margin-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 36px;
+  border-bottom: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c12 {
+  margin-bottom: 0;
+}
+
+.c0 .c8 {
+  margin: 0;
+  padding: 0 2px;
+}
+
+.c0 .c1 .c6,
+.c0 .c10 .c6 {
+  margin: 0 12px;
+}
+
+.c0 .c1 .c6 {
+  margin-right: 0;
+}
+
+.c0 .c10 .c6 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2 muya-calendar-pager-prev"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-prev-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M577.19 905.575L317.154 524.19a21.67 21.67 0 010-24.378L577.19 118.425a21.67 21.67 0 00-5.743-30.121l-129.8-84.729a21.67 21.67 0 00-29.797 5.851L77.92 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+          <path
+            d="M945.574 905.575L685.538 524.19a21.67 21.67 0 010-24.378l260.036-381.386a21.67 21.67 0 00-5.742-30.121L809.814 3.792a21.67 21.67 0 00-29.796 5.851L446.305 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.795 5.96l130.018-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+        </svg>
+      </button>
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-prev-month"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+    <button
+      className="c3 c4 c8 c9 muya-calendar-switch-year"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      2019
+    </button>
+    <button
+      className="c3 c4 c8 c9 muya-calendar-switch-month"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      1月
+    </button>
+    <div
+      className="c10 c11 muya-calendar-pager-next"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-next-month"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-next-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M706.379 499.81L446.343 118.426a21.67 21.67 0 015.634-30.121L581.995 3.792a21.67 21.67 0 0129.796 5.851l334.146 490.168a21.67 21.67 0 010 24.378l-333.93 490.276a21.67 21.67 0 01-29.795 5.96l-130.018-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00.433-24.703zm-368.384 0L77.959 118.426a21.67 21.67 0 015.959-30.121L213.936 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.796 5.96L84.351 935.913a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c5:active {
+  color: rgba(179,179,179,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c2 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+}
+
+.c11 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+}
+
+.c9 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c9:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active {
+  color: rgba(12,108,235,1);
+}
+
+.c9 + .c8 {
+  margin-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 36px;
+  border-bottom: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c12 {
+  margin-bottom: 0;
+}
+
+.c0 .c8 {
+  margin: 0;
+  padding: 0 2px;
+}
+
+.c0 .c1 .c6,
+.c0 .c10 .c6 {
+  margin: 0 12px;
+}
+
+.c0 .c1 .c6 {
+  margin-right: 0;
+}
+
+.c0 .c10 .c6 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2 muya-calendar-pager-prev"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-prev-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M577.19 905.575L317.154 524.19a21.67 21.67 0 010-24.378L577.19 118.425a21.67 21.67 0 00-5.743-30.121l-129.8-84.729a21.67 21.67 0 00-29.797 5.851L77.92 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+          <path
+            d="M945.574 905.575L685.538 524.19a21.67 21.67 0 010-24.378l260.036-381.386a21.67 21.67 0 00-5.742-30.121L809.814 3.792a21.67 21.67 0 00-29.796 5.851L446.305 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.795 5.96l130.018-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+        </svg>
+      </button>
+    </div>
+    <button
+      className="c3 c4 c8 c9 muya-calendar-switch-year"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      2019
+    </button>
+    <div
+      className="c10 c11 muya-calendar-pager-next"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-next-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M706.379 499.81L446.343 118.426a21.67 21.67 0 015.634-30.121L581.995 3.792a21.67 21.67 0 0129.796 5.851l334.146 490.168a21.67 21.67 0 010 24.378l-333.93 490.276a21.67 21.67 0 01-29.795 5.96l-130.018-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00.433-24.703zm-368.384 0L77.959 118.426a21.67 21.67 0 015.959-30.121L213.936 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.796 5.96L84.351 935.913a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c5:active {
+  color: rgba(179,179,179,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+.c9 + .c8 {
+  margin-top: 0;
+}
+
+.c2 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+}
+
+.c12 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 36px;
+  border-bottom: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c10 {
+  margin-bottom: 0;
+}
+
+.c0 .c13 {
+  margin: 0;
+  padding: 0 2px;
+}
+
+.c0 .c1 .c6,
+.c0 .c11 .c6 {
+  margin: 0 12px;
+}
+
+.c0 .c1 .c6 {
+  margin-right: 0;
+}
+
+.c0 .c11 .c6 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2 muya-calendar-pager-prev"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-prev-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M577.19 905.575L317.154 524.19a21.67 21.67 0 010-24.378L577.19 118.425a21.67 21.67 0 00-5.743-30.121l-129.8-84.729a21.67 21.67 0 00-29.797 5.851L77.92 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+          <path
+            d="M945.574 905.575L685.538 524.19a21.67 21.67 0 010-24.378l260.036-381.386a21.67 21.67 0 00-5.742-30.121L809.814 3.792a21.67 21.67 0 00-29.796 5.851L446.305 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.795 5.96l130.018-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+        </svg>
+      </button>
+    </div>
+    <h6
+      className="c8 c9 c10 "
+    >
+      2010-2020
+    </h6>
+    <div
+      className="c11 c12 muya-calendar-pager-next"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-next-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M706.379 499.81L446.343 118.426a21.67 21.67 0 015.634-30.121L581.995 3.792a21.67 21.67 0 0129.796 5.851l334.146 490.168a21.67 21.67 0 010 24.378l-333.93 490.276a21.67 21.67 0 01-29.795 5.96l-130.018-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00.433-24.703zm-368.384 0L77.959 118.426a21.67 21.67 0 015.959-30.121L213.936 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.796 5.96L84.351 935.913a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  .c7 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(204,204,204,1);
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c5:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c5:active {
+  color: rgba(179,179,179,1);
+}
+
+.c5 + .c4 {
+  margin-left: 8px;
+}
+
+.c2 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+}
+
+.c11 {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+}
+
+.c9 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.c9:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active {
+  color: rgba(12,108,235,1);
+}
+
+.c9 + .c8 {
+  margin-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 36px;
+  border-bottom: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c12 {
+  margin-bottom: 0;
+}
+
+.c0 .c8 {
+  margin: 0;
+  padding: 0 2px;
+}
+
+.c0 .c1 .c6,
+.c0 .c10 .c6 {
+  margin: 0 12px;
+}
+
+.c0 .c1 .c6 {
+  margin-right: 0;
+}
+
+.c0 .c10 .c6 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2 muya-calendar-pager-prev"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-prev-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M577.19 905.575L317.154 524.19a21.67 21.67 0 010-24.378L577.19 118.425a21.67 21.67 0 00-5.743-30.121l-129.8-84.729a21.67 21.67 0 00-29.797 5.851L77.92 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+          <path
+            d="M945.574 905.575L685.538 524.19a21.67 21.67 0 010-24.378l260.036-381.386a21.67 21.67 0 00-5.742-30.121L809.814 3.792a21.67 21.67 0 00-29.796 5.851L446.305 499.811a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.795 5.96l130.018-84.512a21.67 21.67 0 006.285-30.013z"
+          />
+        </svg>
+      </button>
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-prev-month"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M501.725 499.81l260.036-381.385a21.67 21.67 0 00-5.742-30.121L626 3.575a21.67 21.67 0 00-29.796 5.851l-333.93 490.385a21.67 21.67 0 000 24.378l333.93 490.276a21.67 21.67 0 0029.796 5.96l129.476-84.512a21.67 21.67 0 006.284-30.013L501.725 524.514a21.67 21.67 0 010-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+    <button
+      className="c3 c4 c8 c9 muya-calendar-switch-month"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      1月
+    </button>
+    <button
+      className="c3 c4 c8 c9 muya-calendar-switch-year"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      2019
+    </button>
+    <div
+      className="c10 c11 muya-calendar-pager-next"
+    >
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-next-month"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M522.187 499.81L262.15 118.426a21.67 21.67 0 015.959-30.121L398.128 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.795 5.96l-129.477-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+      <button
+        className="c3 c4 c5 c6 muya-calendar-pager-next-year"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c7"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M706.379 499.81L446.343 118.426a21.67 21.67 0 015.634-30.121L581.995 3.792a21.67 21.67 0 0129.796 5.851l334.146 490.168a21.67 21.67 0 010 24.378l-333.93 490.276a21.67 21.67 0 01-29.795 5.96l-130.018-84.512a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00.433-24.703zm-368.384 0L77.959 118.426a21.67 21.67 0 015.959-30.121L213.936 3.792a21.67 21.67 0 0129.796 5.851l333.82 490.168a21.67 21.67 0 010 24.378l-333.929 490.276a21.67 21.67 0 01-29.796 5.96L84.351 935.913a21.67 21.67 0 01-6.284-30.013l260.036-381.386a21.67 21.67 0 00-.108-24.703z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+]
+`;

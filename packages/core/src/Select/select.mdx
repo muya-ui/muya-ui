@@ -1,0 +1,51 @@
+---
+name: Select 选择器
+menu: 组件
+route: /components/select
+autoDemos: true
+parent: 数据录入
+---
+
+import { DocSelectStyle } from './demos/styled';
+
+<DocSelectStyle />
+
+# Select 选择器
+
+当可以为用户录入、操作提供选择，且选项过多或展示空间布局需要收起选项时，使用下拉菜单展示并选择内容，用于从大量内容中获取有共同属性内容的控件。
+
+## 使用场景
+
+- 当有多个选择操作或者单个选项操作超过 4 个以上，选项建议使用选择器进行操作（低于 5 个选项，建议使用 Radio 组件）。
+- 所提供的一系列选项不需要直接展示出来可以使用选择器。
+
+## 组件
+
+- `Select`：选择器。
+- `Option`：选择器选项。
+- `OptionGroup`：选择器选项组。
+- `OptionDivider`：选择器分割线。
+
+{Demos}
+
+### API
+
+IFilterFunc： `(inputValue: string, option: ISelectOptionState) => boolean`
+
+#### ISelectProps
+
+<Props propsName="ISelectProps" />
+
+#### IOptionGroupProps
+
+<Props propsName="IOptionGroupProps" />
+
+#### IOptionProps
+
+<Props propsName="IOptionProps" />
+
+### Styles
+
+#### ISelectStyleKeys
+
+<Styles typeName="ISelectStyleKeys" componentName="select" />

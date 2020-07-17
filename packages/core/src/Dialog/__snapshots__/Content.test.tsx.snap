@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(238,238,238,0.7);
+  padding: 20px 24px;
+}
+
+<div
+  className="c0"
+>
+  Test
+</div>
+`;

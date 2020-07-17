@@ -1,0 +1,62 @@
+---
+name: Swipe 滑动视图
+menu: 组件
+route: /components/swipe
+autoDemos: true
+parent: 其他
+---
+
+import { DocSwipeStyle } from './demos/styled';
+
+<DocSwipeStyle />
+
+# Swipe 滑动视图
+
+走马灯的核心交互组件，分为两种轮播
+
+| 轮播组件  | 主要特点               |
+| --------- | ---------------------- |
+| Swipe     | `切换连续`、`支持滚轮` |
+| LoopSwipe | `可循环`               |
+
+> 自定义子元素请注意： `Swipe` 的 `children` 必须是支持 `ref`，同时必须透传 `style` 属性。比如：
+
+```tsx
+type IYourProps = React.HTMLAttributes<HTMLDivElement>;
+// 在函数组件中，使用 forwardRef
+const CustomBlock = React.forwadRef<HTMLDivElement, IYourProps>((props, ref) => {
+  // ref 和 style 必须传回去，其他随意
+  return <div ref={ref} style={props.style} />;
+});
+
+// example
+<Swipe>
+  <CustomBlock />
+  <CustomBlock />
+</Swipe>
+```
+
+
+{Demos}
+
+### API
+
+#### `ISwipeProps`
+
+<Props propsName="ISwipeProps" />
+
+#### `useSwipe` 返回值
+
+<Props propsName="ISwipeHookState" />
+
+#### `ISwipeSteps`
+
+<Props propsName="ISwipeSteps" />
+
+#### `ILoopSwipeProps`
+
+<Props propsName="ILoopSwipeProps" />
+
+#### `useLoopSwipe` 返回值
+
+<Props propsName="ILoopSwipeHookState" />

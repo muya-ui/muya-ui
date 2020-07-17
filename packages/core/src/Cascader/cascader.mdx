@@ -1,0 +1,40 @@
+---
+name: Cascader 级联选择
+menu: 组件
+route: /components/cascader
+autoDemos: true
+parent: 数据录入
+---
+
+import { DocCascaderStyle } from './demos/styled';
+
+<DocCascaderStyle />
+
+# Cascader 级联选择
+
+用于从多层级内容中选择某条目的选择器。
+
+## 使用场景
+
+- 通常用于有清晰的、相互关联的内容集合的选择，例如行政区域、材质分类等。
+- 当选项过多时，建议使用级联选择器，减少使用者对于选项的记忆、选择成本，方便操作。
+- 级联选择的级数建议不超过 5 级，以免显示和操作上出现错误。
+- 和组合的选择器相比，级联选择器整体性较高，便于理解，体验较好。
+
+{Demos}
+
+### API
+
+#### ICascaderProps
+
+<Props propsName="ICascaderProps" omit={['arrowPointAtCenter']} />
+
+#### ICascaderOptionType
+
+<Props propsName="ICascaderOptionType" />
+
+### Styles
+
+#### ICascaderStyleKeys
+
+<Styles typeName="ICascaderStyleKeys" componentName="cascader" />

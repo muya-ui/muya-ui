@@ -1,0 +1,47 @@
+---
+name: useEventCallback
+menu: Hooks
+route: /hooks/useEventCallback
+---
+
+# useEventCallback
+
+下面这段代码中，`handleSubmit` 用 `useCallback` 进行了包裹，目的是在渲染时复用这个函数。
+
+但由于 `useCallback` 依赖了 `text` 这个变量，而这个变量是会随着用户输入频繁变化的，因此 `handleSubmit` 实际上还是会比较频繁的重新生成。
+
+```js
+function Form() {
+  const [text, updateText] = useState('');
+
+  const handleSubmit = useCallback(() => {
+    const currentText = text;
+  }, [text]);
+
+  return (
+    <>
+      <input value={text} onChange={e => updateText(e.target.value)} />
+      <ExpensiveTree onSubmit={handleSubmit} />
+    </>
+  );
+}
+```
+
+针对上面得到问题，React 官方给出了一个[方案](https://zh-hans.reactjs.org/docs/hooks-faq.html#how-to-read-an-often-changing-value-from-usecallback)，实际上的原理是用 `ref` 来保存变量，而让 `handleSubmit` 依赖 `ref`，达到缓存函数的目的。这部分的逻辑我们封装成了 `useEventCallback`，下面是使用 `useEventCallback` 修改后的例子。
+
+```js
+function Form() {
+  const [text, updateText] = useState('');
+
+  const handleSubmit = useEventCallback(() => {
+    alert(text);
+  }, [text]);
+
+  return (
+    <>
+      <input value={text} onChange={e => updateText(e.target.value)} />
+      <ExpensiveTree onSubmit={handleSubmit} />
+    </>
+  );
+}
+```

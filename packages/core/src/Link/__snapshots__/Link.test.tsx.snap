@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试渲染 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c2 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(26,122,248,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c2:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c2:active {
+  color: rgba(12,108,235,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c3.c3 {
+  position: static;
+}
+
+<a
+    aria-disabled={false}
+    className="c0 c1 c2 c3"
+    href="https://www.kujiale.com"
+    onClick={[Function]}
+    role="button"
+    target="_blank"
+  >
+    我是一个链接
+  </a>,
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c4 + .c1 {
+  margin-left: 8px;
+}
+
+.c2 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(221,221,221,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: not-allowed;
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c3.c3 {
+  position: static;
+}
+
+<a
+    aria-disabled={true}
+    className="c0 c1 c2 c3"
+    href="https://www.kujiale.com"
+    onClick={[Function]}
+    role="button"
+  >
+    我是一个禁用链接
+  </a>,
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 6px;
+}
+
+.c4 .c7 {
+  line-height: unset;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 6px;
+}
+
+.c5 .c7 {
+  line-height: unset;
+}
+
+.c2 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(26,122,248,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c2:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c2:active {
+  color: rgba(12,108,235,1);
+}
+
+.c2 + .c1 {
+  margin-left: 8px;
+}
+
+.c6 + .c1 {
+  margin-left: 8px;
+}
+
+.c3.c3 {
+  position: static;
+}
+
+<a
+    aria-disabled={false}
+    className="c0 c1 c2 c3"
+    href="https://www.kujiale.com"
+    onClick={[Function]}
+    role="button"
+    target="_blank"
+  >
+    <span
+      className="c4 muya-button-prefix"
+    >
+      <span>
+        前缀
+      </span>
+    </span>
+    我是一个带前后缀链接
+    <span
+      className="c5 muya-button-suffix"
+    >
+      <span>
+        后缀
+      </span>
+    </span>
+  </a>,
+]
+`;

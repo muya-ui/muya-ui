@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardActions should render success 1`] = `
+Array [
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 20px;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+<div
+    className="c0"
+  >
+    测试
+  </div>,
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  border-top: 1px solid rgba(238,238,238,1);
+}
+
+<div
+    className="c0"
+  >
+    测试
+  </div>,
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 20px;
+}
+
+<div
+    className="c0"
+  >
+    测试
+  </div>,
+]
+`;

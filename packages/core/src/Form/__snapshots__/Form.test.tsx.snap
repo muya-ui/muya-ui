@@ -1,0 +1,2926 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form> should render correctly 1`] = `
+.c25 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: rgba(204,204,204,1);
+  fill: currentColor;
+}
+
+.c28 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c60 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 24;
+  fill: currentColor;
+}
+
+.c0 {
+  vertical-align: top;
+}
+
+.c0 .c2 {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(102,102,102,1);
+}
+
+.c0 .c4 {
+  margin-right: 4px;
+  color: rgba(255,43,0,1);
+  font-size: 14px;
+  line-height: 1;
+  padding-top: 2px;
+}
+
+.c0 .c9 {
+  box-sizing: border-box;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 28px;
+}
+
+.c0 .c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  width: 100px;
+  min-height: 32px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding-right: 20px;
+}
+
+.c0 .c9 {
+  margin-left: 100px;
+}
+
+.c0 .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c22 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c21 {
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c20 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c20 .c26 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c20 .c23 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(204,204,204,1);
+}
+
+.c20 .c23 .c24 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c20:hover .c23 .c24 {
+  color: rgba(26,122,248,1);
+}
+
+.c20:active .c23 .c24 {
+  color: rgba(12,108,235,1);
+}
+
+.c27 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0;
+  font-variant: tabular-nums;
+  font-feature-settings: 'tnum';
+  color: rgba(51,51,51,1);
+  cursor: pointer;
+}
+
+.c27 .c26 {
+  padding: 0 4px;
+  line-height: 16px;
+}
+
+.c27 .c23 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-top;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+  color: rgba(26,122,248,1);
+}
+
+.c27 .c23 .c24 {
+  z-index: 1;
+  -webkit-transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: color cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c27:hover .c23 .c24 {
+  color: rgba(51,139,255,1);
+}
+
+.c27:active .c23 .c24 {
+  color: rgba(12,108,235,1);
+}
+
+.c18 .c19 {
+  margin-right: 8px;
+}
+
+.c68 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c70 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 13px 0 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(102,102,102,1);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c70:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.04);
+  border-color: rgba(204,204,204,1);
+}
+
+.c70:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(102,102,102,0.08);
+  border-color: rgba(204,204,204,1);
+}
+
+.c70 + .c69 {
+  margin-left: 8px;
+}
+
+.c71 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  padding: 0 14px 0 14px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+  cursor: pointer;
+  border-color: rgba(51,139,255,1);
+  border-width: 0;
+}
+
+.c71:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(51,139,255,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c71:active {
+  color: rgba(255,255,255,1);
+  background-color: rgba(12,108,235,1);
+  border-color: rgba(51,139,255,1);
+}
+
+.c71 + .c69 {
+  margin-left: 8px;
+}
+
+.c59 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c61 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c50 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(204,204,204,1);
+}
+
+.c50:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c50:active {
+  color: rgba(179,179,179,1);
+}
+
+.c50 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c48 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 8px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 2px;
+  cursor: default;
+  vertical-align: middle;
+  margin: 0 4px 4px 0;
+  height: 22px;
+  line-height: 22px;
+}
+
+.c48 .c49 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+}
+
+.c6:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c10 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 240px;
+}
+
+.c10:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c11 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 200px;
+}
+
+.c11:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c15 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+}
+
+.c15:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c8 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c8::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c8::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c8::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c8:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c8::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c16 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+  resize: vertical;
+  width: 320px;
+  height: 92px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 12px 10px 12px;
+}
+
+.c16::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c16::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c16::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c16:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c16::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c13 {
+  margin-left: 12px;
+  line-height: 0;
+  color: rgba(51,51,51,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c14 {
+  margin-left: 12px;
+  line-height: 0;
+  color: rgba(51,51,51,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(204,204,204,1);
+  cursor: pointer;
+}
+
+.c14:hover {
+  color: rgba(187,187,187,1);
+}
+
+.c14:active {
+  color: rgba(153,153,153,1);
+}
+
+.c17 {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+}
+
+.c45 {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.c46 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c52 {
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  margin-bottom: 4px;
+}
+
+.c54 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: scroll;
+  white-space: pre;
+  line-height: 1;
+}
+
+.c56 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+.c43 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  border: 1px solid rgba(221,221,221,1);
+  box-shadow: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  line-height: 1;
+  font-size: 12px;
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  cursor: text;
+  padding: 4px 4px 0 4px;
+}
+
+.c43:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c43 .c44 {
+  padding-left: 12px;
+  padding-right: 24px;
+  max-height: 63px;
+  padding-left: 0;
+}
+
+.c43 .c44::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c43 .c44::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c43 .c44:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c43 .c44:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+.c43 .c44::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.c43 .c55 {
+  right: 12px;
+}
+
+.c43 .c51 {
+  width: 1px;
+  color: rgba(102,102,102,1);
+}
+
+.c43 input[readonly] {
+  cursor: pointer;
+}
+
+.c43 input::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c43 input::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c43 input:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c43 input::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c43 .c53 {
+  font-size: 12px;
+}
+
+.c43 .c47 {
+  max-width: 208px;
+}
+
+.c39 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.c39 .c7 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c39 .c5,
+.c39 .c42 {
+  cursor: pointer;
+}
+
+.c39 .c5 input,
+.c39 .c42 input,
+.c39 .c5 svg,
+.c39 .c42 svg {
+  cursor: pointer;
+}
+
+.c41 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.c41 .c7 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c40 {
+  line-height: 0;
+  -webkit-animation: bFXLB 150ms linear;
+  animation: bFXLB 150ms linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.c57 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c65 .c12:last-of-type {
+  cursor: default;
+  pointer-events: none;
+}
+
+.c66 {
+  color: rgba(204,204,204,1);
+}
+
+.c33 {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.c32 {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c35 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(204,204,204,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c35::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c38 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,1);
+}
+
+.c38::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c36 {
+  vertical-align: middle;
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.c31 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c31:focus .c34,
+.c31:hover .c34 {
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c31:active .c34 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c37 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c37:focus .c34,
+.c37:hover .c34 {
+  border-color: rgba(51,139,255,1);
+  background-color: rgba(51,139,255,1);
+}
+
+.c37:active .c34 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(12,108,235,1);
+}
+
+.c29 {
+  display: inline-block;
+}
+
+.c29 .c30 {
+  margin-right: 8px;
+}
+
+.c64 {
+  display: block;
+}
+
+.c62 {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 20px;
+  line-height: 16px;
+  min-width: 42px;
+  background-color: rgba(204,204,204,1);
+  border-radius: 999rem;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  outline: none;
+}
+
+.c62:active {
+  box-shadow: none;
+}
+
+.c62::after,
+.c62 .c72 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(255,255,255,1);
+  border-radius: 50%;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  content: ' ';
+  cursor: pointer;
+}
+
+.c62 .c72 {
+  text-align: center;
+  font-size: 8px;
+}
+
+.c62 .c72 svg {
+  vertical-align: unset;
+}
+
+.c62 .c63 {
+  margin-left: 24px;
+  margin-right: 8px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+}
+
+.c67.c67 {
+  width: 180px;
+}
+
+.c67 .c12:last-of-type {
+  cursor: default;
+  pointer-events: none;
+}
+
+.c58 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+  width: 336px;
+  height: 160px;
+}
+
+.c58:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c58:active {
+  background: rgba(245,245,245,1);
+}
+
+<form
+  autoComplete="off"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="name1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          账号
+        </span>
+      </label>
+      <div
+        className="c5 c6 muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          className="c7 c8 muya-input-input"
+          id="name1"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="m"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="password1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          密码
+        </span>
+      </label>
+      <div
+        className="c5 c6 muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          className="c7 c8 muya-input-input"
+          id="password1"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="m"
+          type="password"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="inputNumber"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+          >
+            *
+          </div>
+          幸运数字
+        </span>
+      </label>
+      <div
+        className="c5 c10 muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          className="c7 c8 muya-input-input"
+          id="inputNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          size="m"
+          value="1"
+        />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="way"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          回家的路
+        </span>
+      </label>
+      <div
+        className="c5 c11 muya-range-input-input-wrapper"
+        id="way"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          autoFocus={false}
+          className="c7 c8"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="起点"
+          size="m"
+          value="杭州东站"
+        />
+        <div
+          className="c12 c13 muya-range-input-node-wrapper"
+          size="m"
+        >
+          至
+        </div>
+        <div
+          className="c12 c14 muya-range-input-node-wrapper"
+          size="m"
+        />
+        <input
+          autoFocus={false}
+          className="c7 c8"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="终点"
+          size="m"
+          value="汉口火车站"
+        />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="desc1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          个人简介
+        </span>
+      </label>
+      <div
+        className="c15 muya-input-textarea-wrapper"
+        onClick={[Function]}
+        size="m"
+      >
+        <textarea
+          className="c16 muya-input-textarea"
+          id="desc1"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="介绍一下你自己吧"
+          size="m"
+          style={Object {}}
+          value=""
+        />
+        <div
+          className="c17 muya-input-text-limit-wrapper"
+          size="m"
+        />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="checkboxs1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          个人标签
+        </span>
+      </label>
+      <div
+        className="c18"
+        id="checkboxs1"
+        onBlur={[Function]}
+        size="m"
+      >
+        <label
+          className="c19 c20 muya-checkbox-wrapper"
+          style={Object {}}
+        >
+          <span
+            className="c21 muya-checkbox-span"
+            onClick={[Function]}
+          >
+            <input
+              autoFocus={false}
+              checked={false}
+              className="c22"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              type="checkbox"
+              value="sing"
+            />
+            <span
+              className="c23 muya-checkbox-icon-wrap"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c25 muya-checkbox-icon"
+                color="rgba(204,204,204,1)"
+                focusable="false"
+                viewBox="0 0 1024 1024"
+              >
+                <rect
+                  fill="rgba(255,255,255,1)"
+                  height={716.8}
+                  width={716.8}
+                  x={153.60000000000002}
+                  y={153.60000000000002}
+                />
+                <path
+                  d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+                />
+              </svg>
+            </span>
+          </span>
+          <span
+            className="c26 "
+          >
+            唱歌
+          </span>
+        </label>
+        <label
+          className="c19 c27 muya-checkbox-wrapper"
+          style={Object {}}
+        >
+          <span
+            className="c21 muya-checkbox-span"
+            onClick={[Function]}
+          >
+            <input
+              autoFocus={false}
+              checked={true}
+              className="c22"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              type="checkbox"
+              value="dance"
+            />
+            <span
+              className="c23 muya-checkbox-icon-wrap"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28 muya-checkbox-icon"
+                focusable="false"
+                viewBox="0 0 1024 1024"
+              >
+                <rect
+                  fill="rgba(255,255,255,1)"
+                  height={716.8}
+                  width={716.8}
+                  x={153.60000000000002}
+                  y={153.60000000000002}
+                />
+                <path
+                  d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm15.53 366.325a21.333 21.333 0 000-30.165l-60.34-60.342a21.333 21.333 0 00-30.166 0L436.565 574.923l-105.589-105.59a21.333 21.333 0 00-28.8-1.248l-1.376 1.248-60.341 60.342a21.333 21.333 0 000 30.165l181.013 181.013a21.27 21.27 0 0014.23 6.24h1.727l1.707-.138a21.237 21.237 0 0012.512-6.091z"
+                />
+              </svg>
+            </span>
+          </span>
+          <span
+            className="c26 "
+          >
+            跳舞
+          </span>
+        </label>
+        <label
+          className="c19 c20 muya-checkbox-wrapper"
+          style={Object {}}
+        >
+          <span
+            className="c21 muya-checkbox-span"
+            onClick={[Function]}
+          >
+            <input
+              autoFocus={false}
+              checked={false}
+              className="c22"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              type="checkbox"
+              value="rap"
+            />
+            <span
+              className="c23 muya-checkbox-icon-wrap"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c25 muya-checkbox-icon"
+                color="rgba(204,204,204,1)"
+                focusable="false"
+                viewBox="0 0 1024 1024"
+              >
+                <rect
+                  fill="rgba(255,255,255,1)"
+                  height={716.8}
+                  width={716.8}
+                  x={153.60000000000002}
+                  y={153.60000000000002}
+                />
+                <path
+                  d="M768 42.667c117.824 0 213.333 95.509 213.333 213.333v512c0 117.824-95.509 213.333-213.333 213.333H256c-117.824 0-213.333-95.509-213.333-213.333V256c0-117.824 95.509-213.333 213.333-213.333h512zm0 64H256c-81.365 0-147.52 65.066-149.301 145.994l-.032 3.339v512c0 81.365 65.066 147.52 145.994 149.301l3.339.032h512c81.365 0 147.52-65.066 149.301-145.994l.032-3.339V256c0-81.365-65.066-147.52-145.994-149.301l-3.339-.032z"
+                />
+              </svg>
+            </span>
+          </span>
+          <span
+            className="c26 "
+          >
+            Rap
+          </span>
+        </label>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="radio1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          宠物
+        </span>
+      </label>
+      <div
+        className="c29"
+        id="radio1"
+        onBlur={[Function]}
+        size="m"
+      >
+        <label
+          className="c30 c31 muya-radio-wrapper"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <span
+            className="c32"
+          >
+            <input
+              autoFocus={false}
+              checked={false}
+              className="c33 muya-radio-input-radio"
+              disabled={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              type="radio"
+              value="cat"
+            />
+            <span
+              className="c34 c35 muya-radio-inner-radio"
+            />
+          </span>
+          <span
+            className="c36 muya-radio-text"
+          >
+            喜欢猫
+          </span>
+        </label>
+        <label
+          className="c30 c37 muya-radio-wrapper"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <span
+            className="c32"
+          >
+            <input
+              autoFocus={false}
+              checked={true}
+              className="c33 muya-radio-input-radio"
+              disabled={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              type="radio"
+              value="dog"
+            />
+            <span
+              className="c34 c38 muya-radio-inner-radio"
+            />
+          </span>
+          <span
+            className="c36 muya-radio-text"
+          >
+            喜欢狗
+          </span>
+        </label>
+        <label
+          className="c30 c31 muya-radio-wrapper"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <span
+            className="c32"
+          >
+            <input
+              autoFocus={false}
+              checked={false}
+              className="c33 muya-radio-input-radio"
+              disabled={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              type="radio"
+              value="cat + dog"
+            />
+            <span
+              className="c34 c35 muya-radio-inner-radio"
+            />
+          </span>
+          <span
+            className="c36 muya-radio-text"
+          >
+            都喜欢
+          </span>
+        </label>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="album1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          专辑
+        </span>
+      </label>
+      <div
+        className="c39 muya-select-input-wrapper"
+        id="album1"
+        role="combobox"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <div
+          className="c5 c6 muya-select-input muya-input-input-wrapper"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="m"
+        >
+          <input
+            aria-describedby={null}
+            className="c7 c8 muya-input-input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            placeholder="请选择"
+            readOnly={true}
+            size="m"
+            type="text"
+            value="范特西"
+          />
+          <div
+            className="c12 c14 muya-input-node-wrapper"
+            size="m"
+          >
+            <div
+              className="c40"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "rgba(204,204,204,1)",
+                    "height": 8,
+                    "width": 8,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="sports1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          运动
+        </span>
+      </label>
+      <div
+        className="c41 muya-select-input-wrapper"
+        id="sports1"
+        role="combobox"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <div
+          className="c42 c43 muya-select-input muya-tags-input-input-wrapper"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="c44 c45 muya-tags-input-content-wrapper"
+          >
+            <div
+              className="c46 muya-tags-input-tags-wrapper"
+            >
+              <span
+                className="c47 c48 muya-tags-input-tag"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "transitionDuration": "300ms",
+                    "transitionProperty": "opacity",
+                    "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  }
+                }
+              >
+                <span
+                  className="c49 muya-tag-children-wrapper"
+                >
+                  篮球🏀
+                </span>
+                <span
+                  className="c50 muya-tag-close-icon"
+                >
+                  <svg
+                    aria-hidden="false"
+                    className="c24 c28"
+                    focusable="false"
+                    onClick={[Function]}
+                    viewBox="0 0 1024 1024"
+                  >
+                    <path
+                      d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <input
+                aria-describedby={null}
+                autoFocus={false}
+                className="c51 c52 muya-tags-input-input"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInput={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />
+              <div
+                className="c53 c54"
+              >
+                
+              </div>
+            </div>
+          </div>
+          <div
+            className="c55 c56"
+          >
+            <div
+              className="c40"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "rgba(204,204,204,1)",
+                    "height": 8,
+                    "width": 8,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="autocomplete"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          联想
+        </span>
+      </label>
+      <div
+        className="c41 muya-select-input-wrapper muya-auto-complete-input-wrapper inputWrapper"
+        id="autocomplete"
+        role="combobox"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <span
+          className="c57"
+        >
+          <div
+            className="c5 c6 muya-select-input muya-input-input-wrapper"
+            disabled={false}
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size="m"
+          >
+            <input
+              aria-describedby={null}
+              className="c7 c8 muya-input-input"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInput={[Function]}
+              onKeyDown={[Function]}
+              placeholder="联想词autoComplete"
+              readOnly={true}
+              size="m"
+              value=""
+            />
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="treeselect-single"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          树选择单选
+        </span>
+      </label>
+      <div
+        className="c41 muya-tree-select-input-wrapper"
+        id="treeselect-single"
+        role="combobox"
+        tabIndex={0}
+      >
+        <div
+          className="c5 c6 muya-input-input-wrapper"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="m"
+        >
+          <input
+            aria-describedby={null}
+            autoFocus={false}
+            className="c7 c8 muya-input-input"
+            disabled={false}
+            id="treeselect-single"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            placeholder="请选择"
+            readOnly={true}
+            size="m"
+            type="text"
+            value="成组条目#0#0"
+          />
+          <div
+            className="c12 c14 muya-input-node-wrapper"
+            size="m"
+          >
+            <div
+              className="c40"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "rgba(204,204,204,1)",
+                    "height": 8,
+                    "width": 8,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="treeselect-multiple"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          树选择多选
+        </span>
+      </label>
+      <div
+        className="c41 muya-tree-select-input-wrapper"
+        id="treeselect-multiple"
+        role="combobox"
+        tabIndex={0}
+      >
+        <div
+          className="c42 c43 muya-tags-input-input-wrapper"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="c44 c45 muya-tags-input-content-wrapper"
+          >
+            <div
+              className="c46 muya-tags-input-tags-wrapper"
+            >
+              <span
+                className="c47 c48 muya-tags-input-tag"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "transitionDuration": "300ms",
+                    "transitionProperty": "opacity",
+                    "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  }
+                }
+              >
+                <span
+                  className="c49 muya-tag-children-wrapper"
+                >
+                  普通条目#0#0#1
+                </span>
+                <span
+                  className="c50 muya-tag-close-icon"
+                >
+                  <svg
+                    aria-hidden="false"
+                    className="c24 c28"
+                    focusable="false"
+                    onClick={[Function]}
+                    viewBox="0 0 1024 1024"
+                  >
+                    <path
+                      d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <input
+                aria-describedby={null}
+                autoFocus={false}
+                className="c51 c52 muya-tags-input-input"
+                disabled={false}
+                id="treeselect-multiple"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInput={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                readOnly={false}
+                type="text"
+                value=""
+              />
+              <div
+                className="c53 c54"
+              >
+                
+              </div>
+            </div>
+          </div>
+          <div
+            className="c55 c56"
+          >
+            <div
+              className="c40"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "rgba(204,204,204,1)",
+                    "height": 8,
+                    "width": 8,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="files1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          上传文件
+        </span>
+      </label>
+      <div>
+        <div
+          className="c58"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragEnter={[Function]}
+          onDragLeave={[Function]}
+          onDragOver={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={0}
+        >
+          <span
+            className="c59 muya-upload-card-icon-wrapper"
+            color="assistant"
+            fontSize="s2"
+            style={
+              Object {
+                "lineHeight": 1,
+              }
+            }
+          >
+            <svg
+              aria-hidden="false"
+              className="c24 c60"
+              focusable="false"
+              fontSize={24}
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M511.147 341.333L744.96 575.147l-105.59 105.6-52.703-52.715v353.301H437.333V626.325l-54.4 54.422-105.6-105.6 233.814-233.814zM512 42.667c146.272 0 271.05 92.01 319.627 221.301C942.24 292.256 1024 392.576 1024 512c0 141.387-114.613 256-256 256h-32V618.667h32c58.912 0 106.667-47.755 106.667-106.667 0-47.979-32-89.653-77.142-102.57l-2.901-.79-75.413-19.285-27.371-72.864A192.107 192.107 0 00512 192a192.107 192.107 0 00-178.421 120.853l-1.408 3.627-27.382 72.875-75.413 19.296C182.72 420.576 149.333 462.997 149.333 512c0 57.92 46.155 105.045 103.68 106.624l2.987.043h32V768h-32C114.613 768 0 653.387 0 512c0-119.424 81.77-219.733 192.373-248.032C240.95 134.678 365.728 42.667 512 42.667z"
+              />
+            </svg>
+          </span>
+          <span
+            className="c59 muya-upload-card-title-wrapper"
+            color="assistant"
+            fontSize="s2"
+          >
+            将文件拖拽到此处，或点击上传
+          </span>
+          <span
+            className="c61 muya-upload-card-subtitle-wrapper"
+            color="secondary"
+            fontSize="s2"
+          >
+            支持balabala、balabala类型的文件
+          </span>
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+        </div>
+        <div />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="cascader1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          地址
+        </span>
+      </label>
+      <div
+        className="c39 muya-cascader-input-wrapper"
+        id="cascader1"
+        role="combobox"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <div
+          className="c5 c6 muya-cascader-input-wrapper muya-input-input-wrapper"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="m"
+          style={Object {}}
+        >
+          <input
+            aria-describedby={null}
+            className="c7 c8 muya-input-input"
+            disabled={false}
+            id="cascader1"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="请选择"
+            readOnly={true}
+            size="m"
+            type="text"
+            value=""
+          />
+          <div
+            className="c12 c14 muya-input-node-wrapper"
+            size="m"
+          >
+            <div
+              className="c40"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "rgba(204,204,204,1)",
+                    "height": 8,
+                    "width": 8,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="cascader2"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          地址多选
+        </span>
+      </label>
+      <div
+        className="c39 muya-cascader-input-wrapper"
+        id="cascader2"
+        role="combobox"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <div
+          className="c42 c43 muya-cascader-input-wrapper muya-tags-input-input-wrapper"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="c44 c45 muya-tags-input-content-wrapper"
+          >
+            <div
+              className="c46 muya-tags-input-tags-wrapper"
+            >
+              <span
+                className="c47 c48 muya-tags-input-tag"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "transitionDuration": "300ms",
+                    "transitionProperty": "opacity",
+                    "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+                  }
+                }
+              >
+                <span
+                  className="c49 muya-tag-children-wrapper"
+                >
+                  北京/朝阳区
+                </span>
+                <span
+                  className="c50 muya-tag-close-icon"
+                >
+                  <svg
+                    aria-hidden="false"
+                    className="c24 c28"
+                    focusable="false"
+                    onClick={[Function]}
+                    viewBox="0 0 1024 1024"
+                  >
+                    <path
+                      d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+                    />
+                  </svg>
+                </span>
+              </span>
+              <input
+                aria-describedby={null}
+                autoFocus={false}
+                className="c51 c52 muya-tags-input-input"
+                disabled={false}
+                id="cascader2"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInput={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                readOnly={true}
+                type="text"
+                value=""
+              />
+              <div
+                className="c53 c54"
+              >
+                
+              </div>
+            </div>
+          </div>
+          <div
+            className="c55 c56"
+          >
+            <div
+              className="c40"
+            >
+              <svg
+                aria-hidden="false"
+                className="c24 c28"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "rgba(204,204,204,1)",
+                    "height": 8,
+                    "width": 8,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  d="M832.267 277.333H189.46a21.333 21.333 0 00-17.685 33.259l306.09 453.76a21.333 21.333 0 0034.817.779L849.387 311.36a21.333 21.333 0 00-17.12-34.027z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="isDesigner1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+          >
+            *
+          </div>
+          设计师
+        </span>
+      </label>
+      <div
+        aria-checked={false}
+        checked={false}
+        className="c62"
+        disabled={false}
+        id="isDesigner1"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseUp={[Function]}
+        role="switch"
+        size="m"
+        tabIndex={0}
+      >
+        <div
+          className="c63 c64 muya-switch-children-wrapper"
+        />
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="birthday1"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          破壳日
+        </span>
+      </label>
+      <div
+        className="c5 c6 c65 muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          aria-describedby={null}
+          className="c7 c8 muya-input-input"
+          id="birthday1"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="选择出生日期"
+          size="m"
+          value=""
+        />
+        <div
+          className="c12 c14 muya-input-node-wrapper"
+          size="m"
+        >
+          <span
+            className="c66"
+          >
+            <svg
+              aria-hidden="false"
+              className="c24 c28"
+              focusable="false"
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M362.667 10.667A21.333 21.333 0 01384 32v74.667h256V32a21.333 21.333 0 0121.333-21.333H768A21.333 21.333 0 01789.333 32v74.667h213.334A21.333 21.333 0 011024 128v864a21.333 21.333 0 01-21.333 21.333H21.333A21.333 21.333 0 010 992V128a21.333 21.333 0 0121.333-21.333h213.334V32A21.333 21.333 0 01256 10.667h106.667zm512 512H149.333V864h725.334V522.667zM234.667 256h-85.334v117.333h725.334V256h-85.334v53.333A21.333 21.333 0 01768 330.667H661.333A21.333 21.333 0 01640 309.333V256H384v53.333a21.333 21.333 0 01-21.333 21.334H256a21.333 21.333 0 01-21.333-21.334V256z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+        htmlFor="birthday-time"
+        onClick={[Function]}
+      >
+        <span
+          className="c3 muya-formitem-inner-label"
+        >
+          <div
+            className="c4 muya-formitem-required-wrapper"
+          >
+            *
+          </div>
+          出生时间
+        </span>
+      </label>
+      <div
+        className="c5 c6 c67 muya-input-input-wrapper"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          aria-describedby={null}
+          className="c7 c8 muya-input-input"
+          id="birthday-time"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="选择时间"
+          size="m"
+          value=""
+        />
+        <div
+          className="c12 c14 muya-input-node-wrapper"
+          size="m"
+        >
+          <span
+            className="c66"
+          >
+            <svg
+              aria-hidden="false"
+              className="c24 c28"
+              focusable="false"
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                d="M512 106.667c-223.861 0-405.333 181.472-405.333 405.333S288.139 917.333 512 917.333 917.333 735.861 917.333 512 735.861 106.667 512 106.667zM512 0c282.773 0 512 229.227 512 512s-229.227 512-512 512S0 794.773 0 512 229.227 0 512 0zm53.333 521.91l164.864 164.863-75.424 75.414-196.106-196.854v-320h106.666V521.91z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c9 muya-formitem-error"
+    >
+      <div
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "scaleY(0.8)",
+            "transformOrigin": "0% 0%",
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 muya-formitem-input-wrapper"
+    >
+      <label
+        className="c2 muya-formitem-label"
+      >
+        <div
+          className="c4 muya-formitem-required-wrapper"
+          style={
+            Object {
+              "visibility": "hidden",
+            }
+          }
+        >
+          *
+        </div>
+      </label>
+      <button
+        className="c68 c69 c70"
+        disabled={false}
+        onClick={[Function]}
+        type="reset"
+      >
+        重置
+      </button>
+      <button
+        className="c68 c69 c71"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        提交
+      </button>
+    </div>
+  </div>
+</form>
+`;

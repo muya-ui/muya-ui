@@ -1,0 +1,798 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots should be matched in the base case 1`] = `
+.c6 {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c8 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(204,204,204,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c8::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c11 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,1);
+}
+
+.c11::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c9 {
+  vertical-align: middle;
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c2:focus .c7,
+.c2:hover .c7 {
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c2:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c10 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c10:focus .c7,
+.c10:hover .c7 {
+  border-color: rgba(51,139,255,1);
+  background-color: rgba(51,139,255,1);
+}
+
+.c10:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(12,108,235,1);
+}
+
+.c12 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.c12 .c5,
+.c12 .c3 {
+  cursor: not-allowed;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+.c0 .c1 {
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1 c2 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={1}
+      />
+      <span
+        className="c7 c8 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      a
+    </span>
+  </label>
+  <label
+    className="c1 c10 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={true}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={2}
+      />
+      <span
+        className="c7 c11 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      b
+    </span>
+  </label>
+  <label
+    className="c1 c2 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={3}
+      />
+      <span
+        className="c7 c8 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      c
+    </span>
+  </label>
+  <label
+    className="c1 c12 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={true}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={4}
+      />
+      <span
+        className="c7 c8 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      d
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Snapshots 自定义 radio 渲染 1`] = `
+.c6 {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c8 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(204,204,204,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c8::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c11 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,1);
+}
+
+.c11::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c9 {
+  vertical-align: middle;
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c2:focus .c7,
+.c2:hover .c7 {
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c2:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c10 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c10:focus .c7,
+.c10:hover .c7 {
+  border-color: rgba(51,139,255,1);
+  background-color: rgba(51,139,255,1);
+}
+
+.c10:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(12,108,235,1);
+}
+
+.c12 .c5,
+.c12 .c3 {
+  cursor: not-allowed;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+.c0 .c1 {
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <label
+      className="c1 c2 muya-radio-wrapper"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="c3 c4"
+      >
+        <input
+          autoFocus={false}
+          checked={false}
+          className="c5 c6 muya-radio-input-radio"
+          disabled={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value={1}
+        />
+        <span
+          className="c7 c8 muya-radio-inner-radio"
+        />
+      </span>
+      <span
+        className="c9 muya-radio-text"
+      >
+        1
+      </span>
+    </label>
+  </div>
+  <div>
+    <label
+      className="c1 c10 muya-radio-wrapper"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="c3 c4"
+      >
+        <input
+          autoFocus={false}
+          checked={true}
+          className="c5 c6 muya-radio-input-radio"
+          disabled={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value={2}
+        />
+        <span
+          className="c7 c11 muya-radio-inner-radio"
+        />
+      </span>
+      <span
+        className="c9 muya-radio-text"
+      >
+        2
+      </span>
+    </label>
+  </div>
+  <div>
+    <label
+      className="c1 c2 muya-radio-wrapper"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="c3 c4"
+      >
+        <input
+          autoFocus={false}
+          checked={false}
+          className="c5 c6 muya-radio-input-radio"
+          disabled={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value={3}
+        />
+        <span
+          className="c7 c8 muya-radio-inner-radio"
+        />
+      </span>
+      <span
+        className="c9 muya-radio-text"
+      >
+        3
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Snapshots 自定义 width 和 ellipsis 1`] = `
+.c6 {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.c8 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(204,204,204,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c8::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c11 {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,1);
+}
+
+.c11::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 6px;
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c9 {
+  vertical-align: middle;
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.c12:focus .c7,
+.c12:hover .c7 {
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c12:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c13:focus .c7,
+.c13:hover .c7 {
+  border-color: rgba(51,139,255,1);
+  background-color: rgba(51,139,255,1);
+}
+
+.c13:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(12,108,235,1);
+}
+
+.c14 .c5,
+.c14 .c3 {
+  cursor: not-allowed;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2:focus .c7,
+.c2:hover .c7 {
+  border-color: rgba(26,122,248,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c2:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(255,255,255,1);
+}
+
+.c10 {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c10:focus .c7,
+.c10:hover .c7 {
+  border-color: rgba(51,139,255,1);
+  background-color: rgba(51,139,255,1);
+}
+
+.c10:active .c7 {
+  border-color: rgba(12,108,235,1);
+  background-color: rgba(12,108,235,1);
+}
+
+.c0 {
+  display: inline-block;
+}
+
+.c0 .c1 {
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1 c2 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={1}
+      />
+      <span
+        className="c7 c8 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      1
+    </span>
+  </label>
+  <label
+    className="c1 c10 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={true}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={2}
+      />
+      <span
+        className="c7 c11 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      2
+    </span>
+  </label>
+  <label
+    className="c1 c2 muya-radio-wrapper"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="c3 c4"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        className="c5 c6 muya-radio-input-radio"
+        disabled={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+        value={3}
+      />
+      <span
+        className="c7 c8 muya-radio-inner-radio"
+      />
+    </span>
+    <span
+      className="c9 muya-radio-text"
+    >
+      3
+    </span>
+  </label>
+</div>
+`;

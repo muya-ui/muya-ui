@@ -1,0 +1,693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 ImgCropper 1`] = `
+.c10 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c7 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c9 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(102,102,102,1);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c9:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c9:active {
+  color: rgba(12,108,235,1);
+}
+
+.c9 + .c8 {
+  margin-left: 8px;
+}
+
+.c12 {
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.c12:hover .c13 {
+  background-color: rgba(242,242,242,1);
+}
+
+.c16 {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 999rem;
+  background-color: rgba(26,122,248,1);
+  z-index: 1;
+  height: 100%;
+}
+
+.c15 {
+  position: absolute;
+  z-index: 3;
+  box-sizing: content-box;
+  cursor: pointer;
+  background-color: rgba(255,255,255,1);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  top: 50%;
+}
+
+.c15::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,1);
+  border: 1px solid rgba(26,122,248,1);
+}
+
+.c15:hover {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  width: 16px;
+  height: 16px;
+  box-shadow: none;
+}
+
+.c15:hover::before {
+  border-color: rgba(26,122,248,1);
+}
+
+.c14 {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: rgba(242,242,242,1);
+  border-radius: 999rem;
+  width: 100%;
+  height: 6px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,1);
+  border-radius: 0px;
+  box-shadow: 0 0 0 10000px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.c2:hover {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  box-sizing: content-box;
+  width: 210px;
+  height: 210px;
+  padding: 45px 45px;
+  margin-bottom: 24px;
+}
+
+.c17 {
+  font-size: 0;
+  padding-left: 16px;
+}
+
+.c6 {
+  font-size: 0;
+}
+
+.c11 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 16px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c4 {
+  background-size: cover;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  position: absolute;
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+<div
+  className=""
+>
+  <div
+    className="c0"
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    onMouseUp={[Function]}
+    onWheel={[Function]}
+  >
+    <div
+      className="c1 muya-img-cropper-container"
+    >
+      <div
+        className="c2 muya-img-cropper-mask"
+      />
+      <div
+        className="c3 muya-img-cropper-content"
+      >
+        <div
+          className="c4 muya-img-cropper-img"
+          style={
+            Object {
+              "backgroundImage": "url(sss)",
+              "transform": "translate(0px, 0px) rotate(0deg) scale(1) translateZ(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="c5 muya-img-cropper-row"
+  >
+    <div
+      className="c6 muya-img-cropper-zoom-out"
+    >
+      <button
+        className="c7 c8 c9 muya-img-cropper-zoom-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c10"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zM608 384a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512H309.333A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384H608z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="c11 muya-img-cropper-slider-container"
+    >
+      <div
+        className="c12 muya-img-cropper-slider"
+      >
+        <div
+          className="c13 c14 muya-slider-track"
+          onClick={[Function]}
+        >
+          <div
+            className="c15 muya-slider-end-circle"
+            onMouseDown={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "left": "0%",
+              }
+            }
+          />
+          <div
+            className="c16 muya-slider-range"
+            style={
+              Object {
+                "left": "0%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c6 muya-img-cropper-zoom"
+    >
+      <button
+        className="c7 c8 c9 muya-img-cropper-zoom-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c10"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zm247.872 23.872a21.333 21.333 0 0121.334 21.334V384H608a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512h-85.333v85.333a21.333 21.333 0 01-21.334 21.334H416a21.333 21.333 0 01-21.333-21.334V512h-85.334A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384h85.334v-85.333A21.333 21.333 0 01416 277.333h85.333z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="c17 muya-img-cropper-rotate-container"
+    >
+      <button
+        className="c7 c8 c9 muya-img-cropper-rotate-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c10"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M725.333 557.323a21.333 21.333 0 0121.334 21.333v384a21.333 21.333 0 01-21.334 21.333H106.667a21.333 21.333 0 01-21.334-21.333v-384a21.333 21.333 0 0121.334-21.333h618.666zm-128 149.333H234.667v128h362.666v-128zM553.6 422.379L448 527.979l-263.99-264L448 0l105.6 105.6-89.067 89.045h57.323c246.55 0 448.043 191.254 452.053 430.08l.064 7.254V785.29H824.64V631.989c0-156.8-132.224-285.408-297.75-287.968l-5.034-.032-46.656-.01 78.4 78.4z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`测试 ImgCropper moving=true 1`] = `
+.c9 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c6 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c8 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(102,102,102,1);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c8:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c8:active {
+  color: rgba(12,108,235,1);
+}
+
+.c8 + .c7 {
+  margin-left: 8px;
+}
+
+.c11 {
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.c11:hover .c12 {
+  background-color: rgba(242,242,242,1);
+}
+
+.c15 {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 999rem;
+  background-color: rgba(26,122,248,1);
+  z-index: 1;
+  height: 100%;
+}
+
+.c14 {
+  position: absolute;
+  z-index: 3;
+  box-sizing: content-box;
+  cursor: pointer;
+  background-color: rgba(255,255,255,1);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  top: 50%;
+}
+
+.c14::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,1);
+  border: 1px solid rgba(26,122,248,1);
+}
+
+.c14:hover {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  width: 16px;
+  height: 16px;
+  box-shadow: none;
+}
+
+.c14:hover::before {
+  border-color: rgba(26,122,248,1);
+}
+
+.c13 {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: rgba(242,242,242,1);
+  border-radius: 999rem;
+  width: 100%;
+  height: 6px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+  border: 1px solid rgba(255,255,255,1);
+  border-radius: 0px;
+  box-shadow: 0 0 0 10000px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  box-sizing: content-box;
+  width: 210px;
+  height: 210px;
+  padding: 45px 45px;
+  margin-bottom: 24px;
+}
+
+.c16 {
+  font-size: 0;
+  padding-left: 16px;
+}
+
+.c5 {
+  font-size: 0;
+}
+
+.c10 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 16px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+<div
+  className=""
+>
+  <div
+    className="c0"
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    onMouseUp={[Function]}
+    onWheel={[Function]}
+  >
+    <div
+      className="c1 muya-img-cropper-container"
+    >
+      <div
+        className="c2 muya-img-cropper-mask"
+      />
+      <div
+        className="c3 muya-img-cropper-content"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="c4 muya-img-cropper-row"
+  >
+    <div
+      className="c5 muya-img-cropper-zoom-out"
+    >
+      <button
+        className="c6 c7 c8 muya-img-cropper-zoom-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c9"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zM608 384a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512H309.333A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384H608z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="c10 muya-img-cropper-slider-container"
+    >
+      <div
+        className="c11 muya-img-cropper-slider"
+      >
+        <div
+          className="c12 c13 muya-slider-track"
+          onClick={[Function]}
+        >
+          <div
+            className="c14 muya-slider-end-circle"
+            onMouseDown={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "left": "1%",
+              }
+            }
+          />
+          <div
+            className="c15 muya-slider-range"
+            style={
+              Object {
+                "left": "0%",
+                "width": "1%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="c5 muya-img-cropper-zoom"
+    >
+      <button
+        className="c6 c7 c8 muya-img-cropper-zoom-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c9"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M758.805 147.861c150.699 150.71 166.784 385.046 48.246 553.6L972.629 867.03a21.333 21.333 0 010 30.176l-75.424 75.414a21.333 21.333 0 01-30.176 0L701.461 807.06c-168.554 118.539-402.89 102.454-553.6-48.245-168.704-168.704-168.704-442.24 0-610.944 168.704-168.704 442.24-168.704 610.944 0zm-505.344 105.6c-110.4 110.39-110.4 289.355 0 399.744 110.39 110.4 289.355 110.4 399.744 0 110.4-110.389 110.4-289.354 0-399.744-110.389-110.4-289.354-110.4-399.744 0zm247.872 23.872a21.333 21.333 0 0121.334 21.334V384H608a21.333 21.333 0 0121.333 21.333v85.334A21.333 21.333 0 01608 512h-85.333v85.333a21.333 21.333 0 01-21.334 21.334H416a21.333 21.333 0 01-21.333-21.334V512h-85.334A21.333 21.333 0 01288 490.667v-85.334A21.333 21.333 0 01309.333 384h85.334v-85.333A21.333 21.333 0 01416 277.333h85.333z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="c16 muya-img-cropper-rotate-container"
+    >
+      <button
+        className="c6 c7 c8 muya-img-cropper-rotate-button"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="false"
+          className="c9"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M725.333 557.323a21.333 21.333 0 0121.334 21.333v384a21.333 21.333 0 01-21.334 21.333H106.667a21.333 21.333 0 01-21.334-21.333v-384a21.333 21.333 0 0121.334-21.333h618.666zm-128 149.333H234.667v128h362.666v-128zM553.6 422.379L448 527.979l-263.99-264L448 0l105.6 105.6-89.067 89.045h57.323c246.55 0 448.043 191.254 452.053 430.08l.064 7.254V785.29H824.64V631.989c0-156.8-132.224-285.408-297.75-287.968l-5.034-.032-46.656-.01 78.4 78.4z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

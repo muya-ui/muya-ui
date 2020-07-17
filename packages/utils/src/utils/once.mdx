@@ -1,0 +1,30 @@
+---
+name: once
+menu: 工具方法
+route: /utils/once
+---
+
+# once
+
+异步函数执行锁定
+
+### callOnce(fn)
+
+异步函数同时只能调用一次，如果当前有正在进行的，会被取消掉
+
+- fn: async function
+
+Example:
+
+```js
+import { once } from '@muya-ui/utils';
+
+$el.on(
+  'click',
+  '.J_signup',
+  once(async () => {
+    const modal = await window.KJL.getMod('login-reg-modal');
+    modal.showModal({ type: 'reg', activeReg, state: { from: 'header' } });
+  }),
+);
+```

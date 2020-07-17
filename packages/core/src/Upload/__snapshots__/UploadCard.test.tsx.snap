@@ -1,0 +1,654 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadCard component should render current size 1`] = `
+Array [
+  .c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c2 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c3 {
+  color: rgba(187,187,187,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1 muya-upload-card-icon-wrapper"
+      color="assistant"
+      fontSize="s2"
+      style={
+        Object {
+          "lineHeight": 1,
+        }
+      }
+    />
+    <span
+      className="c2 muya-upload-card-title-wrapper"
+      color="assistant"
+      fontSize="s1"
+    />
+    <span
+      className="c3 muya-upload-card-subtitle-wrapper"
+      color="secondary"
+      fontSize="s1"
+    />
+  </div>,
+  .c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c2 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1 muya-upload-card-icon-wrapper"
+      color="assistant"
+      fontSize="s2"
+      style={
+        Object {
+          "lineHeight": 1,
+        }
+      }
+    />
+    <span
+      className="c1 muya-upload-card-title-wrapper"
+      color="assistant"
+      fontSize="s2"
+    />
+    <span
+      className="c2 muya-upload-card-subtitle-wrapper"
+      color="secondary"
+      fontSize="s2"
+    />
+  </div>,
+  .c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c2 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1 muya-upload-card-icon-wrapper"
+      color="assistant"
+      fontSize="s2"
+      style={
+        Object {
+          "lineHeight": 1,
+        }
+      }
+    />
+    <span
+      className="c1 muya-upload-card-title-wrapper"
+      color="assistant"
+      fontSize="s2"
+    />
+    <span
+      className="c2 muya-upload-card-subtitle-wrapper"
+      color="secondary"
+      fontSize="s2"
+    />
+  </div>,
+  .c2 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c3 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1 muya-upload-card-icon-wrapper"
+      color="assistant"
+      fontSize="s3"
+      style={
+        Object {
+          "lineHeight": 1,
+        }
+      }
+    />
+    <span
+      className="c2 muya-upload-card-title-wrapper"
+      color="assistant"
+      fontSize="s2"
+    />
+    <span
+      className="c3 muya-upload-card-subtitle-wrapper"
+      color="secondary"
+      fontSize="s2"
+    />
+  </div>,
+]
+`;
+
+exports[`UploadCard component should render customer children 1`] = `
+.c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c2 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1 muya-upload-card-icon-wrapper"
+    color="assistant"
+    fontSize="s2"
+    style={
+      Object {
+        "lineHeight": 1,
+      }
+    }
+  />
+  <span
+    className="c1 muya-upload-card-title-wrapper"
+    color="assistant"
+    fontSize="s2"
+  />
+  <span
+    className="c2 muya-upload-card-subtitle-wrapper"
+    color="secondary"
+    fontSize="s2"
+  />
+  <input
+    type="text"
+  />
+</div>
+`;
+
+exports[`UploadCard component should render disabled style 1`] = `
+.c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c2 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: rgba(250,250,250,1);
+  cursor: not-allowed;
+}
+
+.c0 > * {
+  color: rgba(221,221,221,1);
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1 muya-upload-card-icon-wrapper"
+    color="assistant"
+    fontSize="s2"
+    style={
+      Object {
+        "lineHeight": 1,
+      }
+    }
+  />
+  <span
+    className="c1 muya-upload-card-title-wrapper"
+    color="assistant"
+    fontSize="s2"
+  />
+  <span
+    className="c2 muya-upload-card-subtitle-wrapper"
+    color="secondary"
+    fontSize="s2"
+  />
+</div>
+`;
+
+exports[`UploadCard component should render drag style 1`] = `
+.c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c2 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+  className="c0"
+  draggable={true}
+>
+  <span
+    className="c1 muya-upload-card-icon-wrapper"
+    color="assistant"
+    fontSize="s2"
+    style={
+      Object {
+        "lineHeight": 1,
+      }
+    }
+  />
+  <span
+    className="c1 muya-upload-card-title-wrapper"
+    color="assistant"
+    fontSize="s2"
+  />
+  <span
+    className="c2 muya-upload-card-subtitle-wrapper"
+    color="secondary"
+    fontSize="s2"
+  />
+</div>
+`;
+
+exports[`UploadCard component should render normal 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c1 {
+  color: rgba(153,153,153,1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c3 {
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(238,238,238,1);
+  border-radius: 4px;
+  width: 96px;
+  height: 96px;
+}
+
+.c0:hover {
+  background: rgba(250,250,250,1);
+}
+
+.c0:active {
+  background: rgba(245,245,245,1);
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1 muya-upload-card-icon-wrapper"
+    color="assistant"
+    fontSize="s2"
+    style={
+      Object {
+        "lineHeight": 1,
+      }
+    }
+  >
+    <svg
+      aria-hidden="false"
+      className="c2"
+      focusable="false"
+      viewBox="0 0 1024 1024"
+    >
+      <path
+        d="M437.333 437.333V64a21.333 21.333 0 0121.334-21.333h106.666A21.333 21.333 0 01586.667 64v373.333H960a21.333 21.333 0 0121.333 21.334v106.666A21.333 21.333 0 01960 586.667H586.667V960a21.333 21.333 0 01-21.334 21.333H458.667A21.333 21.333 0 01437.333 960V586.667H64a21.333 21.333 0 01-21.333-21.334V458.667A21.333 21.333 0 0164 437.333h373.333z"
+      />
+    </svg>
+  </span>
+  <span
+    className="c1 muya-upload-card-title-wrapper"
+    color="assistant"
+    fontSize="s2"
+  >
+    点击上传
+  </span>
+  <span
+    className="c3 muya-upload-card-subtitle-wrapper"
+    color="secondary"
+    fontSize="s2"
+  >
+    子标题
+  </span>
+</div>
+`;

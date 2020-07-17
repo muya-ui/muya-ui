@@ -1,0 +1,36 @@
+---
+name: usePrevious
+menu: Hooks
+route: /hooks/usePrevious
+---
+
+# usePrevious
+
+在使用 Class Component 时，可以在 `componentDidUpdate` 方法中，接收先前的 props 和 state 作为参数，或者通过实例变量（this.previous = value）。
+
+在使用 Hooks 时，可以使用 `useRef` 来实现类似的能力，获取前一个 state 或 props 的值。
+
+Example:
+
+```js
+import { useState, useEffect, useRef } from 'react';
+
+// Usage
+function App() {
+  // State value and setter for our example
+  const [count, setCount] = useState(0);
+
+  // Get the previous value (was passed into hook on last render)
+  const prevCount = usePrevious(count);
+
+  // Display both current and previous count value
+  return (
+    <div>
+      <h1>
+        Now: {count}, before: {prevCount}
+      </h1>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+```

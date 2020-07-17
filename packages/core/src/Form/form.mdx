@@ -1,0 +1,156 @@
+---
+name: Form 表单
+menu: 组件
+route: /components/form
+autoDemos: true
+parent: 数据录入
+disableDoubleRow: true
+---
+
+# Form 表单
+
+高性能表单控件，自带数据域管理。包含数据录入、校验以及对应样式。包含多选框、单选框、输入框、选择器等元素。
+
+## 使用场景
+
+- 用于创建一个实体或收集信息。
+- 需要对输入的数据类型进行校验时。
+
+## 用法
+
+标签文本尽量简洁有效，需注意的必填项可在前面加\*。
+
+在错误率较高的输入项中使用即时验证反馈。
+
+表单提交失败时，页面跳至填写错误项，校验错误反馈必须包含出错原因。
+
+一个表单尽量只有一个主按钮，如果有次级按钮的出现，在样式上不能影响主按钮的使用。
+
+## 行为状态
+
+表单根据业务需求的不同由不同原子组件拼接封装而成。
+
+交互行为可分为：数据的录入及校验。
+
+根据表单的排列方式，可分为：垂直表单、行内表单。
+
+## 最佳实践
+
+参考 [Form 最佳实践](../bp/form)
+
+{Demos}
+
+### API
+
+#### IFormProps
+
+<Props propsName="IFormProps" />
+
+#### IFormItemProps
+
+<Props propsName="IFormItemProps" />
+
+#### IFormHelpers
+
+<Props propsName="IFormHelpers" />
+
+#### IFormState
+
+<Props propsName="IFormState" />
+
+#### `IFormInstantEditingConfig`
+
+<Props propsName="IFormInstantEditingConfig" />
+
+#### `IFormInstantEditingRenderProps`
+
+<Props propsName="IFormInstantEditingRenderProps" />
+
+#### `IFormBag`
+
+```ts
+type IFormBag<Values> = IFormState<Values> &
+  IFormHelpers<Values> &
+  IFormHandlers &
+  IFormProps<Values>;
+```
+
+#### IFormTouched
+
+```ts
+type IFormTouched<Values> = {
+  [K in keyof Values]?: boolean;
+};
+```
+
+#### ValidateError、FieldErrorList
+
+```ts
+interface ValidateError {
+  message: string;
+  field: string;
+}
+
+interface FieldErrorList {
+  [field: string]: ValidateError[];
+}
+```
+
+### Styles
+
+#### IFormItemStyleKeys
+
+<Styles typeName="IFormItemStyleKeys" componentName="formitem" />
+
+### FAQ
+
+Q：如何获取到 Form 数据？
+
+1. 通过`Form` `onChange`、`onSubmit` 事件，可从参数获取到 values & FormHelpers （适用于回调函数，在回调外拿不到数据）
+2. 通过 `Form` `formBagRef`，以 ref 的形式获取`formBag` (适用于在 `Form` 外获取数据)
+3. 给 Form 传入 `function child`，children 函数中可以通过参数拿到`formBag` (适用于在 `Form` 内部获取数据)
+4. 使用 `useFormContext` 拿到`formBag`。使用 useFormContext 的组件，必须被 Form 所包裹。（适用于将 `Form` 内容单独封装组件的场景，例如`CustomFormItemList`）
+
+Q: 如何优化表单的性能？
+
+在使用 function child or `useFormContext`，可以将其是作为`数据容器`，表单数据变化是容器也会重新执行/渲染。
+
+那么，根据**容器组件 & 展示组件分离的思想**，我们可以将展示组件抽离，然后使用`React.memo` or `componentShouldUpdate`来做优化，减少表单的渲染次数。
+
+```tsx
+<Form>
+  {({ values, errors, setFieldValue }) => {
+    // 任意表单项数据变化，下面的FormItem都会变化，因为整个表单的数据需要同步到数据容器。
+    return (
+      <>
+        <FormItem>
+          <Input />
+        </FormItem>
+      </>
+    );
+  }}
+</Form>
+```
+
+```tsx
+// memo
+const FormItemList = React.memo(props => {
+  const { nameRequired } = props;
+  return (
+    <>
+      <FormItem rule={{ required: nameRequired }} name="some.object.name">
+        <Input />
+      </FormItem>
+    </>
+  );
+});
+
+<Form>
+  {({ values, errors, setFieldValue }) => {
+    // 数据容器，每次依然都会渲染
+    // FormItemList，只有依赖的字段发生变化才会渲染(nameRequired)
+    const nameRequired = getIn(values, 'some.object.nameRequired');
+    return <FormItemList nameRequired={nameRequired} />;
+  }}
+</Form>;
+```

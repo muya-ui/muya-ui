@@ -1,0 +1,40 @@
+---
+name: rectIntersect
+menu: 工具方法
+route: /utils/rectintersect
+---
+
+# rectIntersect
+
+检查矩形区域是否相交，一般用于判断 DOM 元素是否在视口内
+
+Example:
+
+```js
+import { setRectIntersectContainer } from '@muya-ui/utils';
+
+// 设置容器，默认容器设置
+// {
+//   top: -0.3,
+//   bottom: 0.3,
+//   left: 0,
+//   right: 0,
+// }
+// 会设置 container 为
+// {
+//   top: 0,
+//   bottom: 90,
+//   left: 0,
+//   right: 90,
+// }
+// 意思是距离 top 往上0.3倍的容器高度，bottom 往下0.3倍容器高度，左右边就是容器的边
+const rectIntersect = setRectIntersectContainer();
+
+// 检测当前传入的 rect 和 container 是否相交
+rectIntersect({
+  top: 0,
+  bottom: 90,
+  left: 0,
+  right: 90,
+});
+```

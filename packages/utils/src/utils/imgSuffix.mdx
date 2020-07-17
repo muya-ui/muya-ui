@@ -1,0 +1,27 @@
+---
+name: imgSuffix
+menu: 工具方法
+route: /utils/imgsuffix
+---
+
+# 处理图片后缀
+
+两种云的处理：
+
+- 阿里云: [OSS 图片处理文档](https://help.aliyun.com/document_detail/44686.html)
+- 金山云：[图片处理](https://docs.ksyun.com/documents/886)
+
+Example:
+
+```js
+import { imgSuffix, IImgSuffix } from '@muya-ui/utils';
+
+const c1: IImgSuffix = {
+  resizeMode: 'lfit',
+  ratio: 1.2,
+  width: 100,
+  height: 80,
+};
+expect(imgSuffix(c1)).toBe('?x-oss-process=image/resize,m_lfit,w_120,h_96');
+expect(imgSuffix(c1, 'kss')).toBe('@base@tag=imgScale&m=0&w=120&h=96');
+```

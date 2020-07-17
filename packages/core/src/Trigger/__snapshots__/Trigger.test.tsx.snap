@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have 12 placement 1`] = `
+.c3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  bottom: 100%;
+  border-bottom-color: #fff;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-width: 6px 6px;
+}
+
+.c0 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  top: 100%;
+  border-top-color: #fff;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-width: 6px 6px;
+}
+
+.c1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  top: 100%;
+  border-top-color: #fff;
+  left: 16px;
+  border-width: 6px 6px;
+}
+
+.c2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  top: 100%;
+  border-top-color: #fff;
+  right: 16px;
+  border-width: 6px 6px;
+}
+
+.c4 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  bottom: 100%;
+  border-bottom-color: #fff;
+  left: 16px;
+  border-width: 6px 6px;
+}
+
+.c5 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  bottom: 100%;
+  border-bottom-color: #fff;
+  right: 16px;
+  border-width: 6px 6px;
+}
+
+.c6 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  left: 100%;
+  border-left-color: #fff;
+  top: 16px;
+  border-width: 6px 6px;
+}
+
+.c7 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  left: 100%;
+  border-left-color: #fff;
+  bottom: 16px;
+  border-width: 6px 6px;
+}
+
+.c8 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  left: 100%;
+  border-left-color: #fff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-width: 6px 6px;
+}
+
+.c9 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  right: 100%;
+  border-right-color: #fff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-width: 6px 6px;
+}
+
+.c10 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  right: 100%;
+  border-right-color: #fff;
+  bottom: 16px;
+  border-width: 6px 6px;
+}
+
+.c11 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  right: 100%;
+  border-right-color: #fff;
+  top: 16px;
+  border-width: 6px 6px;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c1"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c2"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c3"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c4"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c5"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c6"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c7"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c8"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c9"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c10"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  <div
+    className="c11"
+  >
+    <span>
+      hh
+    </span>
+  </div>
+  ;
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+<span
+  aria-describedby={null}
+  id="111"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  hh
+</span>
+`;

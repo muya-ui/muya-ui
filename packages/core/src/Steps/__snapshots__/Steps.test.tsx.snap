@@ -1,0 +1,938 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render different size 1`] = `
+Array [
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c10 {
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c8 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 9999px;
+  height: 1px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: rgba(238,238,238,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 8px;
+}
+
+.c0:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.c0:last-child .c7 {
+  display: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 4px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(238,238,238,1);
+}
+
+.c6 {
+  margin-right: 2px;
+}
+
+.c11 .c2 {
+  border-color: rgba(26,122,248,1);
+  background: transparent;
+}
+
+.c11 .c5 {
+  color: rgba(26,122,248,1);
+}
+
+.c12:hover .c2 {
+  border-color: rgba(51,139,255,1);
+  background: transparent;
+}
+
+.c12:hover .c5 {
+  color: rgba(51,139,255,1);
+}
+
+.c12:active .c2 {
+  border-color: rgba(12,108,235,1);
+  background: transparent;
+}
+
+.c12:active .c5 {
+  color: rgba(12,108,235,1);
+}
+
+.c13 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c13 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  color: rgba(187,187,187,1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: default;
+  color: rgba(255,43,0,1);
+}
+
+.c1 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c1 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1>* {
+  -webkit-transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c14 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c14 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c15 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c15 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c9 {
+  margin-left: 24px;
+  padding-left: 4px;
+  margin-top: 4px;
+  max-width: 172px;
+  overflow: hidden;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 muya-step-content"
+      size="s"
+    >
+      <span
+        className="c2 c3 muya-step-circle"
+        size="s"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+          />
+        </svg>
+      </span>
+      <span
+        className="c5 c6 muya-step-title"
+      >
+        111
+      </span>
+      <div
+        className="c7 c8 muya-step-progress-line"
+      />
+    </div>
+    <div
+      className="c9 muya-step-description-wrapper"
+      size="s"
+    >
+      <span
+        className="c10 muya-step-text"
+        color="assistant"
+        type="error"
+      />
+    </div>
+  </div>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c10 {
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c8 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 9999px;
+  height: 1px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: rgba(238,238,238,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 8px;
+}
+
+.c0:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.c0:last-child .c7 {
+  display: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 6px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(238,238,238,1);
+}
+
+.c6 {
+  margin-right: 2px;
+}
+
+.c11 .c2 {
+  border-color: rgba(26,122,248,1);
+  background: transparent;
+}
+
+.c11 .c5 {
+  color: rgba(26,122,248,1);
+}
+
+.c12:hover .c2 {
+  border-color: rgba(51,139,255,1);
+  background: transparent;
+}
+
+.c12:hover .c5 {
+  color: rgba(51,139,255,1);
+}
+
+.c12:active .c2 {
+  border-color: rgba(12,108,235,1);
+  background: transparent;
+}
+
+.c12:active .c5 {
+  color: rgba(12,108,235,1);
+}
+
+.c13 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c13 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c14 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c14 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: default;
+  color: rgba(255,43,0,1);
+}
+
+.c1 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c1 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1>* {
+  -webkit-transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c15 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c15 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c9 {
+  margin-left: 28px;
+  padding-left: 6px;
+  margin-top: 4px;
+  max-width: 172px;
+  overflow: hidden;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 muya-step-content"
+      size="m"
+    >
+      <span
+        className="c2 c3 muya-step-circle"
+        size="m"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+          />
+        </svg>
+      </span>
+      <span
+        className="c5 c6 muya-step-title"
+      >
+        111
+      </span>
+      <div
+        className="c7 c8 muya-step-progress-line"
+      />
+    </div>
+    <div
+      className="c9 muya-step-description-wrapper"
+      size="m"
+    >
+      <span
+        className="c10 muya-step-text"
+        color="assistant"
+        type="error"
+      />
+    </div>
+  </div>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c10 {
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c8 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 9999px;
+  height: 1px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: rgba(238,238,238,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 8px;
+}
+
+.c0:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.c0:last-child .c7 {
+  display: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(238,238,238,1);
+}
+
+.c6 {
+  margin-right: 2px;
+}
+
+.c11 .c2 {
+  border-color: rgba(26,122,248,1);
+  background: transparent;
+}
+
+.c11 .c5 {
+  color: rgba(26,122,248,1);
+}
+
+.c12:hover .c2 {
+  border-color: rgba(51,139,255,1);
+  background: transparent;
+}
+
+.c12:hover .c5 {
+  color: rgba(51,139,255,1);
+}
+
+.c12:active .c2 {
+  border-color: rgba(12,108,235,1);
+  background: transparent;
+}
+
+.c12:active .c5 {
+  color: rgba(12,108,235,1);
+}
+
+.c13 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c13 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c14 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c14 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c15 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c15 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  color: rgba(187,187,187,1);
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: default;
+  color: rgba(255,43,0,1);
+}
+
+.c1 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c1 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1>* {
+  -webkit-transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c9 {
+  margin-left: 40px;
+  padding-left: 8px;
+  margin-top: 4px;
+  max-width: 172px;
+  overflow: hidden;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 muya-step-content"
+      size="xl"
+    >
+      <span
+        className="c2 c3 muya-step-circle"
+        size="xl"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+          />
+        </svg>
+      </span>
+      <span
+        className="c5 c6 muya-step-title"
+      >
+        111
+      </span>
+      <div
+        className="c7 c8 muya-step-progress-line"
+      />
+    </div>
+    <div
+      className="c9 muya-step-description-wrapper"
+      size="xl"
+    >
+      <span
+        className="c10 muya-step-text"
+        color="assistant"
+        type="error"
+      />
+    </div>
+  </div>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c10 {
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  line-height: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.c8 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 9999px;
+  height: 1px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: rgba(238,238,238,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 8px;
+}
+
+.c0:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.c0:last-child .c7 {
+  display: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 8px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(238,238,238,1);
+}
+
+.c6 {
+  margin-right: 2px;
+}
+
+.c11 .c2 {
+  border-color: rgba(26,122,248,1);
+  background: transparent;
+}
+
+.c11 .c5 {
+  color: rgba(26,122,248,1);
+}
+
+.c12:hover .c2 {
+  border-color: rgba(51,139,255,1);
+  background: transparent;
+}
+
+.c12:hover .c5 {
+  color: rgba(51,139,255,1);
+}
+
+.c12:active .c2 {
+  border-color: rgba(12,108,235,1);
+  background: transparent;
+}
+
+.c12:active .c5 {
+  color: rgba(12,108,235,1);
+}
+
+.c13 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c13 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c14 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c14 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  color: rgba(187,187,187,1);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: default;
+  color: rgba(255,43,0,1);
+}
+
+.c1 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c1 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c1>* {
+  -webkit-transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+  transition: all cubic-bezier(0.4,0,0.2,1) 150ms;
+}
+
+.c15 .c2 {
+  border-color: rgba(255,43,0,1);
+  background: transparent;
+}
+
+.c15 .c5 {
+  color: rgba(255,43,0,1);
+}
+
+.c9 {
+  margin-left: 32px;
+  padding-left: 8px;
+  margin-top: 4px;
+  max-width: 172px;
+  overflow: hidden;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 muya-step-content"
+      size="l"
+    >
+      <span
+        className="c2 c3 muya-step-circle"
+        size="l"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <path
+            d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+          />
+        </svg>
+      </span>
+      <span
+        className="c5 c6 muya-step-title"
+      >
+        111
+      </span>
+      <div
+        className="c7 c8 muya-step-progress-line"
+      />
+    </div>
+    <div
+      className="c9 muya-step-description-wrapper"
+      size="l"
+    >
+      <span
+        className="c10 muya-step-text"
+        color="assistant"
+        type="error"
+      />
+    </div>
+  </div>,
+]
+`;

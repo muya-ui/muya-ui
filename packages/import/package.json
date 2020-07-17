@@ -1,0 +1,17 @@
+{
+  "name": "@qunhe/muya-import",
+  "version": "0.1.1",
+  "author": "Muya UI Team",
+  "title": "Muya UI Babel Import Config",
+  "description": "Muya UI - The babel import config of Muya UI",
+  "repository": "https://github.com/muya-ui/muya-ui.git",
+  "bugs": {
+    "url": "https://github.com/muya-ui/muya-ui/issues"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "license": "MIT",
+  "sideEffects": false
+}

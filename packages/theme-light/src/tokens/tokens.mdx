@@ -1,0 +1,324 @@
+---
+name: token 使用
+menu: 最佳实践
+route: /bp/tokens
+---
+
+import { Img } from '@muya-ui/core';
+
+# token 使用
+
+### 1. 获取主题 token
+
+通过 useTheme 我们可以很方便地拿到当前使用的主题。
+
+### 2. 主题 token 结构
+
+拿到主题后我们需要知道主题的基本结构才能比较方便使用主题提供的 token，主题结构基本如下，components 下挂载各个组件的 token，components 外挂载基础的 token。
+
+```ts
+{
+  themeName: string; // 主题名
+  prefix: string; // 自动生成类名时的前缀
+  breakpoints: IBreakpoints; // 断点 token
+  colors: IColors; // 颜色 token
+  opacity: IOpacity; // 透明度 token
+  shadows: IShadows; // 阴影 token
+  size: ISize; // 尺寸 token
+  spacing: ISpacing; // 间距 token
+  transition: ITransition; // 过渡动效 token
+  typography: ITypography; // 排版文字 token
+  zIndex: IZIndex; // 层级 token
+  components: IComponents; // 组件 token
+}
+```
+
+#### 2.1 基础 token
+
+基础 token 是整个设计系统的基础变量的集合，是直接挂在 theme 下的。
+
+基础 token 横向按性质分为断点、颜色、透明度、阴影、尺寸、间距、过渡动效、排版文字、层级。
+
+基础 token 纵向按类型分为规格 token 和模式 token，规格是每一类属性的所有可枚举值，模式是在特定设计场景下的规格使用指导。
+
+比如一级中性色 #333 是一个规格，所有标题的颜色 #333 是一个模式，模式一级中性色这个规格在文字颜色这个场景使用的一个模式。
+
+需要注意的是不管是模式 token 还是组件 token 都是来自于规格 token。
+
+拿颜色来举例：
+
+```ts
+{
+	// 颜色规格
+	spec: {
+		// 基础色
+		brand: 'rgba(26,122,248,1)',
+  		danger: 'rgba(255,43,0,1)',
+  		warning: 'rgba(255,171,0,1)',
+  		safe: 'rgba(0,217,72,1)',
+  		dark: 'rgba(0,0,0,1)',
+  		light: 'rgba(255,255,255,1)',
+
+
+		// 基础色衍生色
+		brand1: 'rgba(12,108,235,1)',
+  		brand2: 'rgba(26,122,248,1)',
+  		brand3: 'rgba(51,139,255,1)',
+  		brand4: 'rgba(77,154,255,1)',
+  		lightBrand1: 'rgba(26,122,248,0.04)',
+  		lightBrand2: 'rgba(26,122,248,0.08)',
+  		lightBrand3: 'rgba(26,122,248,0.12)',
+  		lightBrand4: 'rgba(26,122,248,0.16)',
+		// ...此处省略 danger、warning、safe 衍生色
+
+		// 中性色，包含状态色
+		neutral1: {
+    		normal: 'rgba(51,51,51,1)',
+    		hover: 'rgba(77,77,77,1)',
+    		click: 'rgba(38,38,38,1)',
+  		},
+		// ...此处省略 2-10 级中性色
+
+
+		// 渐变色
+		gradient: {
+    		normal: 'linear-gradient(90deg, #33ADFF 0%, #1A7AF8 100%)',
+    		hover: 'linear-gradient(90deg, #60BFFF 0%, #589EFA 100%)',
+    		click: 'linear-gradient(90deg, #31A6F5 0%, #1876EE 100%)',
+  		},
+	},
+	// 颜色模式，值都来自于颜色规格
+	pattern: {
+		// 背景模式，此处的 spec 指代上面的颜色规格
+		background: {
+			higher: spec.light, // 高海拔组件的背景
+    		block: spec.light, // 区块组件背景
+    		selectedBlock: spec.light, // 区块选中背景
+    		global: spec.light, // 全局背景
+    		disabled: spec.neutral10.normal, // 禁用的背景
+    		divider: spec.neutral7.normal, // 分割线的背景
+		}
+		// 边框色
+		// 文本色
+		// icon 色
+		// 功能色
+	}
+}
+```
+
+#### 2.2 组件 token
+
+组件 token 是针对每个组件单独设置的，目的是组件的样式不写死，来支持主题切换和覆盖。
+
+组件 token 挂载在 theme.components 下。
+
+拿 Menu 组件来说，挂载在 theme.components.Menu 上：
+
+```ts
+{
+	wrapper: {
+		paddingRight: spacingSpec.s2,		// 根据视觉稿找到合适的规格给到组件
+      	paddingVertical: spacingSpec.s2,
+      	borderRadius: borderRadius.s1,
+      	innerPaddingRight: spacingSpec.s2,
+	},
+	group: {
+		// ...
+	},
+	item: {
+		// ...
+	},
+	divider: {
+		// ...
+	},
+	icon: {
+		// ...
+	}
+}
+```
+
+在 Menu 组件中，像下面 box-shadow 和 background 可以直接套用模式的，那么我们直接使用模式 token，其余的如 padding 我们则使用上面提到的组件 token：
+
+```tsx
+export const baseMenuCss = (props: IStyledBaseMenuProps) => {
+  const {
+    $size,
+    $width,
+    $hasScrollBar,
+    $maxItemCountPerPage,
+    theme: { colors, shadows },
+  } = props;
+  const token = props.theme.components.BaseMenu;
+  const {
+    wrapper: wrapperToken,
+    item: itemToken,
+    divider: dividerToken,
+    group: groupToken,
+  } = token;
+  return css`
+    box-shadow: ${shadows.pattern.popper.normal};
+    background: ${colors.pattern.background.higher};
+    border-radius: ${wrapperToken.borderRadius};
+    padding: ${wrapperToken.paddingVertical}px 0;
+    overflow: hidden;
+    ${$width && `width: ${$width}px`};
+    ${$hasScrollBar && `padding-right: ${wrapperToken.paddingRight}px`};
+
+    ${StyledBaseMenuWrapper} {
+      ${$maxItemCountPerPage && `max-height: ${$maxItemCountPerPage * itemToken.height[$size!]}px`};
+      ${$hasScrollBar &&
+        css`
+          padding-right: ${wrapperToken.innerPaddingRight}px;
+          ${scrollBarStyle(props)};
+        `}
+    }
+  `;
+};
+
+export const StyledBaseMenu = styled.div`
+  ${baseMenuCss};
+`;
+```
+
+### 3. 样式复用
+
+有了基础 token，我们可以组装出组件 token，进一步实现组件样式的动态性。
+
+但我们多个组件间还可能存在相同的场景如滚动条、文本溢出等，这些无法使用单一的组件 token 实现复用，因此会用到下面的两中方式。
+
+#### 3.1 样式组件
+
+我们可以利用 token 封装一些样式组件，例如大部分表单都有 clear 按钮，我们可以封装成组件在多个组件间进行复用。
+
+```ts
+const clearIconWrapperStyle = (props: IClearIconWrapperProps) => {
+  const {
+    theme: {
+      colors: {
+        pattern: { icon: iconPattern }, // 颜色模式
+      },
+    },
+    $fontSize,
+  } = props;
+  return css`
+    line-height: 0;
+    font-size: ${$fontSize + 2}px;
+    margin: 0 -1px;
+    display: inline-flex;
+    outline: none;
+    cursor: pointer;
+    pointer-events: auto;
+    color: ${iconPattern.normal};
+    &:hover {
+      color: ${iconPattern.hover};
+    }
+    &:active {
+      color: ${iconPattern.click};
+    }
+  `;
+};
+
+const ClearIconWrapper = styled.span`
+  ${clearIconWrapperStyle}
+`;
+```
+
+#### 3.2 样式 mixin
+
+除了样式组件，我们还可以利用 token 直接将样式封装为 mixin 进行复用，下面是滚动条样式的 mixin 的例子：
+
+```ts
+export default function scrollBarStyle(props: IScrollBarStyleProps) {
+  const { size = 'small', theme } = props;
+  const {
+    colors: {
+      pattern: { background },
+    },
+    size: {
+      pattern: { scrollBarSize, scrollBarBorderRadius },
+    },
+  } = theme;
+  return css`
+    &::-webkit-scrollbar {
+      width: ${scrollBarSize[size]}px;
+      height: ${scrollBarSize[size]}px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: ${scrollBarBorderRadius[size]}px;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    &:hover::-webkit-scrollbar-thumb {
+      background-color: ${background.scrollBar};
+      &:hover {
+        background-color: ${background.scrollBarHover};
+      }
+    }
+  `;
+}
+```
+
+### 4. 快捷工具
+
+#### 4.1 获取 tokenKey
+
+我们可以在 muya 的文档上设计系统中的页面点击获取对应 token 的 key 值。
+
+<Img
+  src="https://qhstaticssl.kujiale.com/newt/5/image/png/1587435911885/18A6A0BAB8B41E7E13355CC477CE4D8F.png"
+  width="800px"
+  height="400px"
+/>
+
+#### 4.2 vscode 插件
+
+少数情况下我们需要知道 tokenKey 对应的值是什么，我们提供了一个 vscode 插件，协助快速将 4.1 获取的 tokenKey 转成对应的 value。
+
+1. 在 vscode 插件市场搜索 `muya-ui` 并按装；
+
+   <Img
+     src="https://qhstaticssl.kujiale.com/newt/5/image/png/1587460777824/709A1F2C9ADD593AB03D80BA4895EFBC.png"
+     width="210px"
+     height="130px"
+   />
+
+2. cmd+shift+p 打开命令面板，输入 muya；
+
+<Img
+  src="https://qhstaticssl.kujiale.com/newt/5/image/png/1587460487825/52D58DDA26AE22F7E038EFEE4398042E.png"
+  width="600px"
+  height="100px"
+/>
+
+3. 输入复制得到的 tokenKey，按下回车；
+
+<Img
+  src="https://qhstaticssl.kujiale.com/newt/5/image/png/1587460630760/1DAD4E734F85BB0D762A2A5AAB6B2927.png"
+  width="600px"
+  height="80px"
+/>
+
+4. vscode 右下角会给出提示，对应的 value 已经添加到剪切板，可以直接粘贴。
+
+### 5. 在 scss 中使用
+
+每个主题包下，都提供了对应设计系统的 `scss tokens` 变量
+
+```
+@muya-ui/theme-light/
+  - tokens/
+    - index.scss
+```
+
+主题中的 `theme.colors.spec.brand` 将转化成：
+
+```
+$muya-colors-spec-brand: rgba(26,122,248,1);
+```
+
+不同主题包的前缀不同
+
+使用
+
+```
+@import '~@muya-ui/theme-light/tokens/index.scss';
+```

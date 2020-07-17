@@ -1,0 +1,86 @@
+---
+name: 图标
+menu: 设计系统
+route: /icon
+disableDoubleRow: true
+---
+
+import { SvgIcon, AddIcon } from '@muya-ui/theme-light';
+import { DefaultIconList, UpIconList, CoohomIconList } from './icon.tsx';
+
+# 图标
+
+## 引入方式
+
+所有图标存放在主题包中，Muya UI 提供了默认的主题包`@muya-ui/theme-light`
+
+```js
+// 从默认主题中拿图标
+import { AddIcon } from '@muya-ui/theme-light';
+
+// 从自定义主题中拿图标，主题包需要单独安装
+import { YourIcon } from '@qunhe/muya-theme-up';
+```
+
+## 简单用法
+
+<Playground>
+  <AddIcon />
+</Playground>
+
+## 设置颜色
+
+默认会继承父级元素的颜色
+
+<Playground>
+  <div style={{ color: 'red' }}>
+    <AddIcon />
+  </div>
+</Playground>
+
+可以单独给 `Icon` 设置颜色，优先级更高
+
+<Playground>
+  <div style={{ color: 'red' }}>
+    {/* 我是蓝色 */}
+    <AddIcon color="blue" />
+  </div>
+</Playground>
+
+## 尺寸
+
+默认会使用父级元素的`font-size`作为元素的宽高
+
+<Playground>
+  <div style={{ fontSize: '30px' }}>
+    <AddIcon />
+  </div>
+</Playground>
+
+可以单独给 `Icon` 设置`fontSize`，优先级更高
+
+<Playground>
+  <div style={{ fontSize: '30px' }}>
+    <AddIcon fontSize="14px" />
+  </div>
+</Playground>
+
+## 图标列表
+
+### muya-theme-light（默认主题包）
+
+<DefaultIconList />
+
+### muya-theme-up (用户平台主题包)
+
+<UpIconList />
+
+### muya-theme-coohom (国际站主题包)
+
+<CoohomIconList />
+
+## API
+
+注意，表格中没有标注的 props，都会透传到 Icon 组件上
+
+<Props propsName="ISvgProps" />

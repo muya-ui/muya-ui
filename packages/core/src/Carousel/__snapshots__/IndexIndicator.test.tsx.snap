@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 IndexIndicator 1`] = `
+.c1 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 0;
+  margin-right: 8px;
+}
+
+.c1::before {
+  box-sizing: content-box;
+  content: '';
+  display: block;
+  height: 4px;
+  width: 60px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1::before {
+  background-color: rgba(255,255,255,1);
+}
+
+.c2 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 0;
+  margin-right: 8px;
+}
+
+.c2::before {
+  box-sizing: content-box;
+  content: '';
+  display: block;
+  height: 4px;
+  width: 32px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c2::before {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.c2:hover::before {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.c3 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.c3::before {
+  box-sizing: content-box;
+  content: '';
+  display: block;
+  height: 4px;
+  width: 32px;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c3::before {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.c3:hover::before {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.c0 {
+  white-space: nowrap;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 muya-carousel-indicator-active muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c2 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+  <div
+    className="c3 muya-carousel-indicator-index"
+    onClick={[Function]}
+  />
+</div>
+`;

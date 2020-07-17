@@ -1,0 +1,65 @@
+---
+name: countdown
+menu: 工具方法
+route: /utils/countdown
+---
+
+# countdown
+
+获取剩余毫秒数的格式化信息
+
+Example:
+
+```js
+import { countdown } from '@muya-ui/utils';
+
+function someAction() {
+  const result = countdown(120312, 'Y');
+  // {
+  //   Y: 0,
+  //   M: 0,
+  //   D: 0,
+  //   H: 0,
+  //   m: 2,
+  //   s: 0,
+  //   S: 312,
+  // }
+  // 只计算到秒
+  const result = countdown(120312, 's');
+  // {
+  //   Y: 0,
+  //   M: 0,
+  //   D: 0,
+  //   H: 0,
+  //   m: 0,
+  //   s: 120,
+  //   S: 312,
+  // }
+}
+```
+
+countdown 类型
+
+```
+/**
+ * 计算倒计时
+ * @param remain 剩余毫秒数
+ * @param startOf 从什么单位开始算
+ */
+function countdown(remain: number, startOf?: ICountdownKey): {
+  /** 年 */
+  Y: number;
+  /** 月 */
+  M: number;
+  /** 日 */
+  D: number;
+  /** 小时 */
+  H: number;
+  /** 分钟 */
+  m: number;
+  /** 秒 */
+  s: number;
+  /** 毫秒 */
+  S: number;
+}
+```

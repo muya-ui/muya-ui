@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`aspectRatio 1`] = `
+Array [
+  .c0 {
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  position: relative;
+  height: 0;
+  padding-bottom: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  position: relative;
+  height: 0;
+  padding-bottom: 66.66666666666666%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  position: relative;
+  height: 0;
+  padding-bottom: 133.33333333333331%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+]
+`;
+
+exports[`aspectRatio 同时设置宽度为数字 1`] = `
+.c0 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+  className="c0 muya-img-loaded"
+  style={
+    Object {
+      "backgroundImage": "url('none')",
+    }
+  }
+/>
+`;
+
+exports[`测试图片 error 1`] = `
+.c0 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+  className="c0 muya-img-error"
+  style={
+    Object {
+      "backgroundImage": "url('aa')",
+    }
+  }
+/>
+`;
+
+exports[`测试图片 error 2`] = `
+.c0 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+  className="c0 muya-img-error"
+  style={
+    Object {
+      "backgroundImage": "url('aaa')",
+    }
+  }
+/>
+`;
+
+exports[`测试图片节点 & aspectRatio 1`] = `
+Array [
+  .c0 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  display: inline-block;
+}
+
+<span
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  <img
+    className="muya-img-loaded"
+    src="none"
+  />,
+  .c0 {
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  width: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+  .c0 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+<div
+    className="c0 muya-img-loaded"
+    style={
+      Object {
+        "backgroundImage": "url('none')",
+      }
+    }
+  />,
+]
+`;

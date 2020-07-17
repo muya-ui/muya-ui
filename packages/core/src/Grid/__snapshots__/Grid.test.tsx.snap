@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Grid Snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+0 .c0::before,
+.c0::after {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 33.33333333333333%;
+}
+
+.c2 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 33.33333333333333%;
+  margin-left: 33.33333333333333%;
+}
+
+<div
+  className="c0 muya-row-wrapper"
+  style={Object {}}
+>
+  <div
+    className="c1 muya-col-wrapper"
+    style={Object {}}
+  >
+    col
+  </div>
+  <div
+    className="c2 muya-col-wrapper"
+    style={Object {}}
+  >
+    col-8 col-offset-8
+  </div>
+</div>
+`;
+
+exports[`Grid Grid Snapshot 2`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+0 .c0::before,
+.c0::after {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 75%;
+  left: 25%;
+}
+
+.c2 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 25%;
+  right: 75%;
+}
+
+<div
+  className="c0 muya-row-wrapper"
+  style={Object {}}
+>
+  <div
+    className="c1 muya-col-wrapper"
+    style={Object {}}
+  >
+    col-18 col-push-6
+  </div>
+  <div
+    className="c2 muya-col-wrapper"
+    style={Object {}}
+  >
+    col-6 col-pull-18
+  </div>
+</div>
+`;
+
+exports[`Grid Grid Snapshot 3`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+0 .c0::before,
+.c0::after {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 25%;
+  -webkit-order: 4;
+  -ms-flex-order: 4;
+  order: 4;
+}
+
+.c2 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 25%;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.c3 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 25%;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.c4 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 25%;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+<div
+  className="c0 muya-row-wrapper"
+  style={Object {}}
+>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    1 col-order-4
+  </div>
+  <div
+    className="c2 muya-col-wrapper col"
+    style={Object {}}
+  >
+    2 col-order-3
+  </div>
+  <div
+    className="c3 muya-col-wrapper col"
+    style={Object {}}
+  >
+    3 col-order-2
+  </div>
+  <div
+    className="c4 muya-col-wrapper col"
+    style={Object {}}
+  >
+    4 col-order-1
+  </div>
+</div>
+`;
+
+exports[`Grid Grid Snapshot 4`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.c0::before,
+.c0::after {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  min-height: 1px;
+  width: 25%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+<div
+  className="c0 muya-row-wrapper"
+  style={Object {}}
+>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    0
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    1
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    2
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    3
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    4
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    5
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    6
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    7
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    8
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    9
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    10
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    11
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    12
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    13
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    14
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    15
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    16
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    17
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    18
+  </div>
+  <div
+    className="c1 muya-col-wrapper col"
+    style={Object {}}
+  >
+    Col-
+    19
+  </div>
+</div>
+`;

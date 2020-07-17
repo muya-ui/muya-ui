@@ -1,0 +1,63 @@
+---
+name: 文字
+menu: 设计系统
+route: /design-token/typography
+---
+
+import FontWeightSpec from './demos/fontWeightSpec';
+import FontSizeSpec from './demos/fontSizeSpec';
+
+# 文字
+
+## 规格
+
+### 全局规格
+
+页面级别的文字规格，如需要全局样式，主题包默认提供了 `GlobalStyles` 和 `FontPenrose` 组件，该组件提供了主题的全局样式。
+
+1. 字体族
+
+```
+-apple-system, Penrose, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+```
+
+使用 Penrose 字体
+
+```
+import { GlobalStyles, FontPenrose } from '@muya-ui/theme-light';
+
+// 加在最前面
+<FontPenrose />
+<GlobalStyles />
+```
+
+2. 字号（默认 12px）
+
+3. 行高（默认 1.5）
+
+### 字重规格
+
+三级字重规格：
+
+<ThemeProvider>
+  <FontWeightSpec />
+</ThemeProvider>
+
+
+### 字号/行高规格
+
+<ThemeProvider>
+  <FontSizeSpec />
+</ThemeProvider>
+
+## 模式
+
+字体的使用暂无模式。
+
+## 工具函数
+
+`typographyUtils`:
+
+- `getFontSpec`: 获取某个字号的规格；
+- `getLineHeightByFontSize`: 获取某个字号的行高；
+- `getLineHeightByFontLevel`: 获取某个级别的行高。

@@ -1,0 +1,41 @@
+---
+name: multiRun
+menu: 工具方法
+route: /utils/multirun
+---
+
+# multiRun
+
+异步并发执行
+
+```js
+import { multiRun } from '@muya-ui/utils';
+
+const now = performance.now();
+const arr = await multiRun(
+  [1, 1, 1, 1, 1, 1, 1],
+  item => {
+    const time = performance.now() - now;
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ time });
+      }, 20);
+    });
+  },
+  2,
+);
+console.log(arr);
+// [ { time: 0.0630800724029541 },
+//   { time: 0.11989903450012207 },
+//   { time: 22.402437925338745 },
+//   { time: 22.444252967834473 },
+//   { time: 43.852766036987305 },
+//   { time: 43.8935980796814 },
+//   { time: 66.38774490356445 } ]
+```
+
+API 说明：`multiRun(arr, asyncFunc, num)`
+
+- arr：数组，长度必须大于 0，不然会报错
+- asyncFunc：函数，返回 Promise
+- num：并行数量

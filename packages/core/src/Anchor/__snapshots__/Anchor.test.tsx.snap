@@ -1,0 +1,680 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should horizontal Anchor render correctly 1`] = `
+Array [
+  .c7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(238,238,238,1);
+  z-index: 2;
+}
+
+.c7::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: rgba(26,122,248,1);
+  width: 0px;
+  left: 0px;
+}
+
+.c3 {
+  outline: 0;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c10 {
+  padding: 0 0 8px 0;
+}
+
+.c8 + .c5 {
+  margin-left: 8px;
+}
+
+.c6 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c6:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c6:active {
+  color: rgba(12,108,235,1);
+}
+
+.c6 + .c5 {
+  margin-left: 8px;
+}
+
+.c2 {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 32px;
+}
+
+.c2 .c5 {
+  min-height: 32px;
+  padding: 0 0 8px 0;
+}
+
+.c9 .c5 {
+  min-height: 32px;
+  padding: 0 0 8px 0;
+}
+
+.c9 .c4 {
+  padding: 0;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "marginBottom": 12,
+      }
+    }
+  >
+    <div
+      className="c1 muya-tabs-container"
+    >
+      <div
+        className="c2"
+      >
+        <button
+          className="c3 c4 c5 c6 muya-tab-item"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Tab1
+        </button>
+      </div>
+      <div
+        className="c2"
+      >
+        <button
+          className="c3 c4 c5 c6 muya-tab-item"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Tab2
+        </button>
+      </div>
+      <div
+        className="c2"
+      >
+        <button
+          className="c3 c4 c5 c6 muya-tab-item"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Tab3
+        </button>
+      </div>
+    </div>
+    <div
+      className="c7 muya-tabs-indicator"
+    />
+  </div>,
+  .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  margin-bottom: 8px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.c5 + .c4 {
+  margin-top: 0;
+}
+
+.c6 {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+.c0 {
+  height: 200px;
+  padding-right: 4px;
+}
+
+.c0 .c1 {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c0 .c1::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c0 .c1:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 muya-scroll-view-content"
+    >
+      <div
+        className="c2 muya-space-wrapper"
+      >
+        <div
+          className="c3 muya-space-item"
+        >
+          <h4
+            className="c4 c5"
+            id="demo-20-tab1"
+          >
+            Tab 1
+          </h4>
+        </div>
+        <div
+          className="c3 muya-space-item"
+        >
+          <div
+            className="c6 muya-img-loading"
+          />
+        </div>
+        <div
+          className="c3 muya-space-item"
+        >
+          <h4
+            className="c4 c5"
+            id="demo-20-tab2"
+          >
+            Tab 2
+          </h4>
+        </div>
+        <div
+          className="c3 muya-space-item"
+        >
+          <div
+            className="c6 muya-img-loading"
+          />
+        </div>
+        <div
+          className="c3 muya-space-item"
+        >
+          <h4
+            className="c4 c5"
+            id="demo-20-tab3"
+          >
+            Tab 3
+          </h4>
+        </div>
+        <div
+          className="muya-space-item"
+        >
+          <div
+            className="c6 muya-img-loading"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`should render correctly 1`] = `
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c11 {
+  margin-bottom: 8px;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(51,51,51,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.c13 + .c12 {
+  margin-top: 0;
+}
+
+.c14 {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+  transition: background-image 300ms cubic-bezier(0.0,0,0.2,1);
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.c6 {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(102,102,102,1);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c6:hover {
+  color: rgba(51,139,255,1);
+}
+
+.c6:active {
+  color: rgba(12,108,235,1);
+}
+
+.c6 + .c5 {
+  margin-left: 8px;
+}
+
+.c2 {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 32px;
+  margin: 0;
+}
+
+.c2 .c5 {
+  min-height: 32px;
+  padding: 0 0 8px 0;
+}
+
+.c2 .c4 {
+  padding: 0;
+}
+
+.c1 {
+  padding-left: 12px;
+}
+
+.c7 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 1px;
+  background: rgba(238,238,238,1);
+  z-index: 2;
+}
+
+.c7::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 2px;
+  top: 0px;
+  height: 0px;
+  background: rgba(26,122,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  position: relative;
+}
+
+.c8 {
+  height: 200px;
+  padding-right: 4px;
+}
+
+.c8 .c9 {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.c8 .c9::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.c8 .c9::-webkit-scrollbar-thumb {
+  border-radius: 999rem;
+  background-color: transparent;
+}
+
+.c8 .c9:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(51,51,51,0.12);
+}
+
+.c8 .c9:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(51,51,51,0.16);
+}
+
+<div
+  style={
+    Object {
+      "paddingLeft": 100,
+      "position": "relative",
+      "width": 400,
+    }
+  }
+>
+  <div
+    className="c0"
+    style={
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+      }
+    }
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <a
+          aria-disabled={false}
+          className="c3 c4 c5 c6 muya-tab-item"
+          href="#tab1"
+          onClick={[Function]}
+          role="button"
+        >
+          Tab1
+        </a>
+      </div>
+    </div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <a
+          aria-disabled={false}
+          className="c3 c4 c5 c6 muya-tab-item"
+          href="#tab2"
+          onClick={[Function]}
+          role="button"
+        >
+          Tab2
+        </a>
+      </div>
+    </div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <a
+          aria-disabled={false}
+          className="c3 c4 c5 c6 muya-tab-item"
+          href="#tab3"
+          onClick={[Function]}
+          role="button"
+        >
+          Tab3
+        </a>
+      </div>
+      <div
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <a
+            aria-disabled={false}
+            className="c3 c4 c5 c6 muya-tab-item"
+            href="#tab3-1"
+            onClick={[Function]}
+            role="button"
+          >
+            Tab3-1
+          </a>
+        </div>
+      </div>
+      <div
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <a
+            aria-disabled={false}
+            className="c3 c4 c5 c6 muya-tab-item"
+            href="#tab3-2"
+            onClick={[Function]}
+            role="button"
+          >
+            Tab3-2
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c7"
+    />
+  </div>
+  <div
+    className="c8"
+  >
+    <div
+      className="c9 muya-scroll-view-content"
+    >
+      <div
+        className="c10 muya-space-wrapper"
+      >
+        <div
+          className="c11 muya-space-item"
+        >
+          <h4
+            className="c12 c13"
+            id="tab1"
+          >
+            Tab 1
+          </h4>
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <div
+            className="c14 muya-img-loading"
+          />
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <h4
+            className="c12 c13"
+            id="tab2"
+          >
+            Tab 2
+          </h4>
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <div
+            className="c14 muya-img-loading"
+          />
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <h4
+            className="c12 c13"
+            id="tab3"
+          >
+            Tab 3
+          </h4>
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <div
+            className="c14 muya-img-loading"
+          />
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <h4
+            className="c12 c13"
+            id="tab3-1"
+          >
+            Tab 3 - 1
+          </h4>
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <div
+            className="c14 muya-img-loading"
+          />
+        </div>
+        <div
+          className="c11 muya-space-item"
+        >
+          <h4
+            className="c12 c13"
+            id="tab3-2"
+          >
+            Tab 3 - 2
+          </h4>
+        </div>
+        <div
+          className="muya-space-item"
+        >
+          <div
+            className="c14 muya-img-loading"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<span
+  aria-describedby={null}
+  id="111"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  hh
+</span>
+`;

@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputNumber Component should InputNumber Component mount success 1`] = `
+Array [
+  .c0 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 240px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+<div
+    className="c0 muya-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <input
+      className="c1 muya-input-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCompositionEnd={[Function]}
+      onCompositionStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      size="m"
+      value="4"
+    />
+  </div>,
+  .c0 {
+  width: 320px;
+  height: 40px;
+  padding: 0 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 320px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 14px;
+  line-height: 20px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+<div
+    className="c0 muya-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="l"
+  >
+    <input
+      className="c1 muya-input-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCompositionEnd={[Function]}
+      onCompositionStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      size="l"
+      value="5"
+    />
+  </div>,
+  .c0 {
+  width: 480px;
+  height: 48px;
+  padding: 0 16px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 480px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 14px;
+  line-height: 20px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+<div
+    className="c0 muya-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="xl"
+  >
+    <input
+      className="c1 muya-input-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCompositionEnd={[Function]}
+      onCompositionStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      size="xl"
+      value="5"
+    />
+  </div>,
+  .c0 {
+  width: 160px;
+  height: 28px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 160px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+<div
+    className="c0 muya-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="s"
+  >
+    <input
+      className="c1 muya-input-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCompositionEnd={[Function]}
+      onCompositionStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      size="s"
+      value=""
+    />
+  </div>,
+  .c0 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 240px;
+}
+
+.c0:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c1::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c1::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c1::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c2 {
+  margin-left: 12px;
+  line-height: 0;
+  color: rgba(51,51,51,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+    className="c0 muya-input-input-wrapper"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="m"
+  >
+    <input
+      className="c1 muya-input-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCompositionEnd={[Function]}
+      onCompositionStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      size="m"
+      value="4"
+    />
+    <div
+      className="c2 muya-input-node-wrapper"
+      size="m"
+    >
+      元
+    </div>
+  </div>,
+]
+`;

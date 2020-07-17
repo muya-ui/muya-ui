@@ -1,0 +1,42 @@
+---
+name: Tabs 选项卡
+menu: 组件
+route: /components/tabs
+autoDemos: true
+parent: 导航
+---
+
+# Tabs 选项卡
+
+用来分隔内容上有关联但属于不同类别的内容集合，并提供快速切换的能力。
+
+## 使用场景
+
+提供平级的区域将复杂的内容进行分组归纳与展示，让用户可以在不同子任务、视图、模式等之间切换。如：
+
+- 你希望用户能在一个主页面内浏览多个相关子视图的内容。
+- 你希望用户能在当前页面查看所有内容类型，并能方便地切换来查看更具体的内容类型。
+
+{Demos}
+
+### API
+
+#### ITabsProps
+
+<Props propsName="ITabsProps" />
+
+#### ITabProps
+
+`Tab` 可以使用 `InlineButton` 除了 `type` 外的所有属性。
+
+<Props propsName="ITabProps" omit={['textFine']} />
+
+### Styles
+
+#### ITabsStyleKeys
+
+<Styles typeName="ITabsStyleKeys" componentName="tabs" />
+
+#### ITabStyleKeys
+
+<Styles typeName="ITabStyleKeys" componentName="tab" />

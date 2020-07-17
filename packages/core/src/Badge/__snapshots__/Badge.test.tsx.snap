@@ -1,0 +1,1013 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render detached badges 1`] = `
+Array [
+  .c0 {
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  padding: 0 0px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  width: 10px;
+}
+
+<span
+    className="c0 muya-badge-badge"
+  >
+    
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  -webkit-transform: translate(8px,-50%) scale(1);
+  -ms-transform: translate(8px,-50%) scale(1);
+  transform: translate(8px,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  padding: 0 0px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  width: 10px;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      
+    </span>
+    message
+  </span>,
+  .c0 {
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+<span
+    className="c0 muya-badge-badge"
+  >
+    10
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  -webkit-transform: translate(8px,-50%) scale(1);
+  -ms-transform: translate(8px,-50%) scale(1);
+  transform: translate(8px,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      10
+    </span>
+    message
+  </span>,
+  .c0 {
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+<span
+    className="c0 muya-badge-badge"
+  >
+    Hot
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  -webkit-transform: translate(8px,-50%) scale(1);
+  -ms-transform: translate(8px,-50%) scale(1);
+  transform: translate(8px,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      Hot
+    </span>
+    message
+  </span>,
+]
+`;
+
+exports[`should render normal badge 1`] = `
+Array [
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(0);
+  -ms-transform: translate(50%,-50%) scale(0);
+  transform: translate(50%,-50%) scale(0);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      0
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      0
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      10
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  background-color: rgba(255,255,255,1);
+  border: 1px solid rgba(255,43,0,1);
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      10
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  background-color: #409eff;
+  border: 1px solid rgba(255,43,0,1);
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      10
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  padding: 0 0px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  width: 10px;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  padding: 0 0px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: #409eff;
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  width: 10px;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      New
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: #409eff;
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      New
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  background-color: #409eff;
+  border: 1px solid rgba(255,43,0,1);
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      New
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,43,0,1);
+  font-size: 12px;
+  background-color: #409eff;
+  border: 1px solid rgba(255,43,0,1);
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      New
+    </span>
+    message
+  </span>,
+]
+`;
+
+exports[`should render overflow badge 1`] = `
+Array [
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      99+
+    </span>
+    message
+  </span>,
+  ",",
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  padding: 0 6px;
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 8px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      999+
+    </span>
+    message
+  </span>,
+  ",",
+]
+`;
+
+exports[`should render small badge 1`] = `
+Array [
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  padding: 0 4px;
+  color: rgba(255,255,255,1);
+  font-size: 10px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 6px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c2 {
+  display: inline-block;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      <span
+        className="c2"
+      >
+        10
+      </span>
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 12px;
+  line-height: 10px;
+  text-align: center;
+  padding: 0 4px;
+  color: rgba(255,43,0,1);
+  font-size: 10px;
+  background-color: #409eff;
+  border: 1px solid rgba(255,43,0,1);
+  border-radius: 6px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c2 {
+  display: inline-block;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      <span
+        className="c2"
+      >
+        10
+      </span>
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 6px;
+  line-height: 6px;
+  text-align: center;
+  padding: 0 0px;
+  color: rgba(255,255,255,1);
+  font-size: 10px;
+  background-color: rgba(255,43,0,1);
+  border: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  width: 6px;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  padding: 0 4px;
+  color: rgba(255,255,255,1);
+  font-size: 10px;
+  background-color: #409eff;
+  border: none;
+  border-radius: 6px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c2 {
+  display: inline-block;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      <span
+        className="c2"
+      >
+        New
+      </span>
+    </span>
+    message
+  </span>,
+  .c1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(50%,-50%) scale(1);
+  -ms-transform: translate(50%,-50%) scale(1);
+  transform: translate(50%,-50%) scale(1);
+  z-index: 10;
+  display: inline-block;
+  height: 12px;
+  line-height: 10px;
+  text-align: center;
+  padding: 0 4px;
+  color: rgba(255,43,0,1);
+  font-size: 10px;
+  background-color: #409eff;
+  border: 1px solid rgba(255,43,0,1);
+  border-radius: 6px;
+  white-space: nowrap;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c2 {
+  display: inline-block;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c0 {
+  display: inline-block;
+  position: relative;
+}
+
+<span
+    className="c0 muya-badge-container"
+  >
+    <span
+      className="c1 muya-badge-badge"
+    >
+      <span
+        className="c2"
+      >
+        New
+      </span>
+    </span>
+    message
+  </span>,
+]
+`;

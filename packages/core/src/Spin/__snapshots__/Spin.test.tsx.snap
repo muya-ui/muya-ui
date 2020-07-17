@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept size 1`] = `
+Array [
+  .c0 {
+  color: rgba(102,102,102,1);
+  font-size: 12px;
+  padding-right: 8px;
+  padding-right: 0;
+}
+
+<span
+    className="c0"
+    size="s"
+  />,
+  .c0 {
+  color: rgba(102,102,102,1);
+  font-size: 14px;
+  padding-right: 8px;
+  padding-right: 0;
+}
+
+<span
+    className="c0"
+    size="m"
+  />,
+  .c0 {
+  color: rgba(102,102,102,1);
+  font-size: 16px;
+  padding-right: 12px;
+  padding-right: 0;
+}
+
+<span
+    className="c0"
+    size="l"
+  />,
+  .c0 {
+  color: rgba(102,102,102,1);
+  font-size: 18px;
+  padding-right: 12px;
+  padding-right: 0;
+}
+
+<span
+    className="c0"
+    size="xl"
+  />,
+  .c0 {
+  font-size: 16px;
+  padding: 4px 8px;
+}
+
+<span
+    className="c0"
+    size="s"
+  />,
+  .c0 {
+  font-size: 24px;
+  padding: 6px 8px;
+}
+
+<span
+    className="c0"
+    size="m"
+  />,
+  .c0 {
+  font-size: 32px;
+  padding: 8px 12px;
+}
+
+<span
+    className="c0"
+    size="l"
+  />,
+  .c0 {
+  font-size: 32px;
+  padding: 8px 12px;
+}
+
+<span
+    className="c0"
+    size="xl"
+  />,
+]
+`;
+
+exports[`should render correctly 1`] = `
+.c1 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c2 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<span
+  className="c0"
+  direction="column"
+>
+  <span
+    className=""
+  >
+    <svg
+      aria-hidden="false"
+      className="c1 c2"
+      focusable="false"
+      preserveAspectRatio="xMidYMid"
+      viewBox="0 0 100 100"
+    >
+      <circle
+        cx="50"
+        cy="50"
+        fill="none"
+        r="45"
+        stroke="rgba(26,122,248,1)"
+        strokeLinecap="round"
+        strokeWidth="10"
+        transform="rotate(144 50 50)"
+      />
+    </svg>
+  </span>
+  <span />
+</span>
+`;

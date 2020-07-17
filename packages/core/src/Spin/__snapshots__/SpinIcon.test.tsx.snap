@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpinIcon should render normal 1`] = `
+.c0 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 18;
+  fill: currentColor;
+}
+
+.c1 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+<svg
+  aria-hidden="false"
+  className="c0 c1"
+  focusable="false"
+  fontSize={18}
+  preserveAspectRatio="xMidYMid"
+  viewBox="0 0 100 100"
+>
+  <circle
+    cx="50"
+    cy="50"
+    fill="none"
+    r="45"
+    stroke="red"
+    strokeLinecap="round"
+    strokeWidth="10"
+    transform="rotate(144 50 50)"
+  />
+</svg>
+`;

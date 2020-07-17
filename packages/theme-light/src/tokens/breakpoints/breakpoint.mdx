@@ -1,0 +1,32 @@
+---
+name: 断点
+menu: 设计系统
+route: /design-token/breakpoints
+autoDemos: false
+---
+
+import BreakpointsSpec from './demos/breakpointSpec';
+
+# 断点
+
+## 规格
+
+默认五个规格：`xs`, `sm`, `md`, `lg`, `xl`；通常会配合 [`useMedia`](../hooks/useMedia) 一起使用。
+
+<ThemeProvider>
+  <BreakpointsSpec />
+</ThemeProvider>
+
+## 模式
+
+暂无
+
+## 工具函数
+
+`breakpointsUtils`:
+
+- `up`: 得到某个规格向上的媒体查询字符串；
+- `down`: 得到某个规格向下的媒体查询字符串；
+- `between`: 得到两个指定规格间的媒体查询字符串；
+- `only`: 得到某个规格的媒体查询字符串；
+- `width`: 得到某个规格对应的尺寸。

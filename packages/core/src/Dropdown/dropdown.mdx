@@ -1,0 +1,50 @@
+---
+name: Dropdown 下拉菜单
+menu: 组件
+route: /components/dropdown
+autoDemos: true
+parent: 导航
+---
+
+import { DocDropdownStyle } from './demos/styled';
+
+<DocDropdownStyle />
+
+# Dropdown 下拉菜单
+
+弹出的可选列表，给出一系列的命令。
+
+## 使用场景
+
+当页面上的操作命令过多时，用此组件可以收纳操作元素。
+
+点击或移入触点，会出现一个下拉菜单。可在列表中进行选择，并执行相应的命令。
+
+## 组件
+
+下拉菜单共含有几下两种组件：
+
+- `Dropdown`: 下拉菜单。
+- `DropdownButton`: 按钮型下拉菜单。
+
+{Demos}
+
+### API
+
+#### IDropdownProps
+
+<Props propsName="IDropdownProps" />
+
+#### IDropdownButtonProps
+
+<Props propsName="IDropdownButtonProps" />
+
+### FAQ
+
+Q: `Dropdown` 中的 `Menu` 样式与文档上不一致？
+
+`Dropdown` 的 `overlay` 属性需要直接接收 `Menu` 组件并为其透传一些属性。
+
+如果 `overlay` 传入的是一个包装过的 `Menu` 组件，那么会导致透传的属性没有被正确地传递到 `Menu` 上。
+
+解决办法是将包装的 `Menu` 组件的 `props` 手动透传给 Muya 的 `Menu` 组件。

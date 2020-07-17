@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "**/demos/*.ts", "**/demos/*.tsx"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./types",
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true
+  },
+  "references": []
+}

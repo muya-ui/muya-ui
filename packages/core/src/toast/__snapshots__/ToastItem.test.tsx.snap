@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 自定义节点 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 24px 0 rgba(102,102,102,0.08);
+  border-radius: 4px;
+  pointer-events: all;
+  margin-bottom: 16px;
+}
+
+.c0 {
+  -webkit-transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 0;
+  opacity: 0;
+}
+
+.c0 .c2 {
+  color: rgba(0,217,72,1);
+}
+
+<div
+  className="c0 muya-toast-item-self"
+  style={Object {}}
+>
+  <div
+    className="c1 muya-toast-item-container"
+  >
+    <div>
+      icon
+    </div>
+    <div>
+      content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`测试普通渲染 1`] = `
+Array [
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 24px 0 rgba(102,102,102,0.08);
+  border-radius: 4px;
+  pointer-events: all;
+  margin-bottom: 16px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  color: rgba(102,102,102,1);
+  padding: 12px 12px 12px 0;
+  max-width: 488px;
+  min-width: 294px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.c3 {
+  box-sizing: border-box;
+  padding: 11px 8px 0 12px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 36px;
+}
+
+.c0 {
+  -webkit-transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 0;
+  opacity: 0;
+}
+
+.c0 .c2 {
+  color: rgba(0,217,72,1);
+}
+
+.c6 .c2 {
+  color: rgba(26,122,248,1);
+}
+
+.c7 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+.c8 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+<div
+    className="c0 muya-toast-item-self"
+    style={Object {}}
+  >
+    <div
+      className="c1 muya-toast-item-container"
+    >
+      <div
+        className="c2 c3 muya-toast-item-icon"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M436.576 574.933l-105.6-105.6a21.333 21.333 0 00-30.165 0l-60.342 60.342a21.333 21.333 0 000 30.165l181.014 181.013c4.17 4.171 9.632 6.262 15.093 6.262s10.923-2.091 15.083-6.251L783.53 408.992a21.333 21.333 0 000-30.165l-60.342-60.342a21.333 21.333 0 00-30.165 0L436.576 574.923zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c5 muya-toast-item-content"
+      >
+        ssss
+      </div>
+    </div>
+  </div>,
+  .c5 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c6 {
+  -webkit-animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+  animation: iECmZH 0.75s linear infinite,keNNsN 1.5s linear infinite;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 24px 0 rgba(102,102,102,0.08);
+  border-radius: 4px;
+  pointer-events: all;
+  margin-bottom: 16px;
+}
+
+.c7 {
+  box-sizing: border-box;
+  color: rgba(102,102,102,1);
+  padding: 12px 12px 12px 0;
+  max-width: 488px;
+  min-width: 294px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.c3 {
+  box-sizing: border-box;
+  padding: 11px 8px 0 12px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 36px;
+}
+
+.c8 .c2 {
+  color: rgba(0,217,72,1);
+}
+
+.c0 {
+  -webkit-transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 60px;
+  opacity: 1;
+}
+
+.c0 .c2 {
+  color: rgba(26,122,248,1);
+}
+
+.c9 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+.c10 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+<div
+    className="c0 muya-toast-item-self"
+    style={Object {}}
+  >
+    <div
+      className="c1 muya-toast-item-container"
+    >
+      <div
+        className="c2 c3 muya-toast-item-icon"
+      >
+        <span
+          className="c4"
+          direction="column"
+        >
+          <span
+            className=""
+          >
+            <svg
+              aria-hidden="false"
+              className="c5 c6"
+              focusable="false"
+              preserveAspectRatio="xMidYMid"
+              viewBox="0 0 100 100"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                fill="none"
+                r="45"
+                stroke="rgba(26,122,248,1)"
+                strokeLinecap="round"
+                strokeWidth="10"
+                transform="rotate(144 50 50)"
+              />
+            </svg>
+          </span>
+          <span />
+        </span>
+      </div>
+      <div
+        className="c7 muya-toast-item-content"
+      >
+        ssss
+      </div>
+    </div>
+  </div>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 24px 0 rgba(102,102,102,0.08);
+  border-radius: 4px;
+  pointer-events: all;
+  margin-bottom: 16px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  color: rgba(102,102,102,1);
+  padding: 12px 12px 12px 0;
+  max-width: 488px;
+  min-width: 294px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.c3 {
+  box-sizing: border-box;
+  padding: 11px 8px 0 12px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 36px;
+}
+
+.c6 .c2 {
+  color: rgba(0,217,72,1);
+}
+
+.c7 .c2 {
+  color: rgba(26,122,248,1);
+}
+
+.c0 {
+  -webkit-transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 0;
+  opacity: 0;
+}
+
+.c0 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+.c8 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+<div
+    className="c0 muya-toast-item-self"
+    style={Object {}}
+  >
+    <div
+      className="c1 muya-toast-item-container"
+    >
+      <div
+        className="c2 c3 muya-toast-item-icon"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M602.507 512L730.73 383.787a21.333 21.333 0 000-30.187l-60.342-60.33a21.333 21.333 0 00-30.165 0L512 421.482 383.787 293.269a21.333 21.333 0 00-30.187 0l-60.33 60.342a21.333 21.333 0 000 30.165L421.482 512 293.269 640.213a21.333 21.333 0 000 30.187l60.342 60.33a21.333 21.333 0 0030.165 0L512 602.518l128.213 128.214a21.333 21.333 0 0030.187 0l60.33-60.342a21.333 21.333 0 000-30.165L602.518 512zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c5 muya-toast-item-content"
+      >
+        ssss
+      </div>
+    </div>
+  </div>,
+  .c4 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 24px 0 rgba(102,102,102,0.08);
+  border-radius: 4px;
+  pointer-events: all;
+  margin-bottom: 16px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  color: rgba(102,102,102,1);
+  padding: 12px 12px 12px 0;
+  max-width: 488px;
+  min-width: 294px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.c3 {
+  box-sizing: border-box;
+  padding: 11px 8px 0 12px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 36px;
+}
+
+.c6 .c2 {
+  color: rgba(0,217,72,1);
+}
+
+.c7 .c2 {
+  color: rgba(26,122,248,1);
+}
+
+.c8 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+.c0 {
+  -webkit-transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.0,0,0.2,1);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.c0 .c2 {
+  color: rgba(255,43,0,1);
+}
+
+<div
+    className="c0 muya-toast-item-self"
+    style={Object {}}
+  >
+    <div
+      className="c1 muya-toast-item-container"
+    >
+      <div
+        className="c2 c3 muya-toast-item-icon"
+      >
+        <svg
+          aria-hidden="false"
+          className="c4"
+          focusable="false"
+          viewBox="0 0 1024 1024"
+        >
+          <rect
+            fill="rgba(255,255,255,1)"
+            height={716.8}
+            width={716.8}
+            x={153.60000000000002}
+            y={153.60000000000002}
+          />
+          <path
+            d="M602.507 512L730.73 383.787a21.333 21.333 0 000-30.187l-60.342-60.33a21.333 21.333 0 00-30.165 0L512 421.482 383.787 293.269a21.333 21.333 0 00-30.187 0l-60.33 60.342a21.333 21.333 0 000 30.165L421.482 512 293.269 640.213a21.333 21.333 0 000 30.187l60.342 60.33a21.333 21.333 0 0030.165 0L512 602.518l128.213 128.214a21.333 21.333 0 0030.187 0l60.33-60.342a21.333 21.333 0 000-30.165L602.518 512zM512 1024C229.227 1024 0 794.773 0 512S229.227 0 512 0s512 229.227 512 512-229.227 512-512 512z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c5 muya-toast-item-content"
+      >
+        ssss
+      </div>
+    </div>
+  </div>,
+]
+`;

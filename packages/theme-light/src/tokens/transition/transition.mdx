@@ -1,0 +1,33 @@
+---
+name: 过渡
+menu: 设计系统
+route: /design-token/transition
+autoDemos: false
+---
+
+# 过渡
+
+[参考文档](https://motion.ant.design/language/speed-cn)
+
+## 规格
+
+- 过渡时间：
+  - `theme.transition.spec.duration.fast`：`150ms`；
+  - `theme.transition.spec.duration.normal`：`300ms`；
+  - `theme.transition.spec.duration.slow`：`450ms`。
+- 缓动函数：
+  - `theme.transition.spec.easing.easeIn`：`cubic-bezier(0.4, 0, 1, 1)`；
+  - `theme.transition.spec.easing.easeOut`：`cubic-bezier(0.0, 0, 0.2, 1)`；
+  - `theme.transition.spec.easing.easeInOut`：`cubic-bezier(0.4, 0, 0.2, 1)`；
+  - `theme.transition.spec.easing.sharp`：`cubic-bezier(0.4, 0, 0.6, 1)`。
+
+## 模式
+
+- 过渡时间：
+  - `theme.transition.pattern.duration.status`：状态改变时使用；
+  - `theme.transition.pattern.duration.popper`：popper 等小组件的过渡；
+  - `theme.transition.pattern.duration.dialog`：弹窗等大组件的过渡。
+- 缓动函数：
+  - `theme.transition.pattern.easing.leave`：组件离开时使用；
+  - `theme.transition.pattern.easing.enter`：组件进入时使用；
+  - `theme.transition.pattern.easing.status`：状态改变时使用。

@@ -1,0 +1,50 @@
+---
+name: Animation 过渡动画
+menu: 组件
+route: /components/animation
+autoDemos: true
+parent: 其他
+---
+
+import { DocAnimationStyle } from './demos/styled';
+
+<DocAnimationStyle />
+
+# Animation 过渡动画
+
+基于 react-transition-group，根据动效规范对进出场动画做了一层封装。
+
+{Demos}
+
+## 组件
+
+- `Animation.Fade`: 淡入淡出。
+- `Animation.Grow`: 从子元素的中心向外扩展，同时从透明淡入至不透明。
+- `Animation.Collapse`: 折叠。
+- `Animation.Slide`: 滑动。
+
+### API
+
+所有 `Animation` 组件都继承自 [Transition](https://reactcommunity.org/react-transition-group/transition#Transition-props) 组件，同样的你也可以使用 `react-transition-group` 包裹它们。
+
+#### `IAnimationBaseProps`
+
+<Props propsName="IAnimationBaseProps" />
+
+#### `ICollapseAnimationProps`
+
+<Props propsName="ICollapseAnimationProps" />
+
+> `ICollapseAnimationProps` 继承了 `IAnimationBaseProps`，因此可以接收 `IAnimationBaseProps` 的所有属性。
+
+#### `ISlideAnimationProps`
+
+<Props propsName="ISlideAnimationProps" pick={['direction']} />
+
+> `ISlideAnimationProps` 继承了 `IAnimationBaseProps`，因此可以接收 `IAnimationBaseProps` 的所有属性。
+
+### FAQ
+
+Q: 如何在动画开始前和动画结束后隐藏节点？
+
+不管动画状态如何，节点默认都会保留，如果想要在动画开始前和动画结束后隐藏节点，可以设置 `unmountOnExit`、`mountOnEnter`。

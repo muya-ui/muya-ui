@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept disablePortal 1`] = `
+<ForwardRef(Portal)
+  disablePortal={true}
+>
+  <div />
+</ForwardRef(Portal)>
+`;
+
+exports[`should accept function container 1`] = `
+<ForwardRef(Portal)
+  container={[Function]}
+>
+  <Portal
+    containerInfo={
+      <body>
+        Test
+        Test
+      </body>
+    }
+  >
+    Test
+  </Portal>
+</ForwardRef(Portal)>
+`;
+
+exports[`should accept onRendered 1`] = `
+<ForwardRef(Portal)
+  onRendered={[Function]}
+>
+  <Portal
+    containerInfo={
+      <body>
+        Test
+        Test
+        Test
+        Test
+      </body>
+    }
+  >
+    Test
+  </Portal>
+</ForwardRef(Portal)>
+`;
+
+exports[`should accept ref 1`] = `
+<ForwardRef(Portal)>
+  <Portal
+    containerInfo={
+      <body>
+        Test
+        Test
+        Test
+      </body>
+    }
+  >
+    Test
+  </Portal>
+</ForwardRef(Portal)>
+`;
+
+exports[`should render correctly 1`] = `
+<ForwardRef(Portal)>
+  <Portal
+    containerInfo={
+      <body>
+        Test
+      </body>
+    }
+  >
+    Test
+  </Portal>
+</ForwardRef(Portal)>
+`;

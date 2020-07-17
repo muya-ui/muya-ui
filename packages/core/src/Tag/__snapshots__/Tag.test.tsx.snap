@@ -1,0 +1,1047 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试普通渲染 1`] = `
+Array [
+  .c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.12);
+  opacity: 1;
+}
+
+.c0 a:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c2 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+  </span>,
+  .c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c2 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(204,204,204,1);
+}
+
+.c2:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c2:active {
+  color: rgba(179,179,179,1);
+}
+
+.c2 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c8 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c9 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+    <span
+      className="c2 muya-tag-close-icon"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        focusable="false"
+        onClick={[Function]}
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </span>
+  </span>,
+  .c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c2 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(204,204,204,1);
+}
+
+.c2:hover {
+  color: rgba(191,191,191,1);
+}
+
+.c2:active {
+  color: rgba(179,179,179,1);
+}
+
+.c2 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c8 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c9 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+    <span
+      className="c2 muya-tag-close-icon"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        focusable="false"
+        onClick={[Function]}
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </span>
+  </span>,
+  .c2 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0:hover {
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  opacity: 0.9;
+}
+
+.c0 a:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+  </span>,
+  .c2 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+  border: 1px solid rgba(238,238,238,1);
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0:hover {
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  opacity: 0.9;
+}
+
+.c0 a:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+  </span>,
+  .c2 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+  opacity: 0.3;
+  cursor: default;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+  </span>,
+  .c3 {
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+}
+
+.c2 {
+  margin-left: 6px;
+  cursor: pointer;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  color: rgba(255,255,255,1);
+}
+
+.c2 svg {
+  width: 10px;
+  height: 10px;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(255,255,255,1);
+  background-color: #666;
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c8 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c9 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.0, 0, 0.2, 1)",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+    <span
+      className="c2 muya-tag-close-icon"
+    >
+      <svg
+        aria-hidden="false"
+        className="c3"
+        focusable="false"
+        onClick={[Function]}
+        viewBox="0 0 1024 1024"
+      >
+        <path
+          d="M512 421.653L871.04 62.592l90.517 90.507-359.04 359.04 358.87 358.901-90.507 90.517L512 602.667 154.507 960.16 64 869.643 421.493 512.16 63.84 154.507 154.357 64 512 421.653z"
+        />
+      </svg>
+    </span>
+  </span>,
+  .c2 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c3 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c5 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c6 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100px;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.12);
+  opacity: 1;
+}
+
+.c0 a:hover {
+  color: rgba(26,122,248,1);
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+    style={
+      Object {
+        "opacity": 0,
+        "transitionDuration": "300ms",
+        "transitionProperty": "opacity",
+        "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <span
+      className="c1 muya-tag-children-wrapper"
+    >
+      Test
+    </span>
+  </span>,
+]
+`;
+
+exports[`测试普通渲染 2`] = `
+Array [
+  .c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.12);
+  opacity: 1;
+}
+
+.c0 a:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c0:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c0:active {
+  color: rgba(77,154,255,1);
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+  >
+    Test
+  </span>,
+  .c0 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: none;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 1;
+  height: 24px;
+  white-space: nowrap;
+  border-radius: 999rem;
+  cursor: default;
+  vertical-align: middle;
+  color: rgba(102,102,102,1);
+  background-color: rgba(248,248,248,1);
+  color: rgba(255,255,255,1);
+  background-color: rgba(26,122,248,1);
+}
+
+.c0 .c1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0:hover {
+  color: rgba(26,122,248,1);
+  background-color: rgba(26,122,248,0.12);
+  opacity: 1;
+}
+
+.c0 a:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c0:hover {
+  color: rgba(26,122,248,1);
+}
+
+.c0:active {
+  color: rgba(77,154,255,1);
+}
+
+.c0:hover {
+  color: rgba(255,255,255,1);
+  background: rgba(51,139,255,1);
+}
+
+.c0:active {
+  color: rgba(255,255,255,1);
+  background: rgba(12,108,235,1);
+}
+
+<span
+    className="c0"
+    onClick={[Function]}
+  >
+    Test
+  </span>,
+]
+`;

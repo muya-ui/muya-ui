@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoComplete 测试 item 渲染 1`] = `
+Array [
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 12px;
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+  cursor: pointer;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(102,102,102,1);
+  background-color: rgba(255,255,255,1);
+  font-weight: 400;
+}
+
+.c0:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(250,250,250,1);
+}
+
+.c0:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(250,250,250,1);
+}
+
+.c0 span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c1 .c3 {
+  color: rgba(153,153,153,1);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      size="m"
+    >
+      <span
+        className="c2"
+      >
+        Burns Bay Road
+      </span>
+      <span
+        className="c3 c4"
+      >
+        共 2 个结果
+      </span>
+    </div>
+  </div>,
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 12px;
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+  cursor: pointer;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(102,102,102,1);
+  background-color: rgba(255,255,255,1);
+  font-weight: 400;
+}
+
+.c0:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(250,250,250,1);
+}
+
+.c0:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(250,250,250,1);
+}
+
+.c0 span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c1 .c3 {
+  color: rgba(153,153,153,1);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      size="m"
+    >
+      <span
+        className="c2"
+      >
+        Downing Street
+      </span>
+      <span
+        className="c3 c4"
+      >
+        共 2 个结果
+      </span>
+    </div>
+  </div>,
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 12px;
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+  cursor: pointer;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 150ms cubic-bezier(0.4,0,0.2,1),color 150ms cubic-bezier(0.4,0,0.2,1);
+  color: rgba(102,102,102,1);
+  background-color: rgba(255,255,255,1);
+  font-weight: 400;
+}
+
+.c0:hover {
+  color: rgba(102,102,102,1);
+  background-color: rgba(250,250,250,1);
+}
+
+.c0:active {
+  color: rgba(102,102,102,1);
+  background-color: rgba(250,250,250,1);
+}
+
+.c0 span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c1 .c3 {
+  color: rgba(153,153,153,1);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      size="m"
+    >
+      <span
+        className="c2"
+      >
+        Wall Street
+      </span>
+      <span
+        className="c3 c4"
+      >
+        共 2 个结果
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`AutoComplete 测试正常 render 1`] = `
+Array [
+  .c3 {
+  width: 240px;
+  height: 32px;
+  padding: 0 12px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 200px;
+}
+
+.c3:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c5 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+}
+
+.c5::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c5::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c5::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c5:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c5::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  width: 200px;
+}
+
+.c0 .c4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 .c6,
+.c0 .c2 {
+  border-color: rgba(26,122,248,1);
+}
+
+.c1 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+<div
+    className="c0 muya-select-input-wrapper muya-auto-complete-input-wrapper inputWrapper"
+    id="1"
+    role="combobox"
+    style={Object {}}
+    tabIndex={0}
+  >
+    <span
+      className="c1"
+    >
+      <div
+        className="c2 c3 muya-select-input muya-input-input-wrapper"
+        disabled={false}
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="m"
+      >
+        <input
+          aria-describedby="trigger1"
+          className="c4 c5 muya-input-input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          placeholder="try to type \`b\`"
+          size="m"
+          value=""
+        />
+      </div>
+    </span>
+  </div>,
+  .c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(221,221,221,1);
+  -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  vertical-align: middle;
+  background-color: rgba(255,255,255,1);
+  width: 200px;
+}
+
+.c2:hover {
+  border-color: rgba(209,209,209,1);
+}
+
+.c3 {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 16px;
+  caret-color: rgba(26,122,248,1);
+  color: rgba(51,51,51,1);
+  resize: vertical;
+  width: 320px;
+  height: 92px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 12px 10px 12px;
+}
+
+.c3::selection {
+  background: rgba(26,122,248,0.16);
+}
+
+.c3::-webkit-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c3::-moz-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c3:-ms-input-placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c3::placeholder {
+  color: rgba(204,204,204,1);
+}
+
+.c4 {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  width: 200px;
+}
+
+.c0 .c5 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0 .c6,
+.c0 .StyledInputWrapper-gUucyV {
+  border-color: rgba(26,122,248,1);
+}
+
+.c1 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+<div
+    className="c0 muya-select-input-wrapper muya-auto-complete-input-wrapper inputWrapper"
+    id="2"
+    role="combobox"
+    style={Object {}}
+    tabIndex={0}
+  >
+    <span
+      className="c1"
+    >
+      <div
+        className="c2 muya-select-input muya-input-textarea-wrapper"
+        disabled={false}
+        onClick={[Function]}
+        size="m"
+      >
+        <textarea
+          aria-describedby="trigger2"
+          className="c3 muya-input-textarea"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          onKeyDown={[Function]}
+          placeholder="try to type \`b\`"
+          size="m"
+          style={Object {}}
+          value=""
+        />
+        <div
+          className="c4 muya-input-text-limit-wrapper"
+          size="m"
+        />
+      </div>
+    </span>
+  </div>,
+]
+`;

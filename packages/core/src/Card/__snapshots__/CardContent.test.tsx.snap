@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardContent should render success 1`] = `
+Array [
+  .c0 {
+  padding: 16px 20px;
+}
+
+<div
+    className="c0"
+  >
+    测试
+  </div>,
+  .c0 {
+  padding: 0;
+}
+
+<div
+    className="c0"
+  >
+    测试
+  </div>,
+]
+`;
