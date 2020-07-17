@@ -37,7 +37,6 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
-    "@qunhe/muya-tools": "0.1.9",
     "@types/deepmerge": "^2.2.0",
     "@types/styled-components": "^4.1.18",
     "@types/warning": "^3.0.0",
