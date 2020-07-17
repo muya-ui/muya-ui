@@ -1,1 +1,1 @@
-console.log(process.env.Token);
+console.log(process.env);
