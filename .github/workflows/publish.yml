@@ -22,4 +22,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Builde and deploy doc
-      run: cross-env TOKEN=${{ secrets.PUBLISH_TOKEN }} yarn publish-doc
+      run: yarn && cross-env TOKEN=${{ secrets.PUBLISH_TOKEN }} yarn publish-doc
