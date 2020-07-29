@@ -4,12 +4,11 @@
  * 不要直接修改 ./i18n/* 文件
  */
 import 'dayjs/locale/zh-cn';
-
 import resource from './i18n/zh_CN';
 
 export const zh_CN = {
   locale: 'zh_CN',
-  dayjsLocaleKey: 'zh-cn' as LocalePresetType,
+  dayjsLocaleKey: 'zh-cn',
   'Calendar.headOrder': 'year',
   ...resource,
 };
