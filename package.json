@@ -116,6 +116,7 @@
   },
   "scripts": {
     "fdev": "baozheng dev",
+    "build": "lerna run build --stream",
     "postinstall": "yarn all",
     "all": "lerna bootstrap && lerna exec yarn --stream",
     "selfcheck": "yarn type-check && yarn test:last",
