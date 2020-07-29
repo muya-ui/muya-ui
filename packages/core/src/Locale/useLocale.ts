@@ -8,9 +8,9 @@ dayjs.locale(defaultLocale.dayjsLocaleKey);
 
 export function useLocale() {
   const localeObj = React.useContext(LocaleContext) || defaultLocale;
-  let preset: string;
+  let preset: LocalePresetType;
   if (dayjs.locale(preset!) !== localeObj.dayjsLocaleKey) {
-    dayjs.locale(localeObj.dayjsLocaleKey);
+    dayjs.locale(localeObj.dayjsLocaleKey as LocalePresetType);
   }
 
   return localeObj;

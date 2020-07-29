@@ -1,9 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import themeCoohom from '@qunhe/muya-theme-coohom';
 import themeDark from '@muya-ui/theme-dark';
-import themeUp from '@qunhe/muya-theme-up';
 
 import ThemeProvider from '../ThemeProvider';
 import Button from './Button';
@@ -12,20 +10,10 @@ function renderToMatchSnapshot(input: React.ReactElement) {
   const treeDefault = renderer.create(input).toJSON();
   expect(treeDefault).toMatchSnapshot();
 
-  const treeThemeUp = renderer
-    .create(<ThemeProvider theme={themeUp}>{input}</ThemeProvider>)
-    .toJSON();
-  expect(treeThemeUp).toMatchSnapshot();
-
   const treeThemeDark = renderer
     .create(<ThemeProvider theme={themeDark}>{input}</ThemeProvider>)
     .toJSON();
   expect(treeThemeDark).toMatchSnapshot();
-
-  const treeThemeCoohom = renderer
-    .create(<ThemeProvider theme={themeCoohom}>{input}</ThemeProvider>)
-    .toJSON();
-  expect(treeThemeCoohom).toMatchSnapshot();
 }
 
 test('不同类型', () => {

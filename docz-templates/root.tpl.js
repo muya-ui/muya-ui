@@ -7,7 +7,7 @@ import Theme from '<%- theme %>'
 import { imports } from './imports'
 import database from './db.json'
 <% if (wrapper) {%>import Wrapper from '<%- wrapper %>'<%}%>
-import { ThemeConfigContext } from '@qunhe/baozheng-docz-theme'
+import { ThemeConfigContext } from '@muya-ui/baozheng-docz-theme'
 import { apiPropsMap, apiTypeMap } from 'api/apiData'
 import Nav from 'api/Nav.tsx'
 

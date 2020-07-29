@@ -1,5 +1,4 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const muyaImport = require('./packages/import/src/index');
 
 module.exports = {
   presets: [
@@ -44,18 +43,15 @@ module.exports = {
           {
             root: ['./'],
             alias: {
-              '@muya-ui/utils': './packages/muya-core/src',
-              '@muya-ui/core': './packages/muya-ui/src',
-              '@muya-ui/theme-light': './packages/muya-theme-light/src',
-              '@muya-ui/theme-dark': './packages/muya-theme-dark/src',
+              '@muya-ui/utils': './packages/utils/src',
+              '@muya-ui/core': './packages/core/src',
+              '@muya-ui/theme-light': './packages/theme-light/src',
+              '@muya-ui/theme-dark': './packages/theme-dark/src',
               test: './test',
             },
           },
         ],
       ],
-    },
-    es: {
-      plugins: [...muyaImport('es')],
     },
     cjs: {
       presets: [
@@ -67,7 +63,6 @@ module.exports = {
           },
         ],
       ],
-      plugins: [...muyaImport('lib')],
     },
   },
 };

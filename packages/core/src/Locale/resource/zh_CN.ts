@@ -9,7 +9,7 @@ import resource from './i18n/zh_CN';
 
 export const zh_CN = {
   locale: 'zh_CN',
-  dayjsLocaleKey: 'zh-cn',
+  dayjsLocaleKey: 'zh-cn' as LocalePresetType,
   'Calendar.headOrder': 'year',
   ...resource,
 };

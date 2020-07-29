@@ -49,6 +49,7 @@
     "@types/sinon": "^7.0.13",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
+    "@muya-ui/baozheng-docz-theme": "^1.0.1",
     "babel-eslint": "^10.0.2",
     "babel-plugin-import": "^1.12.2",
     "babel-plugin-lodash": "^3.3.4",
@@ -114,7 +115,18 @@
     "xhr-mock": "^2.5.0"
   },
   "scripts": {
-    "publish-doc": "node script/index.js"
+    "fdev": "baozheng dev",
+    "postinstall": "yarn all",
+    "all": "lerna bootstrap && lerna exec yarn --stream",
+    "selfcheck": "yarn type-check && yarn test:last",
+    "type-check": "lerna run build:types --stream",
+    "test": "BABEL_ENV=test jest --detectOpenHandles --forceExit --verbose --coverage",
+    "test:last": "BABEL_ENV=test jest --detectOpenHandles --forceExit --verbose --coverage --changedSince origin/master",
+    "test:clear": "BABEL_ENV=test jest --clearCache",
+    "test:debug": "BABEL_ENV=test node --inspect-brk node_modules/.bin/jest --runInBand",
+    "test:watch": "BABEL_ENV=test jest --watch --verbose --coverage",
+    "publish-doc": "baozheng build",
+    "lerna:publish": "yarn build && lerna publish --yes"
   },
   "pre-commit": [
     "lint-staged"

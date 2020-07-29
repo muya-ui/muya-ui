@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Publish Doc
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -22,4 +22,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Builde and deploy doc
-      run: TOKEN=${{ secrets.PUBLISH_TOKEN }} yarn publish-doc
+      run: yarn && TOKEN=${{ secrets.PUBLISH_TOKEN }} yarn publish-doc

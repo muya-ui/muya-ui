@@ -1,8 +1,5 @@
 import React from 'react';
 import * as DefaultIcons from '@muya-ui/theme-light/lib/icons';
-import * as UpIcons from '@qunhe/muya-theme-up/lib/icons';
-import * as CoohomIcons from '@qunhe/muya-theme-coohom/lib/icons';
-// import * as PanguIcons from '@qunhe/muya-theme-pangu/lib/icons';
 import { ISvgProps } from '@muya-ui/theme-light';
 import { Row, Col, Typography, toast } from '@muya-ui/core';
 import { chunk } from 'lodash';
@@ -73,15 +70,3 @@ function IconList(props: IIconListProps) {
 export function DefaultIconList() {
   return <IconList iconMap={DefaultIcons} packageName="@muya-ui/theme-light" />;
 }
-
-export function UpIconList() {
-  return <IconList iconMap={UpIcons} packageName="@qunhe/muya-theme-up" />;
-}
-
-export function CoohomIconList() {
-  return <IconList iconMap={CoohomIcons} packageName="@qunhe/muya-theme-coohom" />;
-}
-
-// export function PanguIconList() {
-//   return <IconList iconMap={PanguIcons} packageName="@qunhe/muya-theme-pangu" />;
-// }
