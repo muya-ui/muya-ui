@@ -1,6 +1,6 @@
 {
   "name": "@muya-ui/theme-dark",
-  "version": "0.3.18",
+  "version": "0.4.25-alpha.0",
   "author": "Muya UI Team",
   "title": "Muya UI Dark Theme",
   "description": "Muya UI - The Dark Theme of Muya UI",
@@ -45,6 +45,6 @@
     "typescript": "3.5.3"
   },
   "dependencies": {
-    "@muya-ui/theme-light": "0.3.18"
+    "@muya-ui/theme-light": "^0.4.25-alpha.0"
   }
 }
