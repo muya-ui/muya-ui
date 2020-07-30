@@ -119,7 +119,7 @@
     "build": "lerna run build --stream",
     "postinstall": "yarn all",
     "all": "lerna bootstrap && lerna exec yarn --stream",
-    "selfcheck": "yarn type-check && yarn test:last",
+    "selfcheck": "yarn type-check && yarn test",
     "type-check": "lerna run build:types --stream",
     "test": "BABEL_ENV=test jest --detectOpenHandles --forceExit --verbose --coverage",
     "test:last": "BABEL_ENV=test jest --detectOpenHandles --forceExit --verbose --coverage --changedSince origin/master",
