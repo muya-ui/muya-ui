@@ -37,10 +37,6 @@
       "description": "其他未修改源代码或测试代码的改动",
       "title": "Chores"
     },
-    "chore(release)": {
-      "description": "Lerna 发布",
-      "title": "Chores(release)"
-    },
     "refactor": {
       "description": "代码重构",
       "title": "Code Refactoring"

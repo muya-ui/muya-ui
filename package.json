@@ -127,7 +127,7 @@
     "test:debug": "BABEL_ENV=test node --inspect-brk node_modules/.bin/jest --runInBand",
     "test:watch": "BABEL_ENV=test jest --watch --verbose --coverage",
     "publish-doc": "baozheng build",
-    "lerna:publish": "yarn build && lerna publish --yes"
+    "lerna:publish": "yarn build && lerna publish --yes --no-verify"
   },
   "pre-commit": [
     "lint-staged"
