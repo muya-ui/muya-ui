@@ -42,6 +42,6 @@ jobs:
         git config --local user.email "xuwu@qunhemail.com"
         git config --local user.name "muya-ui-bot"
     - name: Build and deploy
-      run: yarn && yarn lerna:publish --cd-version=${{ github.event.inputs.version }}
+      run: yarn && yarn lerna:publish --canary
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
