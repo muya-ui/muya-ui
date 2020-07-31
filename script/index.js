@@ -16,7 +16,7 @@ function upload() {
 
     form.append('file', data);
     form.append('name', 'muya-ui');
-    form.append('token', 'Y6X9ver4FXUNqoiz3u3n');
+    form.append('token', process.env.TOKEN);
 
     const headers = await new Promise((resolve, reject) => {
       form.getLength((err, length) => {

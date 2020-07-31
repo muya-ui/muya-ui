@@ -126,8 +126,8 @@
     "test:clear": "BABEL_ENV=test jest --clearCache",
     "test:debug": "BABEL_ENV=test node --inspect-brk node_modules/.bin/jest --runInBand",
     "test:watch": "BABEL_ENV=test jest --watch --verbose --coverage",
-    "publish-doc": "docz build",
-    "lerna:publish": "yarn build && lerna publish --yes --no-commit-hooks"
+    "publish-doc": "yarn test && baozheng build -a && node ./script/index.js",
+    "lerna:publish": "yarn build && lerna publish --yes --no-commit-ho oks"
   },
   "pre-commit": [
     "lint-staged"
