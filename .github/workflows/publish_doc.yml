@@ -30,6 +30,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-    # Runs a single command using the runners shell
-    - name: Builde and deploy doc
-      run: yarn && TOKEN=${{ secrets.PUBLISH_TOKEN }} yarn publish-doc
+      # Runs a single command using the runners shell
+      - name: Builde and deploy doc
+        run: yarn && TOKEN=${{ secrets.PUBLISH_TOKEN }} yarn publish-doc
