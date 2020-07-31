@@ -32,7 +32,7 @@ function upload() {
     });
 
     axios
-      .post('http://localhost:3000/api/upload', form, {
+      .post('https://muya-ui.kujiale.com/api/upload', form, {
         headers,
         maxContentLength: Infinity,
       })
