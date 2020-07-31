@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import Tag from '../Tag';
+import Tag from '../Tag/Tag';
 import { ISizeSpecBaseProps, IThemedBaseProps } from '../types';
 
 const selectTagCss = (props: IThemedBaseProps & ISizeSpecBaseProps) => {
