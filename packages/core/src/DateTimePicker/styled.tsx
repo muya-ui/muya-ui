@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-
-import Input, { RangeInput } from '../Input';
+import Input from '../Input/Input';
+import { RangeInput } from '../Input';
 import { StyledNodeWrapper } from '../Input/styled';
 
 const lastInputNodeWrapperStyle = css`

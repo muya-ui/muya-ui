@@ -69,7 +69,7 @@ const StyledIcon = styled.div`
   }}
 `;
 
-const StyledClose = styled(IconButton)``;
+const StyledClose = IconButton;
 
 const NotificationItemWithoutStyle = memoForwardRef<HTMLDivElement, INotificationItemProps>(
   (props, ref) => {
