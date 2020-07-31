@@ -36,8 +36,12 @@ function upload() {
         headers,
         maxContentLength: Infinity,
       })
-      .then(error => {
-        console.error(error);
+      .then((res, error) => {
+        if (res) {
+          console.log(res.data);
+        } else {
+          console.error(error);
+        }
       });
   });
 }
