@@ -4,6 +4,8 @@ name: Publish Packages Alpha
 
 on:
   workflow_dispatch:
+    branches:
+      - 'releases/**'
     inputs:
       version:
         description: 'Version'

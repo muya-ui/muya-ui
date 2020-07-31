@@ -1,34 +1,44 @@
-import fs from 'fs';
-import axios from 'axios';
-import path from 'path';
-import FormData from 'form-data';
+/* eslint-disable */
+const fs = require('fs');
+const path = require('path');
+const axios = require('axios');
+const FormData = require('form-data');
+const exec = require('child_process').exec;
 
-async function upload() {
-  const data = fs.createReadStream(path.join('../docz/dist.zip'));
-  const form = new FormData();
-  const params = {
-    token: process.env.TOKEN,
-  };
+function upload() {
+  exec('zip -q -r .docz/muya-ui.zip .docz/dist', async error => {
+    if (error) {
+      console.error(error);
+      return;
+    }
+    const data = fs.createReadStream(path.join('.docz/muya-ui.zip'));
+    const form = new FormData();
 
-  form.append('file', data);
+    form.append('file', data);
+    form.append('name', 'muya-ui');
+    form.append('token', process.TOKEN);
 
-  const headers = await new Promise((resolve, reject) => {
-    form.getLength((err, length) => {
-      if (err) {
-        reject(err);
-      }
-      let headers = {
-        'Content-Length': length,
-        ...form.getHeaders(),
-      };
-      resolve(headers);
+    const headers = await new Promise((resolve, reject) => {
+      form.getLength((err, length) => {
+        if (err) {
+          reject(err);
+        }
+        let headers = {
+          'Content-Length': length,
+          ...form.getHeaders(),
+        };
+        resolve(headers);
+      });
     });
-  });
 
-  axios.post('https://muya-ui.kujiale.com/api/upload', form, {
-    headers,
-    params,
-    maxContentLength: Infinity,
+    axios
+      .post('http://localhost:3000/api/upload', form, {
+        headers,
+        maxContentLength: Infinity,
+      })
+      .then(error => {
+        console.error(error);
+      });
   });
 }
 

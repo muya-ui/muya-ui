@@ -4,6 +4,8 @@ name: Publish Packages
 
 on:
   workflow_dispatch:
+    branches:
+      - master
     inputs:
       version:
         description: 'Version'
