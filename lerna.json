@@ -4,5 +4,10 @@
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "independent"
+  "version": "0.4.25-alpha.0",
+  "command": {
+    "publish": {
+      "message": "chore(release): publish npm packages by lerna [ci skip]"
+    }
+  }
 }

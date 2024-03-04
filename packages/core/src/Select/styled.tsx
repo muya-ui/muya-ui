@@ -1,9 +1,10 @@
+import React from 'react';
 import styled, { css } from 'styled-components';
 
-import BaseMenu from '../BaseMenu';
+import BaseMenu from '../BaseMenu/index';
 import { IThemedBaseProps } from '../types';
 
-export const StyledMenuItemWithoutContent = styled(BaseMenu.Item)`
+export const StyledMenuItemWithoutContent = styled(props => <BaseMenu.Item {...props} />)`
   ${(props: IThemedBaseProps) => css`
     && {
       color: ${props.theme.colors.pattern.text.placeholder};

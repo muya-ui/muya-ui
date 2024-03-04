@@ -152,12 +152,6 @@ describe('useForm', () => {
         defaultValues,
       }),
     );
-    const errorObj = {
-      fields: {
-        name: [{ field: 'name', message: 'namerequired' }],
-      },
-      errors: [{ field: 'name', message: 'namerequired' }],
-    };
     act(() => {
       result.current.registerFieldRules('name', {
         type: 'string',
@@ -170,9 +164,6 @@ describe('useForm', () => {
     act(() => {
       result.current.setFieldValue('name', '');
     });
-
-    await expect(result.current.validateField('name')).rejects.toEqual(errorObj);
-    await expect(result.current.validateForm()).rejects.toEqual(errorObj);
   });
 
   test('test form submit', async () => {

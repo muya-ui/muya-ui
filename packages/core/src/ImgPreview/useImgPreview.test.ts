@@ -1,7 +1,7 @@
 import React from 'react';
 import mockConsole from 'test/utils/mockConsole';
 
-import theme from '@qunhe/muya-theme-up';
+import theme from '@muya-ui/theme-light';
 import { renderHook } from '@testing-library/react-hooks';
 
 import { IImgEvent } from '../Img/types';

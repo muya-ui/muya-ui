@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components';
 import { GuildLeftIcon, GuildRightIcon, NextYearIcon, PrevYearIcon } from '@muya-ui/theme-light';
 
 import { InlineButton } from '../Button';
-import IconButton from '../IconButton';
+import IconButton from '../IconButton/IconButton';
 import useLocale from '../Locale/useLocale';
 import Tooltip from '../Tooltip';
 import { ICustomStyleItem } from '../types';
@@ -17,7 +17,7 @@ import { ICalendarHeadProps } from './innerTypes';
 import { ICalendarType } from './types';
 import { getDecade } from './utils';
 
-const StyledDecadeTitle = styled(Typography.Title)``;
+const StyledDecadeTitle = styled(props => <Typography.Title {...props} />)``;
 
 const PagerButton = styled(IconButton)``;
 

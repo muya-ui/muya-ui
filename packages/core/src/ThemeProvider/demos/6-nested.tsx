@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { muyaThemeDark } from '@muya-ui/theme-dark';
-import { muyaThemeUp } from '@qunhe/muya-theme-up';
 import { Button, ThemeProvider } from '@muya-ui/core';
 
 export default function NestedDemo() {

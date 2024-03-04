@@ -1,0 +1,49 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Publish Packages Alpha
+
+on:
+  workflow_dispatch:
+    branches:
+      - 'releases/**'
+    inputs:
+      version:
+        description: 'Version'
+        required: true
+        default: 'prerelease'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+
+    - uses: actions/cache@v2
+      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
+
+    - name: Git Config
+      run: |
+        git config --local user.email "xuwu@qunhemail.com"
+        git config --local user.name "muya-ui-bot"
+    - name: Build and deploy
+      run: yarn && yarn lerna:publish --cd-version=${{ github.event.inputs.version }}
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -2,7 +2,7 @@ import styled, { css, keyframes } from 'styled-components';
 
 import { IComponentSizeSpec, StyledSvg } from '@muya-ui/theme-light';
 
-import Tooltip from '../Tooltip';
+import Tooltip from '../Tooltip/Tooltip';
 import ExpandWrapper from '../styled/components/ExpandWrapper';
 import ellipsisStyle from '../styled/mixins/ellipsis';
 import {

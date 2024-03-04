@@ -55,7 +55,7 @@ const StyledDialogContent = styled.div<IStyledDialogContentProps>`
   ${makeContentStyle}
 `;
 
-const StyledContentTitleWrapper = styled(Typography.Title)`
+const StyledContentTitleWrapper = styled(props => <Typography.Title {...props} />)`
   position: relative;
   margin-bottom: ${props => props.theme.components.Dialog.content.titleMarginBottom}px;
 `;

@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 
 import { CloseIcon } from '@muya-ui/theme-light';
 
-import IconButton from '../IconButton';
+import IconButton from '../IconButton/IconButton';
 import { IThemedBaseProps } from '../types';
 import Typography from '../Typography';
 import { StyledTitle } from '../Typography/Title';
